@@ -19,7 +19,8 @@ O processo de importação é **muito específico por fornecedor** (colunas dife
 
 ```
 obrai-blackops-products/
-├── README.md                 # Este arquivo
+├── README.md
+├── example_view.png          # Captura da interface Streamlit
 ├── fornecedores/             # Um script (ou pacote) por fornecedor/formato
 │   ├── README.md
 │   ├── flank_materiais_csv.py # Flank — CSV (nome, estoque, preço)
@@ -56,6 +57,8 @@ streamlit run app.py
 No Windows, se `streamlit` não estiver no PATH: `py -m streamlit run app.py`
 
 Na tela: escolha o **parser** (fornecedor/formato), envie o **CSV** e confira a tabela normalizada.
+
+![Interface ao rodar o app — parser, upload e tabela de produtos](example_view.png)
 
 ### Parser Flank Materiais de construção
 
