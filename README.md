@@ -21,10 +21,13 @@ O processo de importação é **muito específico por fornecedor** (colunas dife
 obrai-blackops-products/
 ├── README.md                 # Este arquivo
 ├── fornecedores/             # Um script (ou pacote) por fornecedor/formato
-│   ├── README.md             # Como adicionar um novo fornecedor
-│   └── ...                   # Ex.: fornecedor_a_pdf.py, fornecedor_b_csv.py
-├── app/                      # (futuro) aplicação web + API
-└── requirements.txt          # (futuro) dependências Python
+│   ├── README.md
+│   ├── flank_materiais_csv.py # Flank — CSV (nome, estoque, preço)
+│   └── ...
+├── fixtures/                 # CSVs de exemplo para testes
+├── app.py                    # Interface Streamlit (importação)
+├── parsers_registry.py       # Lista de parsers para o dropdown
+└── requirements.txt          # Dependências Python
 ```
 
 A pasta **`fornecedores/`** concentra os **importadores customizados**: cada fornecedor (e, se preciso, cada variante de arquivo) tem sua lógica isolada, facilitando manutenção e novos parceiros.
@@ -39,12 +42,24 @@ A pasta **`fornecedores/`** concentra os **importadores customizados**: cada for
 
 A interface permite registrar **“Fornecedor B + CSV”** e acionar o parser certo.
 
-## Requisitos (quando o código estiver no ar)
+## Requisitos
 
 - Python 3.11+ (recomendado)
-- Dependências listadas em `requirements.txt` (a criar junto com a app)
 
-Instruções de instalação e execução serão adicionadas assim que o servidor web e os parsers forem implementados.
+### Instalação e execução (interface Streamlit)
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+No Windows, se `streamlit` não estiver no PATH: `py -m streamlit run app.py`
+
+Na tela: escolha o **parser** (fornecedor/formato), envie o **CSV** e confira a tabela normalizada.
+
+### Parser Flank Materiais de construção
+
+CSV com colunas **nome do produto**, **estoque** e **preço** (aceita variações de nome e formato de preço brasileiro). Ver exemplo em `fixtures/flank_exemplo.csv`.
 
 ## Contribuindo / novo fornecedor
 

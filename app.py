@@ -30,7 +30,6 @@ uploaded = st.file_uploader(
 if uploaded is not None and info:
     try:
         data = info["parse"](uploaded.getvalue())
-        st.success(f"{len(data)} produto(s) lidos.")
         st.dataframe(data, use_container_width=True, hide_index=True)
     except Exception as e:
         st.error(f"Erro ao processar o arquivo: {e}")
