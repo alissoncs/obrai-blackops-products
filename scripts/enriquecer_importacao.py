@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Enriquece produtos de uma importação usando IA local (Ollama).
+Enriquece produtos de uma importação usando IA local via OpenAI-compatible (LM Studio).
 
 Uso:
   python scripts/enriquecer_importacao.py <ID_IMPORTACAO>
   python scripts/enriquecer_importacao.py --id 5
 
-Requer Ollama rodando em localhost:11434 (ex.: ollama run llama3.2).
+Requer o LM Studio com o servidor OpenAI-compatible rodando em:
+  http://localhost:1234/v1
+(ajustável via flags --base-url e --model)
+
 Preenche campos em branco: description, slug, tags, primary_category_id.
 """
 
@@ -27,9 +30,10 @@ import requests
 
 from db import get_import, update_produtos
 
-# Modelo Ollama (ajuste se usar outro)
-OLLAMA_MODEL = "llama3.2"
-OLLAMA_URL = "http://localhost:11434/api/chat"
+# Modelo / servidor (LM Studio)
+MODEL = "Qwen2.5-7B-Instruct"
+BASE_URL = "http://localhost:1234/v1"
+API_KEY = "lm-studio"  # dummy (LM Studio geralmente nao exige auth)
 
 # Categorias folha (id, path) para o LLM escolher primary_category_id
 CATEGORIAS_FLAT = [
@@ -67,22 +71,46 @@ def _slug(s: str, max_len: int = 80) -> str:
     return s or "item"
 
 
-def _chamar_ollama(prompt: str, timeout: int = 120) -> str:
-    """Envia prompt para Ollama e retorna o conteúdo da resposta."""
-    try:
-        r = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": OLLAMA_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "stream": False,
+def _call_openai_compatible_chat(
+    prompt: str,
+    *,
+    model: str,
+    base_url: str,
+    api_key: str,
+    temperature: float,
+    max_tokens: int,
+    timeout_s: int,
+) -> str:
+    """Chama endpoint OpenAI-compatible (/v1/chat/completions) e retorna content."""
+    url = base_url.rstrip("/") + "/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}",
+    }
+    payload = {
+        "model": model,
+        "messages": [
+            {
+                "role": "system",
+                "content": "Responda APENAS com JSON valido, sem texto extra, sem markdown.",
             },
-            timeout=timeout,
-        )
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+    }
+    try:
+        r = requests.post(url, headers=headers, json=payload, timeout=timeout_s)
         r.raise_for_status()
-        return (r.json().get("message") or {}).get("content") or ""
+        data = r.json()
+        choices = data.get("choices") or []
+        if not choices:
+            return ""
+        return (choices[0].get("message") or {}).get("content") or ""
     except requests.exceptions.RequestException as e:
-        raise SystemExit(f"Erro ao chamar Ollama (está rodando? ollama run {OLLAMA_MODEL}): {e}") from e
+        raise SystemExit(
+            f"Erro ao chamar LM Studio (está rodando em {base_url}?): {e}"
+        ) from e
 
 
 def _extrair_json(texto: str) -> dict | None:
@@ -105,8 +133,18 @@ def _extrair_json(texto: str) -> dict | None:
     return None
 
 
-def _enriquecer_produto(prod: dict, categorias_texto: str) -> dict:
-    """Gera description, slug, tags e primary_category_id via Ollama e atualiza o prod."""
+def _enriquecer_produto(
+    prod: dict,
+    categorias_texto: str,
+    *,
+    model: str,
+    base_url: str,
+    api_key: str,
+    temperature: float,
+    max_tokens: int,
+    timeout_s: int,
+) -> dict:
+    """Gera description, slug, tags e primary_category_id via LM Studio e atualiza o prod."""
     name = (prod.get("name") or "").strip()
     if not name:
         return prod
@@ -134,7 +172,15 @@ Lista de categorias (use só o id):
 
 Retorne somente o JSON, sem explicação. Exemplo: {{"description": "...", "slug": "...", "tags": "...", "primary_category_id": "1.1.1"}}
 """
-    resp = _chamar_ollama(prompt)
+    resp = _call_openai_compatible_chat(
+        prompt,
+        model=model,
+        base_url=base_url,
+        api_key=api_key,
+        temperature=temperature,
+        max_tokens=max_tokens,
+        timeout_s=timeout_s,
+    )
     data = _extrair_json(resp)
     if not data:
         return prod
@@ -155,19 +201,23 @@ Retorne somente o JSON, sem explicação. Exemplo: {{"description": "...", "slug
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Enriquece produtos de uma importação com IA local (Ollama).")
+    parser = argparse.ArgumentParser(
+        description="Enriquece produtos de uma importação com IA local (LM Studio)."
+    )
     parser.add_argument("id", nargs="?", type=int, help="ID da importação")
     parser.add_argument("--id", dest="id_flag", type=int, help="ID da importação")
-    parser.add_argument("--model", default=OLLAMA_MODEL, help=f"Modelo Ollama (default: {OLLAMA_MODEL})")
+    parser.add_argument("--model", default=MODEL, help=f"Nome do modelo no LM Studio (default: {MODEL})")
+    parser.add_argument("--base-url", default=BASE_URL, help=f"Base URL OpenAI-compatible (default: {BASE_URL})")
+    parser.add_argument("--api-key", default=API_KEY, help="Api key dummy para LM Studio (geralmente nao exige)")
+    parser.add_argument("--temperature", type=float, default=0.1, help="Temperatura do LLM")
+    parser.add_argument("--max-tokens", type=int, default=1024, help="Max tokens da resposta")
+    parser.add_argument("--timeout-s", type=int, default=180, help="Timeout da requisicao ao LLM")
     parser.add_argument("--dry-run", action="store_true", help="Só mostrar o que seria feito, não gravar")
     args = parser.parse_args()
 
     imp_id = args.id or args.id_flag
     if imp_id is None:
         parser.error("Informe o ID da importação (posicional ou --id).")
-
-    global OLLAMA_MODEL
-    OLLAMA_MODEL = args.model
 
     doc = get_import(imp_id)
     if not doc:
@@ -179,11 +229,20 @@ def main() -> None:
 
     categorias_texto = "\n".join(f"  {c[0]} = {c[1]}" for c in CATEGORIAS_FLAT)
 
-    print(f"Importação #{imp_id}: {len(produtos)} produto(s). Enriquecendo com {OLLAMA_MODEL}...")
+    print(f"Importação #{imp_id}: {len(produtos)} produto(s). Enriquecendo com {args.model}...")
     for i, p in enumerate(produtos):
         nome = (p.get("name") or "")[:50]
         print(f"  [{i+1}/{len(produtos)}] {nome}...")
-        _enriquecer_produto(p, categorias_texto)
+        _enriquecer_produto(
+            p,
+            categorias_texto,
+            model=args.model,
+            base_url=args.base_url,
+            api_key=args.api_key,
+            temperature=args.temperature,
+            max_tokens=args.max_tokens,
+            timeout_s=args.timeout_s,
+        )
 
     if args.dry_run:
         print("\n[DRY-RUN] Nenhuma alteração gravada.")

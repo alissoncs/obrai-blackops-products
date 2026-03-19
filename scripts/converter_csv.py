@@ -4,13 +4,13 @@ converter_csv
 
 Converte um CSV grande (potencialmente milhoes de linhas) em JSON usando:
  - processamento em chunks (sem carregar tudo na RAM)
- - LLM local via Ollama (recomendado) ou OpenAI-compatible local (ex: LM Studio)
+ - LLM local via OpenAI-compatible local (ex: LM Studio)
 
 Saida recomendada: JSONL (1 objeto por linha) para nao estourar memoria.
 
 Exemplo:
   python scripts/converter_csv.py "entrada.csv" "saida.jsonl" ^
-    --provider ollama --model llama3.2 --chunksize 500
+    --model Qwen2.5-7B-Instruct --chunksize 500 --base-url http://localhost:1234/v1
 """
 
 from __future__ import annotations
@@ -112,31 +112,6 @@ def _extract_json(text: str) -> Any:
             return json_repair.loads(candidate)  # type: ignore[attr-defined]
         raise
 
-
-def _call_ollama_chat(
-    base_url: str,
-    model: str,
-    system_prompt: str,
-    user_prompt: str,
-    temperature: float,
-    timeout_s: int,
-) -> str:
-    url = base_url.rstrip("/") + "/api/chat"
-    payload = {
-        "model": model,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        "stream": False,
-        "options": {"temperature": temperature},
-    }
-    resp = requests.post(url, json=payload, timeout=timeout_s)
-    resp.raise_for_status()
-    data = resp.json()
-    return (data.get("message") or {}).get("content") or ""
-
-
 def _call_openai_compatible_chat(
     base_url: str,
     model: str,
@@ -169,7 +144,6 @@ def _call_openai_compatible_chat(
 
 def transform_chunk_with_llm(
     records: list[dict[str, Any]],
-    provider: str,
     model: str,
     system_prompt: str,
     temperature: float,
@@ -185,28 +159,16 @@ def transform_chunk_with_llm(
         f"REGISTROS:\n{records_json}\n"
     )
 
-    if provider == "ollama":
-        out_text = _call_ollama_chat(
-            base_url=base_url,
-            model=model,
-            system_prompt=system_prompt,
-            user_prompt=user_prompt,
-            temperature=temperature,
-            timeout_s=timeout_s,
-        )
-    elif provider in ("openai", "openai_compatible", "lmstudio", "lm_studio"):
-        out_text = _call_openai_compatible_chat(
-            base_url=base_url,
-            model=model,
-            api_key=api_key,
-            system_prompt=system_prompt,
-            user_prompt=user_prompt,
-            temperature=temperature,
-            max_tokens=max_tokens,
-            timeout_s=timeout_s,
-        )
-    else:
-        raise ValueError(f"Unknown provider: {provider}")
+    out_text = _call_openai_compatible_chat(
+        base_url=base_url,
+        model=model,
+        api_key=api_key,
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        temperature=temperature,
+        max_tokens=max_tokens,
+        timeout_s=timeout_s,
+    )
 
     parsed = _extract_json(out_text)
     if isinstance(parsed, list):
@@ -247,10 +209,9 @@ def main() -> None:
     parser.add_argument("--encoding", type=str, default="utf-8", help="Encoding do CSV (ex: utf-8, latin1)")
     parser.add_argument("--chunksize", type=int, default=500, help="Registros por chunk (quantidade enviada ao LLM)")
 
-    parser.add_argument("--provider", type=str, default="ollama", help="ollama ou openai")
-    parser.add_argument("--model", type=str, default="llama3.2", help="Nome do modelo no servidor local")
-    parser.add_argument("--base-url", type=str, default="http://localhost:11434", help="Base URL do servidor local")
-    parser.add_argument("--api-key", type=str, default="lm-studio", help="Api key dummy para openai compatible")
+    parser.add_argument("--model", type=str, default="Qwen2.5-7B-Instruct", help="Nome do modelo no servidor (LM Studio)")
+    parser.add_argument("--base-url", type=str, default="http://localhost:1234/v1", help="Base URL OpenAI-compatible do LM Studio")
+    parser.add_argument("--api-key", type=str, default="lm-studio", help="Api key dummy (LM Studio nao autentica)")
     parser.add_argument("--temperature", type=float, default=0.1, help="Temperatura do LLM")
     parser.add_argument("--max-tokens", type=int, default=4096, help="Max tokens (apenas para openai compatible)")
     parser.add_argument("--timeout-s", type=int, default=180, help="Timeout da requisicao ao LLM")
@@ -298,7 +259,6 @@ def main() -> None:
         try:
             transformed = transform_chunk_with_llm(
                 records=records,
-                provider=args.provider,
                 model=args.model,
                 system_prompt=system_prompt,
                 temperature=args.temperature,

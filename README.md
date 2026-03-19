@@ -68,13 +68,13 @@ Colunas: **nome do produto**, **estoque**, **preço**. Exemplo: `fixtures/flank_
 
 Tabela extraída com **pdfplumber** (`extract_table`, estratégia `text`). Colunas: Filial, Código, Descrição do Item, Dt. Compra, P. Custo, Compras, Estoque, Vendida, Preço Médio, Méd. Venda Últ. 3m, Tipo Item.
 
-### Enriquecimento com IA (Ollama)
+### Enriquecimento com IA (LM Studio)
 
-O script `scripts/enriquecer_importacao.py` usa **Ollama** (IA local) para preencher campos em branco dos produtos (descrição, slug, tags, categoria). Requisito: [Ollama instalado e rodando](https://ollama.com).
+O script `scripts/enriquecer_importacao.py` usa um servidor local **OpenAI-compatible** (LM Studio) para preencher campos em branco dos produtos (descrição, slug, tags, categoria).
 
-- **Instalar Ollama no Windows:** [docs/ollama-windows.md](docs/ollama-windows.md)
+- **Instalar e configurar LM Studio no Windows:** [docs/lm-studio-windows.md](docs/lm-studio-windows.md)
 
-Exemplo: `python scripts/enriquecer_importacao.py 5` (substitua `5` pelo ID da importação).
+Exemplo: `python scripts/enriquecer_importacao.py 5 --base-url http://localhost:1234/v1 --model Qwen2.5-7B-Instruct` (substitua `5` e `--model` pelo que estiver no seu LM Studio).
 
 ## Novo fornecedor
 
