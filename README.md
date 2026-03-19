@@ -1,75 +1,78 @@
 # Obraí BlackOps — Importação de produtos
 
-Ferramenta Python para **importar produtos** de múltiplos fornecedores e enviar ao marketplace **Obraí** (produção ou staging). O Obraí é um site grande e estruturado, com categorias e catálogo vindo de vários fornecedores — cada um pode mandar dados em **formato diferente**.
+Ferramenta Python para **importar produtos** de múltiplos fornecedores para o marketplace **Obraí**. Cada fornecedor pode mandar arquivos em **formato diferente**; cada combinação fornecedor + formato tem um **parser** dedicado.
 
 ## Objetivo
 
-Centralizar o fluxo: **arquivo do fornecedor → revisão humana → publicação/atualização** dos produtos no Obraí, para os clientes comprarem com dados corretos e consistentes.
+**Arquivo do fornecedor → tabela no navegador** para conferência (evolução futura: revisão, envio ao Obraí).
 
-## Como funciona (visão geral)
+## Como funciona
 
-1. **Upload / seleção** — Na interface você escolhe **qual fornecedor** e **qual tipo de arquivo** está importando (ex.: PDF específico, CSV, JSON).
-2. **Parser dedicado** — Cada combinação fornecedor + formato é tratada por um **script Python próprio**, capaz de ler aquele layout e normalizar os dados.
-3. **Tabela no navegador** — Os dados aparecem em uma **tabela visual** para você **organizar, corrigir erros e validar** antes de enviar.
-4. **Envio ao Obraí** — Ao submeter, a aplicação envia o lote para a API/backend do Obraí, que **publica ou atualiza** os produtos no site.
+1. Na interface você escolhe o **parser** (fornecedor/formato).
+2. Envia o arquivo (**drag and drop** ou clique).
+3. O parser lê o arquivo e os dados aparecem em uma **tabela** na mesma tela.
+4. Opcional: **Salvar no banco** (SQLite em `data/obrai.db`). No menu lateral **Importações** há a tabela de lotes, detalhe por lote, produtos, excluir e status Obraí.
 
-O processo de importação é **muito específico por fornecedor** (colunas diferentes, PDFs com layout fixo, etc.), por isso **não há um único parser genérico** — cada caso vive no seu módulo.
+Parsers ficam em **`fornecedores/`** e são registrados em **`parsers_registry.py`**. O banco usa duas tabelas alinhadas ao Prisma: **`importacoes`** (data, nome, parser, etc.) e **`produtos`** (Product + SupplierProduct, com `importacao_id`).
 
-## Estrutura do repositório (planejada)
+## Estrutura do repositório
 
 ```
 obrai-blackops-products/
 ├── README.md
-├── example_view.png          # Captura da interface Streamlit
-├── fornecedores/             # Um script (ou pacote) por fornecedor/formato
+├── example_view.png
+├── fornecedores/           # Parsers por fornecedor/formato
 │   ├── README.md
-│   ├── flank_materiais_csv.py # Flank — CSV (nome, estoque, preço)
+│   ├── flank_materiais_csv.py
+│   ├── madelar_produtos_pdf.py
 │   └── ...
-├── fixtures/                 # CSVs de exemplo para testes
-├── app.py                    # Interface Streamlit (importação)
-├── parsers_registry.py       # Lista de parsers para o dropdown
-└── requirements.txt          # Dependências Python
+├── db/                     # SQLite (schema + repo + mappers)
+│   ├── schema.sql          # importacoes + produtos
+│   ├── connection.py
+│   ├── repo.py
+│   └── mappers.py
+├── data/                   # obrai.db (gerado, no .gitignore)
+├── layout.py               # Sidebar compartilhado
+├── pages/                  # Multipage: um .py por tela
+│   ├── 1_Importar.py
+│   └── 2_Importacoes.py
+├── fixtures/
+├── .streamlit/config.toml
+├── app.py                  # Home
+├── parsers_registry.py
+└── requirements.txt
 ```
-
-A pasta **`fornecedores/`** concentra os **importadores customizados**: cada fornecedor (e, se preciso, cada variante de arquivo) tem sua lógica isolada, facilitando manutenção e novos parceiros.
-
-## Exemplos de cenários
-
-| Fornecedor | Formato        | Observação                          |
-|-----------|----------------|-------------------------------------|
-| A         | PDF (layout X) | Parser específico para esse PDF     |
-| B         | CSV            | Mapeamento de colunas do fornecedor B |
-| C         | JSON           | Estrutura própria do fornecedor C   |
-
-A interface permite registrar **“Fornecedor B + CSV”** e acionar o parser certo.
 
 ## Requisitos
 
 - Python 3.11+ (recomendado)
 
-### Instalação e execução (interface Streamlit)
+### Instalação e execução
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-No Windows, se `streamlit` não estiver no PATH: `py -m streamlit run app.py`
+No Windows: `py -m streamlit run app.py`
 
-Na tela: escolha o **parser** (fornecedor/formato), envie o **CSV** e confira a tabela normalizada.
+**Hot reload:** `.streamlit/config.toml` com `runOnSave = true`.
 
-![Interface ao rodar o app — parser, upload e tabela de produtos](example_view.png)
+![Interface — parser, upload e tabela](example_view.png)
 
-### Parser Flank Materiais de construção
+### Parser Flank Materiais de construção (CSV)
 
-CSV com colunas **nome do produto**, **estoque** e **preço** (aceita variações de nome e formato de preço brasileiro). Ver exemplo em `fixtures/flank_exemplo.csv`.
+Colunas: **nome do produto**, **estoque**, **preço**. Exemplo: `fixtures/flank_exemplo.csv`.
 
-## Contribuindo / novo fornecedor
+### Parser Madelar (PDF)
 
-1. Adicionar módulo em `fornecedores/` seguindo o contrato definido no `fornecedores/README.md`.
-2. Registrar o fornecedor e o tipo de arquivo na UI/configuração da aplicação.
-3. Testar com arquivo real e só então habilitar envio ao Obraí.
+Tabela extraída com **pdfplumber** (`extract_table`, estratégia `text`). Colunas: Filial, Código, Descrição do Item, Dt. Compra, P. Custo, Compras, Estoque, Vendida, Preço Médio, Méd. Venda Últ. 3m, Tipo Item.
+
+## Novo fornecedor
+
+1. Criar módulo em `fornecedores/` (função `parse_*` que devolve `pandas.DataFrame`).
+2. Registrar em `parsers_registry.py`.
 
 ---
 
-**Obraí** — marketplace de produtos de diversos fornecedores, com catálogo estruturado. Este repositório é a **ponte operacional** entre os arquivos brutos dos parceiros e o catálogo publicado.
+**Obraí** — marketplace estruturado; este repo é a ponte entre arquivos dos parceiros e o catálogo.

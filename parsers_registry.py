@@ -10,6 +10,7 @@ from typing import Any, BinaryIO, Callable
 import pandas as pd
 
 from fornecedores.flank_materiais_csv import parse_flank_csv
+from fornecedores.madelar_produtos_pdf import parse_madelar_produtos_pdf
 
 ParseFn = Callable[[BinaryIO | bytes], pd.DataFrame]
 
@@ -18,7 +19,14 @@ PARSERS: list[dict[str, Any]] = [
         "id": "flank_materiais_csv",
         "label": "Flank Materiais de construção (CSV)",
         "parse": parse_flank_csv,
-        "file_types": ["csv"],
+        # Formato esperado pelo parser (a UI aceita qualquer extensão no upload)
+        "expected_format": "CSV (nome, estoque, preço)",
+    },
+    {
+        "id": "madelar_produtos_pdf",
+        "label": "Madelar Produtos Mais Vendidos PDF",
+        "parse": parse_madelar_produtos_pdf,
+        "expected_format": "PDF Madelar (tabela extraída — relatório padrão)",
     },
 ]
 

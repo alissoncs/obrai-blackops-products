@@ -1,0 +1,4 @@
+# https://docs.streamlit.io/develop/concepts/configuration/options
+[server]
+# Ao salvar um .py, o app reexecuta sozinho no navegador (sem clicar em "Rerun").
+runOnSave = true

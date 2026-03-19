@@ -1,5 +1,5 @@
 """
-Obraí BlackOps — importação: escolha o parser e envie o arquivo.
+Obraí BlackOps — home. Navegue pelo menu lateral.
 Execute: streamlit run app.py
 """
 
@@ -7,29 +7,21 @@ from __future__ import annotations
 
 import streamlit as st
 
-from parsers_registry import PARSERS, get_parser
+from layout import sidebar
 
-st.set_page_config(page_title="Obraí — Importação", layout="centered")
-
-st.title("Importação de produtos")
-st.caption("Obraí BlackOps")
-
-parser_labels = {p["label"]: p["id"] for p in PARSERS}
-label = st.selectbox("Parser", options=list(parser_labels.keys()))
-parser_id = parser_labels[label]
-info = get_parser(parser_id)
-assert info is not None
-
-ext = ", ".join(info.get("file_types", ["*"]))
-uploaded = st.file_uploader(
-    "Arquivo",
-    type=info.get("file_types"),
-    help=f"Formatos aceitos para este parser: {ext}",
+st.set_page_config(
+    page_title="Obraí BlackOps",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
+sidebar()
 
-if uploaded is not None and info:
-    try:
-        data = info["parse"](uploaded.getvalue())
-        st.dataframe(data, use_container_width=True, hide_index=True)
-    except Exception as e:
-        st.error(f"Erro ao processar o arquivo: {e}")
+st.title("Obraí BlackOps")
+st.caption("Importação de produtos para o marketplace.")
+
+st.markdown("""
+Use o **menu lateral** para:
+
+- **Importar** — escolher o parser, anexar o arquivo e (opcional) salvar no SQLite.
+- **Importações** — ver a tabela de importações salvas, detalhes e produtos.
+""")
