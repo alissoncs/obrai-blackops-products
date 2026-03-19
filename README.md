@@ -68,6 +68,14 @@ Colunas: **nome do produto**, **estoque**, **preço**. Exemplo: `fixtures/flank_
 
 Tabela extraída com **pdfplumber** (`extract_table`, estratégia `text`). Colunas: Filial, Código, Descrição do Item, Dt. Compra, P. Custo, Compras, Estoque, Vendida, Preço Médio, Méd. Venda Últ. 3m, Tipo Item.
 
+### Enriquecimento com IA (Ollama)
+
+O script `scripts/enriquecer_importacao.py` usa **Ollama** (IA local) para preencher campos em branco dos produtos (descrição, slug, tags, categoria). Requisito: [Ollama instalado e rodando](https://ollama.com).
+
+- **Instalar Ollama no Windows:** [docs/ollama-windows.md](docs/ollama-windows.md)
+
+Exemplo: `python scripts/enriquecer_importacao.py 5` (substitua `5` pelo ID da importação).
+
 ## Novo fornecedor
 
 1. Criar módulo em `fornecedores/` (função `parse_*` que devolve `pandas.DataFrame`).
