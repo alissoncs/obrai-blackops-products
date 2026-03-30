@@ -1,0 +1,12 @@
+{
+  "urls_apos_limit_antes_do_skip": 1100,
+  "pulados_ja_no_arquivo": 998,
+  "urls_processadas_nesta_execucao": 102,
+  "sucesso_nesta_execucao": 102,
+  "erros_nesta_execucao": 0,
+  "total_produtos_no_arquivo_final": 1100,
+  "skip_existing_ativo": true,
+  "tempo_total_segundos": 439.904,
+  "erros_detalhe": [],
+  "imagens_falhas": []
+}

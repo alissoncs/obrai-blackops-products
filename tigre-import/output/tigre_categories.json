@@ -1,0 +1,611 @@
+{
+  "version": 1,
+  "taxonomy_source": "input/categories.json",
+  "assignable": "leaf_slugs_only",
+  "model": "llama-3.3-70b-versatile",
+  "generated_at": "2026-03-30T00:28:00.014478+00:00",
+  "items": [
+    {
+      "slug": "abafador-ruido-h9a-peltor-3m",
+      "sku": "95000085",
+      "categorySlug": "luvas-de-protecao",
+      "categoryPath": "Ferramentas > EPI > Luvas de proteção",
+      "confidence": 2,
+      "batch_id": 0,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado à proteção auditiva"
+    },
+    {
+      "slug": "abafador-ruido-tipo-concha-3m",
+      "sku": "95000035",
+      "categorySlug": "luvas-de-protecao",
+      "categoryPath": "Ferramentas > EPI > Luvas de proteção",
+      "confidence": 2,
+      "batch_id": 0,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado à proteção auditiva"
+    },
+    {
+      "slug": "abracadeira-1-2",
+      "sku": "60000530",
+      "categorySlug": "abracadeiras",
+      "categoryPath": "Cozinha e Lavanderia > Torneiras e Misturadores > Abraçadeiras || Elétrica > Acessórios Elétricos > Abraçadeiras || Ferragens > Ferragem > Abraçadeiras",
+      "confidence": 2,
+      "batch_id": 0,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto coincide com a categoria"
+    },
+    {
+      "slug": "abracadeira-a-i-25-38",
+      "sku": "56000014",
+      "categorySlug": "abracadeiras",
+      "categoryPath": "Cozinha e Lavanderia > Torneiras e Misturadores > Abraçadeiras || Elétrica > Acessórios Elétricos > Abraçadeiras || Ferragens > Ferragem > Abraçadeiras",
+      "confidence": 2,
+      "batch_id": 1,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto contém 'ABRACADEIRA'"
+    },
+    {
+      "slug": "abracadeira-circular",
+      "sku": "3204880",
+      "categorySlug": "abracadeiras",
+      "categoryPath": "Cozinha e Lavanderia > Torneiras e Misturadores > Abraçadeiras || Elétrica > Acessórios Elétricos > Abraçadeiras || Ferragens > Ferragem > Abraçadeiras",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome do produto contém 'BRACADEIRA' e descrição menciona 'Abraçadeira Circular'"
+    },
+    {
+      "slug": "abracadeira-circular-aquapluv-style",
+      "sku": "32048854",
+      "categorySlug": "abracadeiras",
+      "categoryPath": "Cozinha e Lavanderia > Torneiras e Misturadores > Abraçadeiras || Elétrica > Acessórios Elétricos > Abraçadeiras || Ferragens > Ferragem > Abraçadeiras",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome do produto contém 'Abraçadeira Circular' e descrição menciona 'Abraçadeira Circular Aquapluv Style'"
+    },
+    {
+      "slug": "abracadeira-condulete-topr",
+      "sku": "36005521",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 4,
+      "batch_id": 2,
+      "reason": "Nome e descrição sugerem uso em instalações"
+    },
+    {
+      "slug": "abracadeira-para-tubo-roscavel",
+      "sku": "20030852",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 4,
+      "batch_id": 2,
+      "reason": "Nome e descrição sugerem uso em instalações"
+    },
+    {
+      "slug": "abracadeira-pressao-galvanizada-7",
+      "sku": "56000003",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 2,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome sugere uso em instalações com pressão"
+    },
+    {
+      "slug": "abracadeira-pressao-galvanizado-8",
+      "sku": "56000002",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 3,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome e descrição sugerem uso em instalações hidráulicas"
+    },
+    {
+      "slug": "abracadeira-retangular-aquapluv-style",
+      "sku": "32048870",
+      "categorySlug": "acessorios-para-obra",
+      "categoryPath": "Ferramentas > Ferramentas para construção > Acessórios para Obra || Materiais de Construção > Ferramentas para construção > Acessórios para Obra",
+      "confidence": 5,
+      "batch_id": 0,
+      "reason": "A descrição menciona a fixação do condutor de calha à parede, o que é típico de acessórios para obra."
+    },
+    {
+      "slug": "abracadeira-tigre-redux",
+      "sku": "300000254",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 4,
+      "batch_id": 0,
+      "reason": "Descrição menciona tubulações e sistema de abraçadeiras para reduzir ruído e vibrações"
+    },
+    {
+      "slug": "acabamento-de-chuveiro-com-base-monocomando",
+      "sku": "A-2993-PAO-CR",
+      "categorySlug": "acabamentos-para-monocomando",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando",
+      "confidence": 5,
+      "batch_id": 0,
+      "reason": "O nome do produto menciona explicitamente 'acabamento de chuveiro com base monocomando', o que é uma categoria específica."
+    },
+    {
+      "slug": "acabamento-flux-cromado-para-valvula-de-descarga",
+      "sku": "57808",
+      "categorySlug": "acabamento-de-valvula-de-descarga",
+      "categoryPath": "Banheiro > Descarga > Acabamento de válvula de descarga",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome e descrição indicam que o produto é um acabamento para válvula de descarga"
+    },
+    {
+      "slug": "acabamento-flux-para-valvula-de-descarga",
+      "sku": "57809",
+      "categorySlug": "acabamento-de-valvula-de-descarga",
+      "categoryPath": "Banheiro > Descarga > Acabamento de válvula de descarga",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome e descrição indicam que o produto é um acabamento para válvula de descarga"
+    },
+    {
+      "slug": "acabamento-gyro",
+      "sku": "57782",
+      "categorySlug": "acabamento-de-valvula-de-descarga",
+      "categoryPath": "Banheiro > Descarga > Acabamento de válvula de descarga",
+      "confidence": 4,
+      "batch_id": 1,
+      "reason": "Nome indica que o produto é um acabamento, mas a descrição não fornece informações suficientes para confirmar a categoria"
+    },
+    {
+      "slug": "acabamento-monocomando-para-chuveiro",
+      "sku": "A-2993-CI-CR",
+      "categorySlug": "acabamentos-para-monocomando",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'Acabamento Monocomando'"
+    },
+    {
+      "slug": "acabamento-monocomando-para-chuveiro-tigre-fine",
+      "sku": "A-2993-FIN-CR",
+      "categorySlug": "acabamentos-para-monocomando",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'Acabamento Monocomando' e descrição menciona 'comando único'"
+    },
+    {
+      "slug": "acabamento-mund-cromado-para-valvula-de-descarga",
+      "sku": "57812",
+      "categorySlug": "acabamento-de-valvula-de-descarga",
+      "categoryPath": "Banheiro > Descarga > Acabamento de válvula de descarga",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'Acabamento' e 'Válvula de Descarga'"
+    },
+    {
+      "slug": "acabamento-para-base-monocomando-de-chuveiro",
+      "sku": "A-2993-LO-CR",
+      "categorySlug": "acabamentos-para-monocomando",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando",
+      "confidence": 5,
+      "batch_id": 3,
+      "reason": "Nome e descrição do produto indicam que é um acabamento para base monocomando de chuveiro."
+    },
+    {
+      "slug": "acabamento-para-chuveiro-monocomando",
+      "sku": "A-2993-DAL-CR",
+      "categorySlug": "acabamentos-para-monocomando",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando",
+      "confidence": 5,
+      "batch_id": 0,
+      "reason": "Nome do produto indica acabamento para chuveiro monocomando"
+    },
+    {
+      "slug": "acabamento-para-registro-aquarius",
+      "sku": "A-3-A-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 0,
+      "reason": "Nome do produto indica acabamento para registro"
+    },
+    {
+      "slug": "acabamento-para-registro-gioia",
+      "sku": "A-3-GIO-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome do produto contém 'acabamento para registro'"
+    },
+    {
+      "slug": "acabamento-para-registro-goa",
+      "sku": "A3-GOA-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome do produto contém 'acabamento para registro'"
+    },
+    {
+      "slug": "acabamento-para-registro-goa-cross",
+      "sku": "A3-GOC-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 1,
+      "reason": "Nome do produto contém 'acabamento para registro'"
+    },
+    {
+      "slug": "acabamento-para-registro-goa-slim",
+      "sku": "A3-GOS-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'acabamento para registro'"
+    },
+    {
+      "slug": "acabamento-para-registro-universal",
+      "sku": "A-1-A-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'acabamento para registro'"
+    },
+    {
+      "slug": "acabamento-quarter-cromado-para-valvula-de-descarga",
+      "sku": "57813",
+      "categorySlug": "acabamento-de-valvula-de-descarga",
+      "categoryPath": "Banheiro > Descarga > Acabamento de válvula de descarga",
+      "confidence": 5,
+      "batch_id": 2,
+      "reason": "Nome do produto contém 'acabamento para válvula de descarga' e descrição menciona conceito de design"
+    },
+    {
+      "slug": "acabamento-universal-nova-gyro",
+      "sku": "57781",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 4,
+      "batch_id": 3,
+      "reason": "Nome do produto contém 'acabamento' e 'registro', sugerindo relação com acabamentos para registro."
+    },
+    {
+      "slug": "acabamento-universal-para-registro",
+      "sku": "A-1-AS-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 3,
+      "reason": "Nome do produto explicita 'acabamento universal para registro'."
+    },
+    {
+      "slug": "acabamento-universal-para-registro-de-pressao-e-gaveta",
+      "sku": "A-1-CI-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 3,
+      "reason": "Nome do produto explicita 'acabamento universal para registro de pressão e gaveta', indicando claramente a categoria."
+    },
+    {
+      "slug": "acabamento-universal-para-registro-ella",
+      "sku": "A-1-ELA-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 5,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-esquerdo",
+      "sku": "A-1-CHI-CR-E-AQ",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 5,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-exacta",
+      "sku": "A-1-EXA-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 5,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-folk",
+      "sku": "A-1-FOL-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 6,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-gioia",
+      "sku": "A-1-GIO-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 6,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-goa",
+      "sku": "A-1-GOA-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 6,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro', que são termos comuns na categoria"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-petra",
+      "sku": "A-1-PET-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 9,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro'"
+    },
+    {
+      "slug": "acabamento-universal-para-registro-soho",
+      "sku": "A-1-SOH-CR",
+      "categorySlug": "acabamentos-para-registro",
+      "categoryPath": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro",
+      "confidence": 5,
+      "batch_id": 9,
+      "reason": "Nome do produto contém 'Acabamento' e 'Registro'"
+    },
+    {
+      "slug": "acess-sensor-optoeletronico-bos-r7-0-25",
+      "sku": "56000006",
+      "categorySlug": "sensores-de-presenca",
+      "categoryPath": "Segurança e Comunicação > Fechaduras elétricas, campainhas e outros > Sensores de Presença",
+      "confidence": 2,
+      "batch_id": 9,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto contém 'SENSOR' e pode estar relacionado a sensores de presença"
+    },
+    {
+      "slug": "acoplamento-aco-bowex-m42-cubo",
+      "sku": "60000366",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 11,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome sugere acoplamento, mas falta descrição para confirmar categoria"
+    },
+    {
+      "slug": "acoplamento-circular",
+      "sku": "32198872",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 4,
+      "batch_id": 11,
+      "reason": "Descrição menciona emendar condutores, o que é comum em instalações de lavatório"
+    },
+    {
+      "slug": "acoplamento-circular-aquapluv-style",
+      "sku": "32198899",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 4,
+      "batch_id": 11,
+      "reason": "Descrição similar à do acoplamento circular, com menção a captar água da chuva"
+    },
+    {
+      "slug": "acoplamento-rapido-aspersor",
+      "sku": "34462054",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 3,
+      "batch_id": 13,
+      "reason": "Nome e descrição sugerem uso em sistema de água, mas não é claro se é para lavatório ou outra aplicação"
+    },
+    {
+      "slug": "acoplamento-retangular-aquapluv-style",
+      "sku": "32198929",
+      "categorySlug": "canaletas-e-acessorios",
+      "categoryPath": "Elétrica > Eletrodutos e Conduítes > Canaletas e Acessórios",
+      "confidence": 5,
+      "batch_id": 13,
+      "reason": "Descrição menciona calha e captar água da chuva, o que é típico de canaletas"
+    },
+    {
+      "slug": "adap-comp-flange-125-5-s07",
+      "sku": "3761226",
+      "categorySlug": "acessorios-para-instalacao-e-reparos",
+      "categoryPath": "Banheiro > Vasos sanitários e assentos > Acessórios para instalação e reparos",
+      "confidence": 2,
+      "batch_id": 13,
+      "reason": "Nome sugere um componente de adaptação, mas falta descrição para uma classificação mais precisa"
+    },
+    {
+      "slug": "adap-ponta-flange-110-4-s07",
+      "sku": "3763963",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 15,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto contém 'ADAP PONTA/FLANGE', o que sugere um acessório para instalação"
+    },
+    {
+      "slug": "adap-ponta-flange-110-5-s07",
+      "sku": "3763964",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 15,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto contém 'ADAP PONTA/FLANGE', o que sugere um acessório para instalação"
+    },
+    {
+      "slug": "adap-ponta-flange-50-1-1-2-s07",
+      "sku": "3763952",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 15,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto contém 'ADAP PONTA/FLANGE', o que sugere um acessório para instalação"
+    },
+    {
+      "slug": "adap-ponta-flange-75-2-s07",
+      "sku": "3763956",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 17,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adap-ponta-flange-75-3-s07",
+      "sku": "3763958",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 17,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adap-ponta-flange-90-3-s07",
+      "sku": "3763960",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 17,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adap-ponta-flange-90-4-s07",
+      "sku": "3763961",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 18,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adapat-ponta-tub0-ceramico-160-204",
+      "sku": "3765598",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 18,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adapat-ponta-tubo-ceramico-160-186",
+      "sku": "3765599",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 18,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto parece ser um adaptador para instalação de lavatório"
+    },
+    {
+      "slug": "adapatador-tubo-ceramico-160-186",
+      "sku": "3765596",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 19,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado a tubos cerâmicos, provavelmente para instalação de lavatórios"
+    },
+    {
+      "slug": "adapatador-tubo-ceramico-160-204",
+      "sku": "3765597",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 19,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado a tubos cerâmicos, provavelmente para instalação de lavatórios"
+    },
+    {
+      "slug": "adapt-intern-pvc-espigao-1-preto",
+      "sku": "60002703",
+      "categorySlug": "acessorios-para-instalacao-e-reparos",
+      "categoryPath": "Banheiro > Vasos sanitários e assentos > Acessórios para instalação e reparos",
+      "confidence": 2,
+      "batch_id": 19,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado a adaptação de tubos PVC, provavelmente para instalação e reparos"
+    },
+    {
+      "slug": "adapt-poco-visita-esgoto-280",
+      "sku": "3761570",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 21,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto sugere adaptação para visita de esgoto, relacionado a instalação de lavatório"
+    },
+    {
+      "slug": "adapt-poco-visita-esgoto-315",
+      "sku": "3761571",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 21,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto sugere adaptação para visita de esgoto, relacionado a instalação de lavatório"
+    },
+    {
+      "slug": "adapt-poco-visita-esgoto-355",
+      "sku": "3761572",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 21,
+      "confidence_capped_missing_media": true,
+      "reason": "Nome do produto sugere adaptação para visita de esgoto, relacionado a instalação de lavatório"
+    },
+    {
+      "slug": "adapt-poco-visita-esgoto-400",
+      "sku": "3761573",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 22,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado a visita de esgoto, que é um componente de instalação de lavatório"
+    },
+    {
+      "slug": "adapt-poco-visita-esgoto-500",
+      "sku": "3765594",
+      "categorySlug": "acessorios-para-instalacao-de-lavatorio",
+      "categoryPath": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório",
+      "confidence": 2,
+      "batch_id": 22,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto relacionado a visita de esgoto, que é um componente de instalação de lavatório"
+    },
+    {
+      "slug": "adapt-rf-latao-110-4-s07",
+      "sku": "3763937",
+      "categorySlug": "acessorios-para-instalacao-e-reparos",
+      "categoryPath": "Banheiro > Vasos sanitários e assentos > Acessórios para instalação e reparos",
+      "confidence": 2,
+      "batch_id": 22,
+      "confidence_capped_missing_media": true,
+      "reason": "Produto com descrição que sugere ser um adaptador, que pode ser usado em instalações e reparos"
+    }
+  ]
+}

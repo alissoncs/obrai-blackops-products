@@ -18,6 +18,7 @@ import os
 import random
 import re
 import time
+from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -34,6 +35,9 @@ except ImportError:
     _HAS_FILE_LOCK = False
 
 SITEMAP_URL = "https://www.tigre.com.br/products-sitemap.xml"
+
+# Relatórios, imagens e lock em output/aux/; só tigre_products.json na raiz de output/.
+OUTPUT_AUX_SUBDIR = "aux"
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -147,12 +151,18 @@ def write_products_json(products_path: Path, products: list[dict[str, Any]]) -> 
     )
 
 
-def merge_and_write_products_file(products_path: Path, new_products: list[dict[str, Any]]) -> None:
+def merge_and_write_products_file(
+    products_path: Path,
+    new_products: list[dict[str, Any]],
+    *,
+    lock_dir: Path,
+) -> None:
     """
     Re-lê o arquivo no disco, faz merge com new_products e grava.
     Com fcntl (Unix), usa lock exclusivo para reduzir corrida entre processos paralelos.
     """
-    lock_path = products_path.with_suffix(products_path.suffix + ".lock")
+    lock_dir.mkdir(parents=True, exist_ok=True)
+    lock_path = lock_dir / f"{products_path.name}.lock"
 
     def _read_merge_write() -> None:
         existing, _ = load_existing_products(products_path)
@@ -458,7 +468,15 @@ def build_product_record(
 async def main_async(args: argparse.Namespace) -> int:
     out_dir: Path = args.output_dir
     out_dir.mkdir(parents=True, exist_ok=True)
-    images_dir = out_dir / "images"
+    aux_dir = out_dir / OUTPUT_AUX_SUBDIR
+    aux_dir.mkdir(parents=True, exist_ok=True)
+    if args.relatorio_out is not None:
+        report_path = args.relatorio_out
+    else:
+        ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        report_path = aux_dir / f"relatorio_{ts}.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    images_dir = aux_dir / "images"
     products_path = out_dir / "tigre_products.json"
 
     started = time.perf_counter()
@@ -549,13 +567,13 @@ async def main_async(args: argparse.Namespace) -> int:
     elapsed = time.perf_counter() - started
 
     if args.skip_existing:
-        merge_and_write_products_file(products_path, products_out)
+        merge_and_write_products_file(products_path, products_out, lock_dir=aux_dir)
         final_count = len(load_existing_products(products_path)[0])
     else:
         write_products_json(products_path, products_out)
         final_count = len(products_out)
 
-    (out_dir / "relatorio.json").write_text(
+    report_path.write_text(
         json.dumps(
             {
                 "urls_apos_limit_antes_do_skip": len(urls) + skipped_existing,
@@ -586,7 +604,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument(
         "--download-images",
         action="store_true",
-        help="Baixa imagens para output/images/products/{slug}/ e preenche mainImage/images",
+        help="Baixa imagens para output/aux/images/products/{slug}/ e preenche mainImage/images",
     )
     ap.add_argument(
         "--output-dir",
@@ -600,6 +618,12 @@ def parse_args() -> argparse.Namespace:
         action="store_false",
         default=True,
         help="Processa todos os URLs do lote e substitui o JSON só com esta execução (sem merge)",
+    )
+    ap.add_argument(
+        "--relatorio-out",
+        type=Path,
+        default=None,
+        help="Relatório JSON (default: <output-dir>/aux/relatorio_<UTC>.json)",
     )
     return ap.parse_args()
 

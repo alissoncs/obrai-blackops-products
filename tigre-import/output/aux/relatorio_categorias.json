@@ -1,0 +1,590 @@
+{
+  "generated_at": "2026-03-30T00:28:00.014478+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "base_url_host": "api.groq.com",
+  "taxonomy_prompt_mode": "slugs",
+  "taxonomy_system_chars": 9410,
+  "dry_run": false,
+  "produtos_carregados": 1100,
+  "categorias_taxonomia_folhas": 489,
+  "avisos_taxonomia_slugs_fundidos": [
+    "slug duplicado fundido: 'fechaduras-eletricas'",
+    "slug duplicado fundido: 'suportes-para-tv'",
+    "slug duplicado fundido: 'postes-e-balizadores'",
+    "slug duplicado fundido: 'arandela-externa'",
+    "slug duplicado fundido: 'refletores'",
+    "slug duplicado fundido: 'tartarugas'",
+    "slug duplicado fundido: 'lampadas-de-led'",
+    "slug duplicado fundido: 'ventilador-de-teto'",
+    "slug duplicado fundido: 'acessorios'",
+    "slug duplicado fundido: 'acabamentos-para-registro'",
+    "slug duplicado fundido: 'flexiveis-e-sifoes'",
+    "slug duplicado fundido: 'acessorios'",
+    "slug duplicado fundido: 'utensilios-de-cozinha'",
+    "slug duplicado fundido: 'escorredor-de-louca'",
+    "slug duplicado fundido: 'fruteira'",
+    "slug duplicado fundido: 'lixeira'",
+    "slug duplicado fundido: 'organizadores-de-parede-para-cozinha'",
+    "slug duplicado fundido: 'organizadores-de-armario-de-cozinha'",
+    "slug duplicado fundido: 'organizador-de-pia-de-cozinha'",
+    "slug duplicado fundido: 'suporte-para-micro-ondas'",
+    "slug duplicado fundido: 'baldes-e-bacias'",
+    "slug duplicado fundido: 'tabua-de-passar-roupa-e-acessorios'",
+    "slug duplicado fundido: 'varal-e-acessorios'",
+    "slug duplicado fundido: 'lixeiras'",
+    "slug duplicado fundido: 'cestos'",
+    "slug duplicado fundido: 'capas-para-tabua-e-maquina-de-lavar'",
+    "slug duplicado fundido: 'exaustores'",
+    "slug duplicado fundido: 'campainhas'",
+    "slug duplicado fundido: 'abracadeiras'",
+    "slug duplicado fundido: 'acessorios'",
+    "slug duplicado fundido: 'buchas'",
+    "slug duplicado fundido: 'joelhos'",
+    "slug duplicado fundido: 'luvas'",
+    "slug duplicado fundido: 'tampas'",
+    "slug duplicado fundido: 'tinta-acrilica'",
+    "slug duplicado fundido: 'espatulas'",
+    "slug duplicado fundido: 'removedores'",
+    "slug duplicado fundido: 'acessorios'",
+    "slug duplicado fundido: 'verniz-e-stain'",
+    "slug duplicado fundido: 'acessorios'",
+    "slug duplicado fundido: 'escada-portatil'",
+    "slug duplicado fundido: 'acessorios-para-obra'",
+    "slug duplicado fundido: 'desempenadeira'",
+    "slug duplicado fundido: 'betoneiras'",
+    "slug duplicado fundido: 'ferramenta-para-assentamento-de-piso'",
+    "slug duplicado fundido: 'lapis-riscadores-e-acessorios'",
+    "slug duplicado fundido: 'colher-de-pedreiro'",
+    "slug duplicado fundido: 'espatulas'",
+    "slug duplicado fundido: 'betoneiras'",
+    "slug duplicado fundido: 'epis'",
+    "slug duplicado fundido: 'saco-de-entulho'",
+    "slug duplicado fundido: 'placas-de-sinalizacao'",
+    "slug duplicado fundido: 'abracadeiras'",
+    "slug duplicado fundido: 'parafusos'",
+    "slug duplicado fundido: 'pregos'",
+    "slug duplicado fundido: 'ganchos-escapulas-e-pitoes'",
+    "slug duplicado fundido: 'porcas-e-arruelas'",
+    "slug duplicado fundido: 'rebites'",
+    "slug duplicado fundido: 'armarios-e-espelheiras'",
+    "slug duplicado fundido: 'espelhos'",
+    "slug duplicado fundido: 'bancos-e-banquetas'",
+    "slug duplicado fundido: 'cadeiras-e-mesas'",
+    "slug duplicado fundido: 'espelhos'",
+    "slug duplicado fundido: 'tapetes-e-capachos'",
+    "slug duplicado fundido: 'plafons'",
+    "slug duplicado fundido: 'arandela-interna'",
+    "slug duplicado fundido: 'luminaria-de-embutir'",
+    "slug duplicado fundido: 'luminarias-de-teto'",
+    "slug duplicado fundido: 'lustres-e-pendentes'",
+    "slug duplicado fundido: 'abajur-e-luminaria-de-mesa'",
+    "slug duplicado fundido: 'spots'",
+    "slug duplicado fundido: 'luz-noturna'",
+    "slug duplicado fundido: 'luminaria-infantil'"
+  ],
+  "produtos_enfileirados": 100,
+  "produtos_classificados_ok": 45,
+  "produtos_com_erro": 55,
+  "confianca": {
+    "review_if_below": 3,
+    "itens_revisao_manual": 21,
+    "produtos_revisao_slugs": [
+      "acess-sensor-optoeletronico-bos-r7-0-25",
+      "acoplamento-aco-bowex-m42-cubo",
+      "adap-comp-flange-125-5-s07",
+      "adap-ponta-flange-110-4-s07",
+      "adap-ponta-flange-110-5-s07",
+      "adap-ponta-flange-50-1-1-2-s07",
+      "adap-ponta-flange-75-2-s07",
+      "adap-ponta-flange-75-3-s07",
+      "adap-ponta-flange-90-3-s07",
+      "adap-ponta-flange-90-4-s07",
+      "adapat-ponta-tub0-ceramico-160-204",
+      "adapat-ponta-tubo-ceramico-160-186",
+      "adapatador-tubo-ceramico-160-186",
+      "adapatador-tubo-ceramico-160-204",
+      "adapt-intern-pvc-espigao-1-preto",
+      "adapt-poco-visita-esgoto-280",
+      "adapt-poco-visita-esgoto-315",
+      "adapt-poco-visita-esgoto-355",
+      "adapt-poco-visita-esgoto-400",
+      "adapt-poco-visita-esgoto-500",
+      "adapt-rf-latao-110-4-s07"
+    ],
+    "distribuicao": {
+      "1": 0,
+      "2": 21,
+      "3": 1,
+      "4": 4,
+      "5": 19
+    }
+  },
+  "lotes_total": 34,
+  "tempo_total_segundos": 419.056,
+  "tokens": {
+    "prompt_total": null,
+    "completion_total": null,
+    "total": null,
+    "nota": "API não devolveu usage em todas as respostas"
+  },
+  "por_lote": [
+    {
+      "batch_id": 0,
+      "produtos": 3,
+      "prompt_tokens": 3880,
+      "completion_tokens": 205,
+      "total_tokens": 4085
+    },
+    {
+      "batch_id": 1,
+      "produtos": 3,
+      "prompt_tokens": 3780,
+      "completion_tokens": 186,
+      "total_tokens": 3966
+    },
+    {
+      "batch_id": 2,
+      "produtos": 3,
+      "prompt_tokens": 3832,
+      "completion_tokens": 210,
+      "total_tokens": 4042
+    },
+    {
+      "batch_id": 3,
+      "produtos": 3,
+      "prompt_tokens": 3833,
+      "completion_tokens": 221,
+      "total_tokens": 4054
+    },
+    {
+      "batch_id": 4,
+      "produtos": 3
+    },
+    {
+      "batch_id": 5,
+      "produtos": 3,
+      "prompt_tokens": 3786,
+      "completion_tokens": 225,
+      "total_tokens": 4011
+    },
+    {
+      "batch_id": 6,
+      "produtos": 3,
+      "prompt_tokens": 3794,
+      "completion_tokens": 224,
+      "total_tokens": 4018
+    },
+    {
+      "batch_id": 7,
+      "produtos": 3
+    },
+    {
+      "batch_id": 8,
+      "produtos": 3
+    },
+    {
+      "batch_id": 9,
+      "produtos": 3,
+      "prompt_tokens": 3789,
+      "completion_tokens": 210,
+      "total_tokens": 3999
+    },
+    {
+      "batch_id": 10,
+      "produtos": 3
+    },
+    {
+      "batch_id": 11,
+      "produtos": 3,
+      "prompt_tokens": 3905,
+      "completion_tokens": 224,
+      "total_tokens": 4129
+    },
+    {
+      "batch_id": 12,
+      "produtos": 3
+    },
+    {
+      "batch_id": 13,
+      "produtos": 3,
+      "prompt_tokens": 3887,
+      "completion_tokens": 236,
+      "total_tokens": 4123
+    },
+    {
+      "batch_id": 14,
+      "produtos": 3
+    },
+    {
+      "batch_id": 15,
+      "produtos": 3,
+      "prompt_tokens": 3800,
+      "completion_tokens": 257,
+      "total_tokens": 4057
+    },
+    {
+      "batch_id": 16,
+      "produtos": 3
+    },
+    {
+      "batch_id": 17,
+      "produtos": 3,
+      "prompt_tokens": 3793,
+      "completion_tokens": 214,
+      "total_tokens": 4007
+    },
+    {
+      "batch_id": 18,
+      "produtos": 3,
+      "prompt_tokens": 3800,
+      "completion_tokens": 219,
+      "total_tokens": 4019
+    },
+    {
+      "batch_id": 19,
+      "produtos": 3,
+      "prompt_tokens": 3790,
+      "completion_tokens": 242,
+      "total_tokens": 4032
+    },
+    {
+      "batch_id": 20,
+      "produtos": 3
+    },
+    {
+      "batch_id": 21,
+      "produtos": 3,
+      "prompt_tokens": 3772,
+      "completion_tokens": 235,
+      "total_tokens": 4007
+    },
+    {
+      "batch_id": 22,
+      "produtos": 3,
+      "prompt_tokens": 3776,
+      "completion_tokens": 232,
+      "total_tokens": 4008
+    },
+    {
+      "batch_id": 23,
+      "produtos": 3
+    },
+    {
+      "batch_id": 24,
+      "produtos": 3
+    },
+    {
+      "batch_id": 25,
+      "produtos": 3
+    },
+    {
+      "batch_id": 26,
+      "produtos": 3
+    },
+    {
+      "batch_id": 27,
+      "produtos": 3
+    },
+    {
+      "batch_id": 28,
+      "produtos": 3
+    },
+    {
+      "batch_id": 29,
+      "produtos": 3
+    },
+    {
+      "batch_id": 30,
+      "produtos": 3
+    },
+    {
+      "batch_id": 31,
+      "produtos": 3
+    },
+    {
+      "batch_id": 32,
+      "produtos": 3
+    },
+    {
+      "batch_id": 33,
+      "produtos": 1
+    }
+  ],
+  "erros_detalhe": [
+    {
+      "product_slug": "acabamento-universal-para-registro-direito",
+      "batch_id": 4,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9257"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-direito-12-34-e-1",
+      "batch_id": 4,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9257"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-duello",
+      "batch_id": 4,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9257"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-gyro",
+      "batch_id": 7,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9101"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-loft",
+      "batch_id": 7,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9101"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-loft-design",
+      "batch_id": 7,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9101"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-lyon",
+      "batch_id": 8,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8008"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-misty",
+      "batch_id": 8,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8008"
+    },
+    {
+      "product_slug": "acabamento-universal-para-registro-oggi",
+      "batch_id": 8,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8008"
+    },
+    {
+      "product_slug": "acetileno-gas-cil-a-315-9-kg",
+      "batch_id": 10,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9012"
+    },
+    {
+      "product_slug": "acetileno-gas-cil-a-315-9kg",
+      "batch_id": 10,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9012"
+    },
+    {
+      "product_slug": "aco-viga-i-6",
+      "batch_id": 10,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9012"
+    },
+    {
+      "product_slug": "acoplamento-cruzeta-uniflex-e-10",
+      "batch_id": 12,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9249"
+    },
+    {
+      "product_slug": "acoplamento-elastico-antares-sw-190-uk",
+      "batch_id": 12,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9249"
+    },
+    {
+      "product_slug": "acoplamento-nor-mex-elastico-219-piv-148",
+      "batch_id": 12,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9249"
+    },
+    {
+      "product_slug": "adap-comp-flange-125-6-s07",
+      "batch_id": 14,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8868"
+    },
+    {
+      "product_slug": "adap-comp-flange-50-2-s07",
+      "batch_id": 14,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8868"
+    },
+    {
+      "product_slug": "adap-ponta-flange-110-3-s07",
+      "batch_id": 14,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8868"
+    },
+    {
+      "product_slug": "adap-ponta-flange-63-2-1-2-s07",
+      "batch_id": 16,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9153"
+    },
+    {
+      "product_slug": "adap-ponta-flange-63-2-s07",
+      "batch_id": 16,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9153"
+    },
+    {
+      "product_slug": "adap-ponta-flange-75-2-1-2-s07",
+      "batch_id": 16,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9153"
+    },
+    {
+      "product_slug": "adapt-poco-visita-esgoto-160",
+      "batch_id": 20,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9261"
+    },
+    {
+      "product_slug": "adapt-poco-visita-esgoto-225",
+      "batch_id": 20,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9261"
+    },
+    {
+      "product_slug": "adapt-poco-visita-esgoto-250",
+      "batch_id": 20,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9261"
+    },
+    {
+      "product_slug": "adapt-rf-latao-50-2-s07",
+      "batch_id": 23,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97784,"
+    },
+    {
+      "product_slug": "adapt-rf-latao-63-2-s07",
+      "batch_id": 23,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97784,"
+    },
+    {
+      "product_slug": "adapt-rf-latao-90-4-s07",
+      "batch_id": 23,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97784,"
+    },
+    {
+      "product_slug": "adapt-roscavel-latao-40-1-s07",
+      "batch_id": 24,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97762,"
+    },
+    {
+      "product_slug": "adapt-roscavel-latao-63-2-s07",
+      "batch_id": 24,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97762,"
+    },
+    {
+      "product_slug": "adapt-tubo-galva-40-1-s07",
+      "batch_id": 24,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97762,"
+    },
+    {
+      "product_slug": "adapt-tubo-galva-50-1-1-2-s07",
+      "batch_id": 25,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97746,"
+    },
+    {
+      "product_slug": "adapt-tubo-galva-50-1-1-4-s07",
+      "batch_id": 25,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97746,"
+    },
+    {
+      "product_slug": "adapt-tubo-galva-63-2-s07",
+      "batch_id": 25,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97746,"
+    },
+    {
+      "product_slug": "adaptador-1-2-f-x-3-4-m-aspersor-pingo",
+      "batch_id": 26,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97725,"
+    },
+    {
+      "product_slug": "adaptador-2024-8-10-lmn-mj-cod-2024-8-1",
+      "batch_id": 26,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97725,"
+    },
+    {
+      "product_slug": "adaptador-bolsa-universal-vt-x-bolsa-ceramica",
+      "batch_id": 26,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97725,"
+    },
+    {
+      "product_slug": "adaptador-bs-x-pr-longo-irriga-lf",
+      "batch_id": 27,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97709,"
+    },
+    {
+      "product_slug": "adaptador-bs-x-rm-curto-irriga-lf",
+      "batch_id": 27,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97709,"
+    },
+    {
+      "product_slug": "adaptador-bs-x-rm-curto-irriga-lf-pn-125",
+      "batch_id": 27,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97709,"
+    },
+    {
+      "product_slug": "adaptador-c-terminal-371786-videojet",
+      "batch_id": 28,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97687,"
+    },
+    {
+      "product_slug": "adaptador-coletor-esgoto-x-serie-r",
+      "batch_id": 28,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97687,"
+    },
+    {
+      "product_slug": "adaptador-com-flange-metalico",
+      "batch_id": 28,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97687,"
+    },
+    {
+      "product_slug": "adaptador-com-rosca-de-latao",
+      "batch_id": 29,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97672,"
+    },
+    {
+      "product_slug": "adaptador-com-rosca-femea",
+      "batch_id": 29,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97672,"
+    },
+    {
+      "product_slug": "adaptador-compressao-com-flange-com-flange-metalico",
+      "batch_id": 29,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97672,"
+    },
+    {
+      "product_slug": "adaptador-compressao-com-rosca-macho",
+      "batch_id": 30,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97650,"
+    },
+    {
+      "product_slug": "adaptador-compressao-rf-rb-tigre",
+      "batch_id": 30,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97650,"
+    },
+    {
+      "product_slug": "adaptador-condulete-topr-1",
+      "batch_id": 30,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97650,"
+    },
+    {
+      "product_slug": "adaptador-condulete-topr-12",
+      "batch_id": 31,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97635,"
+    },
+    {
+      "product_slug": "adaptador-condulete-topr-34",
+      "batch_id": 31,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97635,"
+    },
+    {
+      "product_slug": "adaptador-curto-bolsarosca-tigre-agropecuaria-pvc",
+      "batch_id": 31,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97635,"
+    },
+    {
+      "product_slug": "adaptador-curto-lr-cpvc",
+      "batch_id": 32,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97612,"
+    },
+    {
+      "product_slug": "adaptador-de-borracha-para-tubos-de-aco-galvanizado",
+      "batch_id": 32,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97612,"
+    },
+    {
+      "product_slug": "adaptador-de-compressao-com-flange-metalico",
+      "batch_id": 32,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97612,"
+    },
+    {
+      "product_slug": "adaptador-de-compressao-rf-em-pp",
+      "batch_id": 33,
+      "message": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kmxnf29fenhvgeksnx4njn44` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97598,"
+    }
+  ]
+}

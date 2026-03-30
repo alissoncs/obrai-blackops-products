@@ -1,0 +1,21 @@
+{
+  "urls_apos_limit_antes_do_skip": 1000,
+  "pulados_ja_no_arquivo": 300,
+  "urls_processadas_nesta_execucao": 700,
+  "sucesso_nesta_execucao": 698,
+  "erros_nesta_execucao": 2,
+  "total_produtos_no_arquivo_final": 998,
+  "skip_existing_ativo": true,
+  "tempo_total_segundos": 2944.521,
+  "erros_detalhe": [
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-pin-chato-523-08-7-5x1-9-mm-f14",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-pin-chato-523-08-7-5x1-9-mm-f14\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-pin-marsel-100-06-redondo-f16",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-pin-marsel-100-06-redondo-f16\", waiting until \"networkidle\"\n"
+    }
+  ],
+  "imagens_falhas": []
+}

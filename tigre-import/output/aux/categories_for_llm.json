@@ -1,0 +1,2447 @@
+[
+  {
+    "slug": "abajur-e-luminaria-de-mesa",
+    "name": "Abajur e luminária de mesa",
+    "path": "Iluminação > Luminárias > Abajur e luminária de mesa || Decoração > Luminárias > Abajur e luminária de mesa"
+  },
+  {
+    "slug": "abracadeiras",
+    "name": "Abraçadeiras",
+    "path": "Cozinha e Lavanderia > Torneiras e Misturadores > Abraçadeiras || Elétrica > Acessórios Elétricos > Abraçadeiras || Ferragens > Ferragem > Abraçadeiras"
+  },
+  {
+    "slug": "acabamento-de-valvula-de-descarga",
+    "name": "Acabamento de válvula de descarga",
+    "path": "Banheiro > Descarga > Acabamento de válvula de descarga"
+  },
+  {
+    "slug": "acabamentos-para-forro",
+    "name": "Acabamentos para forro",
+    "path": "Materiais de Construção > Forros e acabamentos > Acabamentos para forro"
+  },
+  {
+    "slug": "acabamentos-para-monocomando",
+    "name": "Acabamentos para monocomando",
+    "path": "Banheiro > Acabamentos de banheiro > Acabamentos para monocomando"
+  },
+  {
+    "slug": "acabamentos-para-registro",
+    "name": "Acabamentos para registro",
+    "path": "Banheiro > Acabamentos de banheiro > Acabamentos para registro || Banheiro > Torneiras e misturadores para banheiro > Acabamentos para Registro"
+  },
+  {
+    "slug": "acessibilidade",
+    "name": "Acessibilidade",
+    "path": "Banheiro > Acessibilidade"
+  },
+  {
+    "slug": "acessorios",
+    "name": "Acessórios",
+    "path": "Banheiro > Móveis para banheiro > Acessórios || Banheiro > Ducha Higiênica e Acessórios > Acessórios || Cozinha e Lavanderia > Fogão, Forno e Coifa > Acessórios || Ferramentas > Soldagem > Acessórios || Tintas > Pistolas para Pintura > Acessórios || Materiais de Construção > Forno, Churrasqueira e Lareira > Acessórios"
+  },
+  {
+    "slug": "acessorios-de-banheiro",
+    "name": "Acessórios de Banheiro",
+    "path": "Banheiro > Torneiras e misturadores para banheiro > Acessórios de Banheiro"
+  },
+  {
+    "slug": "acessorios-de-iluminacao",
+    "name": "Acessórios de Iluminação",
+    "path": "Iluminação > Complementos e Acessórios > Acessórios de Iluminação"
+  },
+  {
+    "slug": "acessorios-para-aquecedor",
+    "name": "Acessórios para aquecedor",
+    "path": "Banheiro > Aquecedores de água e acessórios > Acessórios para aquecedor"
+  },
+  {
+    "slug": "acessorios-para-banheira",
+    "name": "Acessórios para banheira",
+    "path": "Banheiro > Banheiras > Acessórios para banheira"
+  },
+  {
+    "slug": "acessorios-para-caixas-e-quadros-eletricos",
+    "name": "Acessórios para caixas e quadros elétricos",
+    "path": "Elétrica > Caixas e Quadros Elétricos > Acessórios para caixas e quadros elétricos"
+  },
+  {
+    "slug": "acessorios-para-churrasqueiras",
+    "name": "Acessórios para churrasqueiras",
+    "path": "Área Externa > Churrasqueiras > Acessórios para churrasqueiras"
+  },
+  {
+    "slug": "acessorios-para-instalacao-de-lavatorio",
+    "name": "Acessórios para instalação de lavatório",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Acessórios para instalação de lavatório"
+  },
+  {
+    "slug": "acessorios-para-instalacao-e-reparos",
+    "name": "Acessórios para instalação e reparos",
+    "path": "Banheiro > Vasos sanitários e assentos > Acessórios para instalação e reparos"
+  },
+  {
+    "slug": "acessorios-para-obra",
+    "name": "Acessórios para Obra",
+    "path": "Ferramentas > Ferramentas para construção > Acessórios para Obra || Materiais de Construção > Ferramentas para construção > Acessórios para Obra"
+  },
+  {
+    "slug": "adaptador-de-tomada",
+    "name": "Adaptador de tomada",
+    "path": "Elétrica > Adaptadores e Plugues > Adaptador de tomada"
+  },
+  {
+    "slug": "adaptadores",
+    "name": "Adaptadores",
+    "path": "Hidráulica > Conexões > Adaptadores"
+  },
+  {
+    "slug": "adesivos",
+    "name": "Adesivos",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Adesivos"
+  },
+  {
+    "slug": "adesivos-de-parede",
+    "name": "Adesivos de parede",
+    "path": "Decoração > Papel de parede e Adesivos > Adesivos de parede"
+  },
+  {
+    "slug": "adesivos-e-acessorios-hidraulicos",
+    "name": "Adesivos e acessórios hidráulicos",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Adesivos e acessórios hidráulicos"
+  },
+  {
+    "slug": "aditivos-impermeabilizantes",
+    "name": "Aditivos impermeabilizantes",
+    "path": "Materiais de Construção > Impermeabilizantes > Aditivos impermeabilizantes"
+  },
+  {
+    "slug": "alicates",
+    "name": "Alicates",
+    "path": "Ferramentas > Ferramentas Manuais > Alicates"
+  },
+  {
+    "slug": "almofadas-capas-e-mantas",
+    "name": "Almofadas, capas e mantas",
+    "path": "Decoração > Almofadas, capas e mantas"
+  },
+  {
+    "slug": "aneis-de-vedacao",
+    "name": "Anéis de Vedação",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Anéis de Vedação"
+  },
+  {
+    "slug": "antenas-de-tv",
+    "name": "Antenas de TV",
+    "path": "Segurança e Comunicação > TV e acessórios > Antenas de TV"
+  },
+  {
+    "slug": "anti-mofo-e-aromatizantes",
+    "name": "Anti-mofo e aromatizantes",
+    "path": "Organização da Casa > Organização de Closet > Anti-mofo e aromatizantes"
+  },
+  {
+    "slug": "aparador-de-grama",
+    "name": "Aparador de grama",
+    "path": "Área Externa > Jardim > Aparador de grama"
+  },
+  {
+    "slug": "aplicacao-de-efeitos-e-texturas",
+    "name": "Aplicação de Efeitos e Texturas",
+    "path": "Tintas > Acessórios para Pintura > Aplicação de Efeitos e Texturas"
+  },
+  {
+    "slug": "aquecedor-de-agua-a-gas",
+    "name": "Aquecedor de água a gás",
+    "path": "Banheiro > Aquecedores de água e acessórios > Aquecedor de água a gás"
+  },
+  {
+    "slug": "aquecedor-de-agua-eletrico",
+    "name": "Aquecedor de água elétrico",
+    "path": "Banheiro > Aquecedores de água e acessórios > Aquecedor de água elétrico"
+  },
+  {
+    "slug": "aquecedores",
+    "name": "Aquecedores",
+    "path": "Climatização > Aquecedores de ar > Aquecedores"
+  },
+  {
+    "slug": "ar-condicionado-portatil",
+    "name": "Ar-condicionado portátil",
+    "path": "Climatização > Ar condicionado > Ar-condicionado portátil"
+  },
+  {
+    "slug": "ar-condicionado-split",
+    "name": "Ar-condicionado split",
+    "path": "Climatização > Ar condicionado > Ar-condicionado split"
+  },
+  {
+    "slug": "arame",
+    "name": "Arame",
+    "path": "Materiais de Construção > Aços para construção > Arame"
+  },
+  {
+    "slug": "arandela-externa",
+    "name": "Arandela externa",
+    "path": "Área Externa > Iluminação Externa > Arandela externa || Iluminação > Iluminação Externa > Arandela externa"
+  },
+  {
+    "slug": "arandela-interna",
+    "name": "Arandela Interna",
+    "path": "Iluminação > Luminárias > Arandela Interna || Decoração > Luminárias > Arandela Interna"
+  },
+  {
+    "slug": "argamassas",
+    "name": "Argamassas",
+    "path": "Pisos e Revestimentos > Argamassas e Rejuntes > Argamassas"
+  },
+  {
+    "slug": "armarios",
+    "name": "Armários",
+    "path": "Cozinha e Lavanderia > Móveis para Lavanderia > Armários"
+  },
+  {
+    "slug": "armarios-de-cozinha",
+    "name": "Armários de cozinha",
+    "path": "Cozinha e Lavanderia > Móveis para Cozinha > Armários de cozinha"
+  },
+  {
+    "slug": "armarios-e-espelheiras",
+    "name": "Armários e espelheiras",
+    "path": "Banheiro > Móveis para banheiro > Armários e espelheiras || Móveis > Móveis para Banheiro > Armários e Espelheiras"
+  },
+  {
+    "slug": "aspirador-de-po",
+    "name": "Aspirador de pó",
+    "path": "Organização da Casa > Limpeza e manutenção > Aspirador de pó"
+  },
+  {
+    "slug": "assento-sanitario",
+    "name": "Assento sanitário",
+    "path": "Banheiro > Vasos sanitários e assentos > Assento sanitário"
+  },
+  {
+    "slug": "bacia-para-caixa-acoplada",
+    "name": "Bacia para caixa acoplada",
+    "path": "Banheiro > Vasos sanitários e assentos > Bacia para caixa acoplada"
+  },
+  {
+    "slug": "bacia-sanitaria-convencional",
+    "name": "Bacia sanitária convencional",
+    "path": "Banheiro > Vasos sanitários e assentos > Bacia sanitária convencional"
+  },
+  {
+    "slug": "balcoes",
+    "name": "Balcões",
+    "path": "Cozinha e Lavanderia > Móveis para Cozinha > Balcões"
+  },
+  {
+    "slug": "baldes-e-bacias",
+    "name": "Baldes e bacias",
+    "path": "Organização da Casa > Organização de lavanderia > Baldes e bacias || Cozinha e Lavanderia > Organização de Lavanderia > Baldes e bacias"
+  },
+  {
+    "slug": "bancadas-e-lavatorios",
+    "name": "Bancadas e Lavatórios",
+    "path": "Móveis > Móveis para Banheiro > Bancadas e Lavatórios"
+  },
+  {
+    "slug": "bancadas-para-banheiro",
+    "name": "Bancadas para banheiro",
+    "path": "Banheiro > Móveis para banheiro > Bancadas para banheiro"
+  },
+  {
+    "slug": "bancos-e-banquetas",
+    "name": "Bancos e Banquetas",
+    "path": "Organização da Casa > Decoração > Bancos e Banquetas || Decoração > Gaveteiros, cadeiras e estantes > Bancos e banquetas"
+  },
+  {
+    "slug": "bandejas-e-cacambas",
+    "name": "Bandejas e Caçambas",
+    "path": "Tintas > Acessórios para Pintura > Bandejas e Caçambas"
+  },
+  {
+    "slug": "banheira-de-hidromassagem",
+    "name": "Banheira de hidromassagem",
+    "path": "Banheiro > Banheiras > Banheira de hidromassagem"
+  },
+  {
+    "slug": "barras-e-suportes",
+    "name": "Barras e Suportes",
+    "path": "Organização da Casa > Decoração > Barras e Suportes"
+  },
+  {
+    "slug": "barras-trilhos-e-suportes",
+    "name": "Barras, trilhos e suportes",
+    "path": "Organização da Casa > Decoração > Barras, trilhos e suportes"
+  },
+  {
+    "slug": "base-para-registros",
+    "name": "Base para registros",
+    "path": "Hidráulica > Registros  bases e válvulas > Base para registros"
+  },
+  {
+    "slug": "bases-para-registros-de-gaveta",
+    "name": "Bases para Registros de Gaveta",
+    "path": "Hidráulica > Registros  bases e válvulas > Bases para Registros de Gaveta"
+  },
+  {
+    "slug": "batente-de-porta",
+    "name": "Batente de porta",
+    "path": "Portas e Janelas > Batentes, Guarnições e Acessórios > Batente de porta"
+  },
+  {
+    "slug": "betoneiras",
+    "name": "Betoneiras",
+    "path": "Ferramentas > Preparo de Massa > Betoneiras || Materiais de Construção > Ferramentas para construção > Betoneiras || Materiais de Construção > Betoneiras"
+  },
+  {
+    "slug": "bica",
+    "name": "Bica",
+    "path": "Banheiro > Torneiras e misturadores para banheiro > Bica"
+  },
+  {
+    "slug": "bide",
+    "name": "Bidê",
+    "path": "Banheiro > Vasos sanitários e assentos > Bidê"
+  },
+  {
+    "slug": "biodigestores-e-fossa-septicas",
+    "name": "Biodigestores e fossa sépticas",
+    "path": "Hidráulica > Reservatórios > Biodigestores e fossa sépticas"
+  },
+  {
+    "slug": "bits-pontas-e-soquetes",
+    "name": "Bits, Pontas e Soquetes",
+    "path": "Ferramentas > Acessórios para Ferramentas > Bits, Pontas e Soquetes"
+  },
+  {
+    "slug": "bloco-celular",
+    "name": "Bloco Celular",
+    "path": "Materiais de Construção > Blocos e Tijolos > Bloco Celular"
+  },
+  {
+    "slug": "bloco-ceramico",
+    "name": "Bloco Cerâmico",
+    "path": "Materiais de Construção > Blocos e Tijolos > Bloco Cerâmico"
+  },
+  {
+    "slug": "bloco-concreto",
+    "name": "Bloco Concreto",
+    "path": "Materiais de Construção > Blocos e Tijolos > Bloco Concreto"
+  },
+  {
+    "slug": "bloco-de-vidro",
+    "name": "Bloco de Vidro",
+    "path": "Materiais de Construção > Blocos e Tijolos > Bloco de Vidro"
+  },
+  {
+    "slug": "boia-para-caixa-d-agua-filtro-e-refil",
+    "name": "Boia para Caixa D'Água, Filtro e Refil",
+    "path": "Hidráulica > Reservatórios > Boia para Caixa D'Água, Filtro e Refil"
+  },
+  {
+    "slug": "bolsa-de-ligacao",
+    "name": "Bolsa de Ligação",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Bolsa de Ligação"
+  },
+  {
+    "slug": "bolsas-e-mochilas-para-ferramentas",
+    "name": "Bolsas e mochilas para ferramentas",
+    "path": "Ferramentas > Organização de Ferramentas > Bolsas e mochilas para ferramentas"
+  },
+  {
+    "slug": "bombas-e-pressurizadores",
+    "name": "Bombas e Pressurizadores",
+    "path": "Hidráulica > Reservatórios > Bombas e Pressurizadores"
+  },
+  {
+    "slug": "bombas-hidraulicas",
+    "name": "Bombas hidraulicas",
+    "path": "Hidráulica > Bombas e pressurizadores > Bombas hidraulicas"
+  },
+  {
+    "slug": "bota-de-seguranca",
+    "name": "Bota de segurança",
+    "path": "Ferramentas > EPI > Bota de segurança"
+  },
+  {
+    "slug": "box-para-banheiro-e-acessorios",
+    "name": "Box para banheiro e acessórios",
+    "path": "Banheiro > Móveis para banheiro > Box para banheiro e acessórios"
+  },
+  {
+    "slug": "brocas",
+    "name": "Brocas",
+    "path": "Ferramentas > Acessórios para Ferramentas > Brocas"
+  },
+  {
+    "slug": "broxas",
+    "name": "Broxas",
+    "path": "Tintas > Acessórios para Pintura > Broxas"
+  },
+  {
+    "slug": "bucha-para-parafuso",
+    "name": "Bucha para parafuso",
+    "path": "Ferragens > Pregos, parafusos e buchas > Bucha para parafuso"
+  },
+  {
+    "slug": "buchas",
+    "name": "Buchas",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Buchas || Hidráulica > Conexões > Buchas"
+  },
+  {
+    "slug": "cabide",
+    "name": "Cabide",
+    "path": "Organização da Casa > Organização de lavanderia > Cabide"
+  },
+  {
+    "slug": "cabide-de-banheiro",
+    "name": "Cabide de banheiro",
+    "path": "Organização da Casa > Organização de banheiro > Cabide de banheiro"
+  },
+  {
+    "slug": "cabideiro-e-cabide",
+    "name": "Cabideiro e cabide",
+    "path": "Organização da Casa > Organização de Closet > Cabideiro e cabide"
+  },
+  {
+    "slug": "cabos-eletricos",
+    "name": "Cabos Elétricos",
+    "path": "Elétrica > Fios e Cabos > Cabos Elétricos"
+  },
+  {
+    "slug": "cadeados",
+    "name": "Cadeados",
+    "path": "Ferragens > Ferragem > Cadeados"
+  },
+  {
+    "slug": "cadeira-de-praia",
+    "name": "Cadeira de Praia",
+    "path": "Área Externa > Praia e Piscina > Cadeira de Praia"
+  },
+  {
+    "slug": "cadeiras-e-mesas",
+    "name": "Cadeiras e Mesas",
+    "path": "Organização da Casa > Decoração > Cadeiras e Mesas || Decoração > Gaveteiros, cadeiras e estantes > Cadeiras e Mesas"
+  },
+  {
+    "slug": "caibro",
+    "name": "Caibro",
+    "path": "Materiais de Construção > Madeiramento > Caibro"
+  },
+  {
+    "slug": "caixa-acoplada-para-bacia",
+    "name": "Caixa acoplada para bacia",
+    "path": "Banheiro > Vasos sanitários e assentos > Caixa acoplada para bacia"
+  },
+  {
+    "slug": "caixa-de-correio",
+    "name": "Caixa de Correio",
+    "path": "Ferragens > Ferragem > Caixa de Correio"
+  },
+  {
+    "slug": "caixa-de-luz",
+    "name": "Caixa de luz",
+    "path": "Elétrica > Caixas e Quadros Elétricos > Caixa de luz"
+  },
+  {
+    "slug": "caixa-organizadora",
+    "name": "Caixa organizadora",
+    "path": "Organização da Casa > Caixas e cestos > Caixa organizadora"
+  },
+  {
+    "slug": "caixas-d-agua",
+    "name": "Caixas D'Água",
+    "path": "Hidráulica > Reservatórios > Caixas D'Água"
+  },
+  {
+    "slug": "caixas-de-passagem",
+    "name": "Caixas de Passagem",
+    "path": "Hidráulica > Caixas sifonadas de inspeção e de gordura > Caixas de Passagem"
+  },
+  {
+    "slug": "caixas-de-passagem-eletrica",
+    "name": "Caixas de passagem elétrica",
+    "path": "Elétrica > Caixas e Quadros Elétricos > Caixas de passagem elétrica"
+  },
+  {
+    "slug": "caixas-e-carrinhos-para-ferramentas",
+    "name": "Caixas e carrinhos para ferramentas",
+    "path": "Ferramentas > Organização de Ferramentas > Caixas e carrinhos para ferramentas"
+  },
+  {
+    "slug": "caixas-e-ralos",
+    "name": "Caixas e Ralos",
+    "path": "Hidráulica > Tubos e Conexões > Caixas e Ralos"
+  },
+  {
+    "slug": "caixas-sifonadas-e-multiplas",
+    "name": "Caixas Sifonadas e Múltiplas",
+    "path": "Hidráulica > Caixas sifonadas de inspeção e de gordura > Caixas Sifonadas e Múltiplas"
+  },
+  {
+    "slug": "cal",
+    "name": "Cal",
+    "path": "Materiais de Construção > Cimento, Areia e Pedra (Sacaria) > Cal"
+  },
+  {
+    "slug": "cal-para-pintura",
+    "name": "Cal para Pintura",
+    "path": "Tintas > Tintas e Corantes > Cal para Pintura"
+  },
+  {
+    "slug": "calhas-e-rufos",
+    "name": "Calhas e Rufos",
+    "path": "Materiais de Construção > Telhas, Calhas e Rufos > Calhas e Rufos"
+  },
+  {
+    "slug": "campainha",
+    "name": "Campainha",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Campainha"
+  },
+  {
+    "slug": "campainhas",
+    "name": "Campainhas",
+    "path": "Segurança e Comunicação > Fechaduras elétricas, campainhas e outros > Campainhas || Elétrica > Tomadas e Interruptores > Campainhas"
+  },
+  {
+    "slug": "canaletas-e-acessorios",
+    "name": "Canaletas e Acessórios",
+    "path": "Elétrica > Eletrodutos e Conduítes > Canaletas e Acessórios"
+  },
+  {
+    "slug": "cantos",
+    "name": "Cantos",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Cantos"
+  },
+  {
+    "slug": "capacete-de-seguranca",
+    "name": "Capacete de segurança",
+    "path": "Ferramentas > EPI > Capacete de segurança"
+  },
+  {
+    "slug": "capas-coletes-e-aventais",
+    "name": "Capas, Coletes e Aventais",
+    "path": "Ferramentas > EPI > Capas, Coletes e Aventais"
+  },
+  {
+    "slug": "capas-para-tabua-e-maquina-de-lavar",
+    "name": "Capas para tábua e máquina de lavar",
+    "path": "Organização da Casa > Organização de lavanderia > Capas para tábua e máquina de lavar || Cozinha e Lavanderia > Organização de Lavanderia > Máquina de lavar"
+  },
+  {
+    "slug": "caps",
+    "name": "Caps",
+    "path": "Hidráulica > Conexões > Caps"
+  },
+  {
+    "slug": "carregador-de-bateria",
+    "name": "Carregador de bateria",
+    "path": "Elétrica > Carregador de bateria"
+  },
+  {
+    "slug": "cavaletes",
+    "name": "Cavaletes",
+    "path": "Ferragens > Cavaletes"
+  },
+  {
+    "slug": "cesto-para-lixo",
+    "name": "Cesto para Lixo",
+    "path": "Organização da Casa > Organização de lavanderia > Cesto para Lixo"
+  },
+  {
+    "slug": "cestos",
+    "name": "Cestos",
+    "path": "Organização da Casa > Caixas e cestos > Cestos || Cozinha e Lavanderia > Organização de Lavanderia > Cestos"
+  },
+  {
+    "slug": "chaves",
+    "name": "Chaves",
+    "path": "Ferramentas > Ferramentas Manuais > Chaves"
+  },
+  {
+    "slug": "chumbadores-e-barras-roscada",
+    "name": "Chumbadores e Barras Roscada",
+    "path": "Ferragens > Pregos, parafusos e buchas > Chumbadores e Barras Roscada"
+  },
+  {
+    "slug": "chumbadores-e-barras-roscadas",
+    "name": "Chumbadores e Barras Roscadas",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Chumbadores e Barras Roscadas"
+  },
+  {
+    "slug": "churrasqueira",
+    "name": "Churrasqueira",
+    "path": "Área Externa > Churrasqueiras > Churrasqueira"
+  },
+  {
+    "slug": "chuveiro-eletrico",
+    "name": "Chuveiro Elétrico",
+    "path": "Banheiro > Chuveiros e Duchas > Chuveiro Elétrico"
+  },
+  {
+    "slug": "cimento",
+    "name": "Cimento",
+    "path": "Materiais de Construção > Cimento, Areia e Pedra (Sacaria) > Cimento"
+  },
+  {
+    "slug": "cinto-de-seguranca",
+    "name": "Cinto de segurança",
+    "path": "Ferramentas > EPI > Cinto de segurança"
+  },
+  {
+    "slug": "circulador-de-ar",
+    "name": "Circulador de ar",
+    "path": "Climatização > Ventiladores > Circulador de ar"
+  },
+  {
+    "slug": "cisternas",
+    "name": "Cisternas",
+    "path": "Hidráulica > Reservatórios > Cisternas"
+  },
+  {
+    "slug": "climatizador-de-ar",
+    "name": "Climatizador de ar",
+    "path": "Climatização > Tratamento de ar > Climatizador de ar"
+  },
+  {
+    "slug": "cofres",
+    "name": "Cofres",
+    "path": "Ferragens > Cofres"
+  },
+  {
+    "slug": "coifas",
+    "name": "Coifas",
+    "path": "Cozinha e Lavanderia > Fogão, Forno e Coifa > Coifas"
+  },
+  {
+    "slug": "colas-de-contato",
+    "name": "Colas de Contato",
+    "path": "Tintas > Colas e Adesivos > Colas de Contato"
+  },
+  {
+    "slug": "colas-e-adesivos",
+    "name": "Colas e Adesivos",
+    "path": "Tintas > Colas e Adesivos > Colas e Adesivos"
+  },
+  {
+    "slug": "colas-e-adesivos-epoxi",
+    "name": "Colas e Adesivos Epóxi",
+    "path": "Tintas > Colas e Adesivos > Colas e Adesivos Epóxi"
+  },
+  {
+    "slug": "colas-multiuso",
+    "name": "Colas Multiuso",
+    "path": "Tintas > Colas e Adesivos > Colas Multiuso"
+  },
+  {
+    "slug": "colas-silicones-e-vedantes",
+    "name": "Colas, Silicones e Vedantes",
+    "path": "Materiais de Construção > Impermeabilizantes > Colas, Silicones e Vedantes"
+  },
+  {
+    "slug": "colher-de-pedreiro",
+    "name": "Colher de Pedreiro",
+    "path": "Ferramentas > Ferramentas para construção > Colher de Pedreiro || Materiais de Construção > Ferramentas para construção > Colher de Pedreiro"
+  },
+  {
+    "slug": "coluna-de-aco",
+    "name": "Coluna de Aço",
+    "path": "Materiais de Construção > Aços para construção > Coluna de Aço"
+  },
+  {
+    "slug": "coluna-para-lavatorio",
+    "name": "Coluna para Lavatório",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Coluna para Lavatório"
+  },
+  {
+    "slug": "colunas-e-balaustres",
+    "name": "Colunas e balaústres",
+    "path": "Materiais de Construção > Colunas e balaústres"
+  },
+  {
+    "slug": "compressor-de-ar",
+    "name": "Compressor de ar",
+    "path": "Ferramentas > Compressor de ar"
+  },
+  {
+    "slug": "compressores",
+    "name": "Compressores",
+    "path": "Tintas > Pistolas para Pintura > Compressores"
+  },
+  {
+    "slug": "conduites",
+    "name": "Conduítes",
+    "path": "Elétrica > Eletrodutos e Conduítes > Conduítes"
+  },
+  {
+    "slug": "cone-de-sinalizacao",
+    "name": "Cone de sinalização",
+    "path": "Ferramentas > Sinalização > Cone de sinalização"
+  },
+  {
+    "slug": "conectores",
+    "name": "Conectores",
+    "path": "Elétrica > Acessórios Elétricos > Conectores"
+  },
+  {
+    "slug": "conjuntos-montados-de-tomada-e-interruptor",
+    "name": "Conjuntos montados de tomada e interruptor",
+    "path": "Elétrica > Tomadas e Interruptores > Conjuntos montados de tomada e interruptor"
+  },
+  {
+    "slug": "controle-para-ventilador-e-acessorios",
+    "name": "Controle para ventilador e acessórios",
+    "path": "Climatização > Ventiladores > Controle para ventilador e acessórios"
+  },
+  {
+    "slug": "convertedores-de-ferrugem",
+    "name": "Convertedores de ferrugem",
+    "path": "Tintas > Pintura para madeira e metal > Convertedores de ferrugem"
+  },
+  {
+    "slug": "cooktops",
+    "name": "Cooktops e Fogão de Indução",
+    "path": "Cozinha e Lavanderia > Fogão, Forno e Coifa > Cooktops e Fogão de Indução"
+  },
+  {
+    "slug": "cordas-e-correntes",
+    "name": "Cordas e Correntes",
+    "path": "Ferragens > Ferragem > Cordas e Correntes"
+  },
+  {
+    "slug": "cordas-e-elasticos",
+    "name": "Cordas e Elásticos",
+    "path": "Ferramentas > Ferramentas Manuais > Cordas e Elásticos"
+  },
+  {
+    "slug": "corpo-de-caixa-sifonada",
+    "name": "Corpo de Caixa Sifonada",
+    "path": "Hidráulica > Caixas sifonadas de inspeção e de gordura > Corpo de Caixa Sifonada"
+  },
+  {
+    "slug": "cortadores-manuais",
+    "name": "Cortadores manuais",
+    "path": "Ferramentas > Ferramentas Manuais > Cortadores manuais"
+  },
+  {
+    "slug": "cortinas-e-acessorios",
+    "name": "Cortinas e acessórios",
+    "path": "Decoração > Tapetes e cortinas > Cortinas e acessórios"
+  },
+  {
+    "slug": "cuba-de-cozinha",
+    "name": "Cuba de cozinha",
+    "path": "Cozinha e Lavanderia > Pias, Cubas e Tanques > Cuba de cozinha"
+  },
+  {
+    "slug": "cuba-para-banheiro",
+    "name": "Cuba para banheiro",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Cuba para banheiro"
+  },
+  {
+    "slug": "cupinicidas",
+    "name": "Cupinicidas",
+    "path": "Tintas > Pintura para madeira e metal > Cupinicidas"
+  },
+  {
+    "slug": "curvas",
+    "name": "Curvas",
+    "path": "Hidráulica > Conexões > Curvas"
+  },
+  {
+    "slug": "derivacoes",
+    "name": "Derivações",
+    "path": "Elétrica > Eletrodutos e Conduítes > Derivações"
+  },
+  {
+    "slug": "desempenadeira",
+    "name": "Desempenadeira",
+    "path": "Ferramentas > Ferramentas para construção > Desempenadeira || Materiais de Construção > Ferramentas para construção > Desempenadeira"
+  },
+  {
+    "slug": "disco-de-corte",
+    "name": "Disco de corte",
+    "path": "Ferramentas > Acessórios para Ferramentas > Disco de corte"
+  },
+  {
+    "slug": "disjuntores",
+    "name": "Disjuntores",
+    "path": "Elétrica > Disjuntores e Fusíveis > Disjuntores"
+  },
+  {
+    "slug": "dispositivos-de-protecao",
+    "name": "Dispositivos de Proteção",
+    "path": "Elétrica > Disjuntores e Fusíveis > Dispositivos de Proteção"
+  },
+  {
+    "slug": "dobradicas",
+    "name": "Dobradiças",
+    "path": "Ferragens > Ferragem > Dobradiças"
+  },
+  {
+    "slug": "ducha",
+    "name": "Ducha",
+    "path": "Banheiro > Chuveiros e Duchas > Ducha"
+  },
+  {
+    "slug": "ducha-higienica",
+    "name": "Ducha Higiênica",
+    "path": "Banheiro > Ducha Higiênica e Acessórios > Ducha Higiênica"
+  },
+  {
+    "slug": "elementos-vazados",
+    "name": "Elementos Vazados",
+    "path": "Materiais de Construção > Blocos e Tijolos > Elementos Vazados"
+  },
+  {
+    "slug": "eletrico",
+    "name": "Elétrico",
+    "path": "Climatização > Aquecedores de ar > Elétrico"
+  },
+  {
+    "slug": "eletrodutos",
+    "name": "Eletrodutos",
+    "path": "Elétrica > Eletrodutos e Conduítes > Eletrodutos"
+  },
+  {
+    "slug": "enxadas",
+    "name": "Enxadas",
+    "path": "Materiais de Construção > Ferramentas para construção > Enxadas"
+  },
+  {
+    "slug": "epis",
+    "name": "EPIs",
+    "path": "Elétrica > EPIs || Materiais de Construção > EPIs"
+  },
+  {
+    "slug": "epoxi",
+    "name": "Epóxi",
+    "path": "Tintas > Tintas e Corantes > Epóxi"
+  },
+  {
+    "slug": "escada-portatil",
+    "name": "Escada portátil",
+    "path": "Organização da Casa > Escada portátil || Materiais de Construção > Escadas > Escada portátil"
+  },
+  {
+    "slug": "escada-profissional",
+    "name": "Escada profissional",
+    "path": "Materiais de Construção > Escadas > Escada profissional"
+  },
+  {
+    "slug": "escorredor-de-louca",
+    "name": "Escorredor de louça",
+    "path": "Organização da Casa > Organização de cozinha > Escorredor de louça || Cozinha e Lavanderia > Organização de cozinha > Escorredor de louça"
+  },
+  {
+    "slug": "escova-e-esponja-de-limpeza",
+    "name": "Escova e esponja de limpeza",
+    "path": "Organização da Casa > Organização de lavanderia > Escova e esponja de limpeza"
+  },
+  {
+    "slug": "esmaltes",
+    "name": "Esmaltes",
+    "path": "Tintas > Tintas e Corantes > Esmaltes"
+  },
+  {
+    "slug": "esmerilhadeiras",
+    "name": "Esmerilhadeiras",
+    "path": "Ferramentas > Ferramentas Elétricas > Esmerilhadeiras"
+  },
+  {
+    "slug": "espatulas",
+    "name": "Espátulas",
+    "path": "Ferramentas > Ferramentas para construção > Espátulas || Tintas > Acessórios para Pintura > Espátulas || Materiais de Construção > Ferramentas para construção > Espátulas"
+  },
+  {
+    "slug": "espelhos",
+    "name": "Espelhos",
+    "path": "Banheiro > Móveis para banheiro > Espelhos || Móveis > Móveis para Banheiro > Espelhos || Decoração > Gaveteiros, cadeiras e estantes > Espelhos"
+  },
+  {
+    "slug": "estabilizador-de-voltagem",
+    "name": "Estabilizador de voltagem",
+    "path": "Elétrica > Filtros de linha e Extensões > Estabilizador de voltagem"
+  },
+  {
+    "slug": "estantes-e-prateleiras",
+    "name": "Estantes e Prateleiras",
+    "path": "Organização da Casa > Decoração > Estantes e Prateleiras"
+  },
+  {
+    "slug": "estopa",
+    "name": "Estopa",
+    "path": "Tintas > Limpeza e Manutenção > Estopa"
+  },
+  {
+    "slug": "estopa-para-pintura",
+    "name": "Estopa para pintura",
+    "path": "Tintas > Acessórios para Pintura > Estopa para pintura"
+  },
+  {
+    "slug": "estribos",
+    "name": "Estribos",
+    "path": "Materiais de Construção > Aços para construção > Estribos"
+  },
+  {
+    "slug": "exaustores",
+    "name": "Exaustores",
+    "path": "Climatização > Ventiladores > Exaustores || Cozinha e Lavanderia > Exaustores"
+  },
+  {
+    "slug": "extensao-eletrica",
+    "name": "Extensão elétrica",
+    "path": "Elétrica > Filtros de linha e Extensões > Extensão elétrica"
+  },
+  {
+    "slug": "faixas-e-filetes",
+    "name": "Faixas e Filetes",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Faixas e Filetes"
+  },
+  {
+    "slug": "fechadura-de-porta",
+    "name": "Fechadura de porta",
+    "path": "Ferragens > Fechaduras e Travas > Fechadura de porta"
+  },
+  {
+    "slug": "fechaduras-e-travas",
+    "name": "Fechaduras e travas",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Fechaduras e travas"
+  },
+  {
+    "slug": "fechaduras-eletricas",
+    "name": "Fechaduras Elétricas",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Fechaduras Elétricas || Segurança e Comunicação > Fechaduras elétricas, campainhas e outros > Fechaduras elétricas"
+  },
+  {
+    "slug": "feltros",
+    "name": "Feltros",
+    "path": "Organização da Casa > Itens para proteção da casa > Feltros"
+  },
+  {
+    "slug": "ferramenta-para-assentamento-de-piso",
+    "name": "Ferramenta para assentamento de piso",
+    "path": "Ferramentas > Ferramentas para construção > Ferramenta para assentamento de piso || Materiais de Construção > Ferramentas para construção > Ferramenta para assentamento de piso"
+  },
+  {
+    "slug": "ferramentas-de-jardinagem",
+    "name": "Ferramentas de jardinagem",
+    "path": "Área Externa > Jardim > Ferramentas de jardinagem"
+  },
+  {
+    "slug": "ferros-para-solda",
+    "name": "Ferros para Solda",
+    "path": "Ferramentas > Soldagem > Ferros para Solda"
+  },
+  {
+    "slug": "filetes",
+    "name": "Filetes",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Filetes"
+  },
+  {
+    "slug": "filtro",
+    "name": "Filtro",
+    "path": "Organização da Casa > Organização de lavanderia > Filtro"
+  },
+  {
+    "slug": "filtro-de-linha",
+    "name": "Filtro de linha",
+    "path": "Elétrica > Filtros de linha e Extensões > Filtro de linha"
+  },
+  {
+    "slug": "filtros-de-agua",
+    "name": "Filtros de água",
+    "path": "Cozinha e Lavanderia > Filtros e Purificadores > Filtros de água"
+  },
+  {
+    "slug": "fios",
+    "name": "Fios",
+    "path": "Elétrica > Fios e Cabos > Fios"
+  },
+  {
+    "slug": "fita-adesiva-antiderrapante",
+    "name": "Fita adesiva antiderrapante",
+    "path": "Organização da Casa > Itens para proteção da casa > Fita adesiva antiderrapante"
+  },
+  {
+    "slug": "fita-de-led",
+    "name": "Fita de LED",
+    "path": "Iluminação > LED > Fita de LED"
+  },
+  {
+    "slug": "fita-veda-rosca",
+    "name": "Fita Veda Rosca",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Fita Veda Rosca"
+  },
+  {
+    "slug": "fitas",
+    "name": "Fitas",
+    "path": "Tintas > Acessórios para Pintura > Fitas"
+  },
+  {
+    "slug": "fitas-de-sinalizacao",
+    "name": "Fitas de Sinalização",
+    "path": "Ferramentas > Sinalização > Fitas de Sinalização"
+  },
+  {
+    "slug": "fitas-isolantes",
+    "name": "Fitas Isolantes",
+    "path": "Elétrica > Acessórios Elétricos > Fitas Isolantes"
+  },
+  {
+    "slug": "flexiveis",
+    "name": "Flexíveis",
+    "path": "Hidráulica > Flexíveis e Sifões > Flexíveis"
+  },
+  {
+    "slug": "flexiveis-e-sifoes",
+    "name": "Flexíveis e sifões",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Flexíveis e sifões || Cozinha e Lavanderia > Pias, Cubas e Tanques > Flexíveis e sifões"
+  },
+  {
+    "slug": "fogao-a-lenha",
+    "name": "Fogão à Lenha",
+    "path": "Materiais de Construção > Forno, Churrasqueira e Lareira > Fogão à Lenha"
+  },
+  {
+    "slug": "fogao-forno-e-coifa",
+    "name": "Fogão, Forno a gás",
+    "path": "Cozinha e Lavanderia > Fogão, Forno e Coifa > Fogão, Forno a gás"
+  },
+  {
+    "slug": "fornos-eletricos",
+    "name": "Fornos Elétricos",
+    "path": "Cozinha e Lavanderia > Fogão, Forno e Coifa > Fornos Elétricos"
+  },
+  {
+    "slug": "forros",
+    "name": "Forros",
+    "path": "Materiais de Construção > Forros e acabamentos > Forros"
+  },
+  {
+    "slug": "fruteira",
+    "name": "Fruteira",
+    "path": "Organização da Casa > Organização de cozinha > Fruteira || Cozinha e Lavanderia > Organização de cozinha > Fruteira"
+  },
+  {
+    "slug": "fundo-preparador",
+    "name": "Fundo Preparador",
+    "path": "Tintas > Preparação e Tratamento > Fundo Preparador"
+  },
+  {
+    "slug": "fundos-e-seladores",
+    "name": "Fundos e Seladores",
+    "path": "Tintas > Preparação e Tratamento > Fundos e Seladores"
+  },
+  {
+    "slug": "furadeiras",
+    "name": "Furadeiras",
+    "path": "Ferramentas > Ferramentas Elétricas > Furadeiras"
+  },
+  {
+    "slug": "fusiveis",
+    "name": "Fusíveis",
+    "path": "Elétrica > Disjuntores e Fusíveis > Fusíveis"
+  },
+  {
+    "slug": "gabinete-e-balcao-de-cozinha",
+    "name": "Balcão de cozinha",
+    "path": "Cozinha e Lavanderia > Móveis para Cozinha > Balcão de cozinha"
+  },
+  {
+    "slug": "gabinete-para-banheiro",
+    "name": "Gabinete para banheiro",
+    "path": "Banheiro > Móveis para banheiro > Gabinete para banheiro"
+  },
+  {
+    "slug": "gabinetes",
+    "name": "Gabinetes",
+    "path": "Cozinha e Lavanderia > Móveis para Lavanderia > Gabinetes"
+  },
+  {
+    "slug": "ganchos-adesivos",
+    "name": "Ganchos adesivos",
+    "path": "Organização da Casa > Itens para proteção da casa > Ganchos adesivos"
+  },
+  {
+    "slug": "ganchos-de-rede",
+    "name": "Ganchos de Rede",
+    "path": "Ferragens > Ferragem > Ganchos de Rede"
+  },
+  {
+    "slug": "ganchos-escapulas-e-pitoes",
+    "name": "Ganchos, Escápulas e Pitões",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Ganchos, Escápulas e Pitões || Ferragens > Pregos, parafusos e buchas > Ganchos, Escápulas e Pitões"
+  },
+  {
+    "slug": "gaveteiro",
+    "name": "Gaveteiro",
+    "path": "Decoração > Gaveteiros, cadeiras e estantes > Gaveteiro"
+  },
+  {
+    "slug": "gesso",
+    "name": "Gesso",
+    "path": "Materiais de Construção > Cimento, Areia e Pedra (Sacaria) > Gesso"
+  },
+  {
+    "slug": "grade-de-protecao",
+    "name": "Grade de proteção",
+    "path": "Organização da Casa > Itens para proteção da casa > Grade de proteção"
+  },
+  {
+    "slug": "grama-sintetica",
+    "name": "Grama sintética",
+    "path": "Área Externa > Jardim > Grama sintética"
+  },
+  {
+    "slug": "grelhas",
+    "name": "Grelhas",
+    "path": "Hidráulica > Ralos e grelhas > Grelhas"
+  },
+  {
+    "slug": "guarda-sol",
+    "name": "Guarda-sol",
+    "path": "Área Externa > Praia e Piscina > Guarda-sol"
+  },
+  {
+    "slug": "guarnicao-de-porta-e-janela",
+    "name": "Guarnição de porta e janela",
+    "path": "Portas e Janelas > Batentes, Guarnições e Acessórios > Guarnição de porta e janela"
+  },
+  {
+    "slug": "guinchos",
+    "name": "Guinchos",
+    "path": "Materiais de Construção > Ferramentas para construção > Guinchos"
+  },
+  {
+    "slug": "interfone-extensao-para-video-porteiro-e-outros",
+    "name": "Interfone, extensão para vídeo-porteiro e outros",
+    "path": "Segurança e Comunicação > Porteiro eletrônico e Video-porteiro > Interfone, extensão para vídeo-porteiro e outros"
+  },
+  {
+    "slug": "interruptores",
+    "name": "Interruptores",
+    "path": "Elétrica > Tomadas e Interruptores > Interruptores"
+  },
+  {
+    "slug": "janela-de-aco",
+    "name": "Janela de Aço",
+    "path": "Portas e Janelas > Janelas > Janela de Aço"
+  },
+  {
+    "slug": "janela-de-aluminio",
+    "name": "Janela de alumínio",
+    "path": "Portas e Janelas > Janelas > Janela de alumínio"
+  },
+  {
+    "slug": "janela-de-madeira",
+    "name": "Janela de Madeira",
+    "path": "Portas e Janelas > Janelas > Janela de Madeira"
+  },
+  {
+    "slug": "joelhos",
+    "name": "Joelhos",
+    "path": "Elétrica > Eletrodutos e Conduítes > Joelhos || Hidráulica > Conexões > Joelhos"
+  },
+  {
+    "slug": "kit-de-ferramentas",
+    "name": "Kit de Ferramentas",
+    "path": "Ferramentas > Ferramentas Manuais > Kit de Ferramentas"
+  },
+  {
+    "slug": "kit-de-porta-montada",
+    "name": "Kit de Porta Montada",
+    "path": "Portas e Janelas > Portas > Kit de Porta Montada"
+  },
+  {
+    "slug": "kits",
+    "name": "Kits",
+    "path": "Organização da Casa > Organização de lavanderia > Kits"
+  },
+  {
+    "slug": "kits-para-banheiro",
+    "name": "Kits para banheiro",
+    "path": "Organização da Casa > Organização de banheiro > Kits para banheiro"
+  },
+  {
+    "slug": "kits-para-pintura",
+    "name": "Kits para pintura",
+    "path": "Tintas > Acessórios para Pintura > Kits para pintura"
+  },
+  {
+    "slug": "laminas-tico-tico",
+    "name": "Lâminas Tico Tico",
+    "path": "Ferramentas > Acessórios para Ferramentas > Lâminas Tico Tico"
+  },
+  {
+    "slug": "lampadas-de-filamento",
+    "name": "Lâmpadas de filamento",
+    "path": "Iluminação > Lâmpadas > Lâmpadas de filamento"
+  },
+  {
+    "slug": "lampadas-de-led",
+    "name": "Lâmpadas de LED",
+    "path": "Iluminação > Lâmpadas > Lâmpadas de LED || Iluminação > LED > Lâmpadas de LED"
+  },
+  {
+    "slug": "lampadas-fluorescentes",
+    "name": "Lâmpadas Fluorescentes",
+    "path": "Iluminação > Lâmpadas > Lâmpadas Fluorescentes"
+  },
+  {
+    "slug": "lampadas-halogenas",
+    "name": "Lâmpadas Halógenas",
+    "path": "Iluminação > Lâmpadas > Lâmpadas Halógenas"
+  },
+  {
+    "slug": "lampadas-mistas",
+    "name": "Lâmpadas Mistas",
+    "path": "Iluminação > Lâmpadas > Lâmpadas Mistas"
+  },
+  {
+    "slug": "lapis-riscadores-e-acessorios",
+    "name": "Lápis, riscadores e acessórios",
+    "path": "Ferramentas > Ferramentas para construção > Lápis, riscadores e acessórios || Materiais de Construção > Ferramentas para construção > Lápis, riscadores e acessórios"
+  },
+  {
+    "slug": "lareira",
+    "name": "Lareira",
+    "path": "Materiais de Construção > Forno, Churrasqueira e Lareira > Lareira"
+  },
+  {
+    "slug": "lavabo",
+    "name": "Lavabo",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Lavabo"
+  },
+  {
+    "slug": "lavadoras-de-alta-pressao",
+    "name": "Lavadoras de Alta Pressão",
+    "path": "Ferramentas > Lavadoras de Alta Pressão"
+  },
+  {
+    "slug": "lavatorio-de-banheiro",
+    "name": "Lavatório de banheiro",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Lavatório de banheiro"
+  },
+  {
+    "slug": "limas",
+    "name": "Limas",
+    "path": "Ferramentas > Ferramentas Manuais > Limas"
+  },
+  {
+    "slug": "limpadores-multiuso",
+    "name": "Limpadores Multiuso",
+    "path": "Tintas > Limpeza e Manutenção > Limpadores Multiuso"
+  },
+  {
+    "slug": "limpeza-pos-obra",
+    "name": "Limpeza pós obra",
+    "path": "Organização da Casa > Limpeza e manutenção > Limpeza pós obra"
+  },
+  {
+    "slug": "listelos",
+    "name": "Listelos",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Listelos"
+  },
+  {
+    "slug": "lixas",
+    "name": "Lixas",
+    "path": "Ferramentas > Acessórios para Ferramentas > Lixas"
+  },
+  {
+    "slug": "lixas-para-pintura",
+    "name": "Lixas para pintura",
+    "path": "Tintas > Acessórios para Pintura > Lixas para pintura"
+  },
+  {
+    "slug": "lixeira",
+    "name": "Lixeira",
+    "path": "Organização da Casa > Organização de banheiro > Lixeira || Cozinha e Lavanderia > Organização de cozinha > Lixeira"
+  },
+  {
+    "slug": "lixeiras",
+    "name": "Lixeiras",
+    "path": "Organização da Casa > Lixeiras > Lixeiras || Cozinha e Lavanderia > Organização de Lavanderia > Lixeiras"
+  },
+  {
+    "slug": "lonas",
+    "name": "Lonas",
+    "path": "Organização da Casa > Limpeza e manutenção > Lonas"
+  },
+  {
+    "slug": "luminaria-de-embutir",
+    "name": "Luminária de Embutir",
+    "path": "Iluminação > Luminárias > Luminária de Embutir || Decoração > Luminárias > Luminária de Embutir"
+  },
+  {
+    "slug": "luminaria-infantil",
+    "name": "Luminária Infantil",
+    "path": "Iluminação > Luminárias > Luminária Infantil || Decoração > Luminárias > Luminária Infantil"
+  },
+  {
+    "slug": "luminarias-de-led",
+    "name": "Luminárias de LED",
+    "path": "Iluminação > LED > Luminárias de LED"
+  },
+  {
+    "slug": "luminarias-de-teto",
+    "name": "Luminárias de Teto",
+    "path": "Iluminação > Luminárias > Luminárias de Teto || Decoração > Luminárias > Luminárias de Teto"
+  },
+  {
+    "slug": "lustres",
+    "name": "Lustres",
+    "path": "Iluminação > Luminárias > Lustres"
+  },
+  {
+    "slug": "lustres-e-pendentes",
+    "name": "Lustres e Pendentes",
+    "path": "Iluminação > Luminárias > Lustres e Pendentes || Decoração > Luminárias > Lustres e Pendentes"
+  },
+  {
+    "slug": "luvas",
+    "name": "Luvas",
+    "path": "Hidráulica > Conexões > Luvas || Hidráulica > Conexões > Luvas"
+  },
+  {
+    "slug": "luvas-de-protecao",
+    "name": "Luvas de proteção",
+    "path": "Ferramentas > EPI > Luvas de proteção"
+  },
+  {
+    "slug": "luz-de-emergencia",
+    "name": "Luz de Emergência",
+    "path": "Iluminação > Complementos e Acessórios > Luz de Emergência"
+  },
+  {
+    "slug": "luz-noturna",
+    "name": "Luz noturna",
+    "path": "Iluminação > Luminárias > Luz noturna || Decoração > Luminárias > Luz noturna"
+  },
+  {
+    "slug": "malhas-e-telas",
+    "name": "Malhas e Telas",
+    "path": "Materiais de Construção > Aços para construção > Malhas e Telas"
+  },
+  {
+    "slug": "mangueira-e-acessorios",
+    "name": "Mangueira e acessórios",
+    "path": "Área Externa > Jardim > Mangueira e acessórios"
+  },
+  {
+    "slug": "manta-liquida",
+    "name": "Manta líquida",
+    "path": "Materiais de Construção > Impermeabilizantes > Manta líquida"
+  },
+  {
+    "slug": "mantas",
+    "name": "Mantas",
+    "path": "Materiais de Construção > Construção à Seco > Mantas"
+  },
+  {
+    "slug": "mantas-em-rolo",
+    "name": "Mantas em Rolo",
+    "path": "Materiais de Construção > Impermeabilizantes > Mantas em Rolo"
+  },
+  {
+    "slug": "maquinas-de-solda",
+    "name": "Máquinas de Solda",
+    "path": "Ferramentas > Ferramentas Elétricas > Máquinas de Solda"
+  },
+  {
+    "slug": "martelete-eletrico",
+    "name": "Martelete elétrico",
+    "path": "Ferramentas > Ferramentas Elétricas > Martelete elétrico"
+  },
+  {
+    "slug": "martelos-e-marretas",
+    "name": "Martelos e Marretas",
+    "path": "Ferramentas > Ferramentas Manuais > Martelos e Marretas"
+  },
+  {
+    "slug": "mascara-de-protecao",
+    "name": "Máscara de proteção",
+    "path": "Ferramentas > EPI > Máscara de proteção"
+  },
+  {
+    "slug": "massa-acrilica",
+    "name": "Massa Acrílica",
+    "path": "Tintas > Massas > Massa Acrílica"
+  },
+  {
+    "slug": "massa-corrida",
+    "name": "Massa Corrida",
+    "path": "Tintas > Massas > Massa Corrida"
+  },
+  {
+    "slug": "massas",
+    "name": "Massas",
+    "path": "Tintas > Preparação e Tratamento > Massas"
+  },
+  {
+    "slug": "maxim-ar",
+    "name": "Maxim-ar",
+    "path": "Portas e Janelas > Janelas > Maxim-ar"
+  },
+  {
+    "slug": "medicao",
+    "name": "Medição",
+    "path": "Ferramentas > Ferramentas Manuais > Medição"
+  },
+  {
+    "slug": "micro-retificas",
+    "name": "Micro Retíficas",
+    "path": "Ferramentas > Ferramentas Elétricas > Micro Retíficas"
+  },
+  {
+    "slug": "mictorio",
+    "name": "Mictório",
+    "path": "Banheiro > Vasos sanitários e assentos > Mictório"
+  },
+  {
+    "slug": "misturador-para-banheiro",
+    "name": "Misturador para banheiro",
+    "path": "Banheiro > Torneiras e misturadores para banheiro > Misturador para banheiro"
+  },
+  {
+    "slug": "misturador-para-cozinha",
+    "name": "Misturador para cozinha",
+    "path": "Cozinha e Lavanderia > Torneiras e Misturadores > Misturador para cozinha"
+  },
+  {
+    "slug": "modulo-e-nicho",
+    "name": "Módulo e Nicho",
+    "path": "Banheiro > Móveis para banheiro > Módulo e Nicho"
+  },
+  {
+    "slug": "modulos-de-protecao",
+    "name": "Módulos de proteção",
+    "path": "Organização da Casa > Itens para proteção da casa > Módulos de proteção"
+  },
+  {
+    "slug": "molas-aereas",
+    "name": "Molas Aéreas",
+    "path": "Ferragens > Ferragem > Molas Aéreas"
+  },
+  {
+    "slug": "molduras-decorativas",
+    "name": "Molduras decorativas",
+    "path": "Decoração > Decoração criativa > Molduras decorativas"
+  },
+  {
+    "slug": "monocomando",
+    "name": "Monocomando",
+    "path": "Banheiro > Torneiras e misturadores para banheiro > Monocomando"
+  },
+  {
+    "slug": "mosaicos",
+    "name": "Mosaicos",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Mosaicos"
+  },
+  {
+    "slug": "moto-esmeril",
+    "name": "Moto Esmeril",
+    "path": "Ferramentas > Ferramentas Elétricas > Moto Esmeril"
+  },
+  {
+    "slug": "motosserras",
+    "name": "Motosserras",
+    "path": "Ferramentas > Ferramentas Elétricas > Motosserras"
+  },
+  {
+    "slug": "movel-para-piscina",
+    "name": "Móvel para Piscina",
+    "path": "Área Externa > Praia e Piscina > Móvel para Piscina"
+  },
+  {
+    "slug": "nichos",
+    "name": "Nichos",
+    "path": "Decoração > Gaveteiros, cadeiras e estantes > Nichos"
+  },
+  {
+    "slug": "numeros-e-letras-residenciais",
+    "name": "Números e letras residenciais",
+    "path": "Ferragens > Ferragem > Números e letras residenciais"
+  },
+  {
+    "slug": "oculos-de-protecao",
+    "name": "Óculos de proteção",
+    "path": "Ferramentas > EPI > Óculos de proteção"
+  },
+  {
+    "slug": "oleos-e-lubrificantes",
+    "name": "Óleos e Lubrificantes",
+    "path": "Ferramentas > Óleos e Lubrificantes > Óleos e Lubrificantes"
+  },
+  {
+    "slug": "olho-magico",
+    "name": "Olho Mágico",
+    "path": "Ferragens > Ferragem > Olho Mágico"
+  },
+  {
+    "slug": "organizacao-de-banheiro",
+    "name": "Organização de Banheiro",
+    "path": "Banheiro > Organização de Banheiro"
+  },
+  {
+    "slug": "organizador-de-fios",
+    "name": "Organizador de fios",
+    "path": "Elétrica > Acessórios Elétricos > Organizador de fios"
+  },
+  {
+    "slug": "organizador-de-pia-de-cozinha",
+    "name": "Organizador de pia de cozinha",
+    "path": "Organização da Casa > Organização de cozinha > Organizador de pia de cozinha || Cozinha e Lavanderia > Organização de cozinha > Organizador de pia de cozinha"
+  },
+  {
+    "slug": "organizadores-de-armario-de-cozinha",
+    "name": "Organizadores de armario de cozinha",
+    "path": "Organização da Casa > Organização de cozinha > Organizadores de armario de cozinha || Cozinha e Lavanderia > Organização de cozinha > Organizadores de armario de cozinha"
+  },
+  {
+    "slug": "organizadores-de-gaveta-e-armario",
+    "name": "Organizadores de gaveta e armário",
+    "path": "Organização da Casa > Organização de Closet > Organizadores de gaveta e armário"
+  },
+  {
+    "slug": "organizadores-de-parede-para-cozinha",
+    "name": "Organizadores de parede para cozinha",
+    "path": "Organização da Casa > Organização de cozinha > Organizadores de parede para cozinha || Cozinha e Lavanderia > Organização de cozinha > Organizadores de parede para cozinha"
+  },
+  {
+    "slug": "pa",
+    "name": "Pá",
+    "path": "Materiais de Construção > Ferramentas para construção > Pá"
+  },
+  {
+    "slug": "painel-de-led",
+    "name": "Painel de LED",
+    "path": "Iluminação > LED > Painel de LED"
+  },
+  {
+    "slug": "palha-de-aco",
+    "name": "Palha de aço",
+    "path": "Organização da Casa > Limpeza e manutenção > Palha de aço"
+  },
+  {
+    "slug": "papel-de-parede",
+    "name": "Papel de parede",
+    "path": "Decoração > Papel de parede e Adesivos > Papel de parede"
+  },
+  {
+    "slug": "para-valvula-de-descarga",
+    "name": "Válvula de Descarga",
+    "path": "Banheiro > Acabamentos de banheiro > Válvula de Descarga"
+  },
+  {
+    "slug": "parafusadeiras",
+    "name": "Parafusadeiras",
+    "path": "Ferramentas > Ferramentas Elétricas > Parafusadeiras"
+  },
+  {
+    "slug": "parafusos",
+    "name": "Parafusos",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Parafusos || Ferragens > Pregos, parafusos e buchas > Parafusos"
+  },
+  {
+    "slug": "parafusos-para-telha",
+    "name": "Parafusos para Telha",
+    "path": "Materiais de Construção > Telhas, Calhas e Rufos > Parafusos para Telha"
+  },
+  {
+    "slug": "pastilhas",
+    "name": "Pastilhas",
+    "path": "Pisos e Revestimentos > Revestimentos > Pastilhas"
+  },
+  {
+    "slug": "pendentes",
+    "name": "Pendentes",
+    "path": "Iluminação > Iluminação Externa > Pendentes"
+  },
+  {
+    "slug": "perfis-e-complementos",
+    "name": "Perfis e Complementos",
+    "path": "Materiais de Construção > Construção à Seco > Perfis e Complementos"
+  },
+  {
+    "slug": "persianas",
+    "name": "Persianas",
+    "path": "Organização da Casa > Decoração > Persianas"
+  },
+  {
+    "slug": "pia-de-cozinha",
+    "name": "Pia de cozinha",
+    "path": "Cozinha e Lavanderia > Pias, Cubas e Tanques > Pia de cozinha"
+  },
+  {
+    "slug": "picareta",
+    "name": "Picareta",
+    "path": "Materiais de Construção > Ferramentas para construção > Picareta"
+  },
+  {
+    "slug": "pinceis-e-broxas-para-pintura",
+    "name": "Pincéis e Broxas para pintura",
+    "path": "Tintas > Acessórios para Pintura > Pincéis e Broxas para pintura"
+  },
+  {
+    "slug": "piscinas-e-acessorios",
+    "name": "Piscinas e acessórios",
+    "path": "Área Externa > Praia e Piscina > Piscinas e acessórios"
+  },
+  {
+    "slug": "pisos-ceramicos",
+    "name": "Pisos Cerâmicos",
+    "path": "Pisos e Revestimentos > Pisos > Pisos Cerâmicos"
+  },
+  {
+    "slug": "pisos-laminados",
+    "name": "Pisos Laminados",
+    "path": "Pisos e Revestimentos > Pisos > Pisos Laminados"
+  },
+  {
+    "slug": "pisos-vinilicos",
+    "name": "Pisos Vinílicos",
+    "path": "Pisos e Revestimentos > Pisos > Pisos Vinílicos"
+  },
+  {
+    "slug": "pistolas",
+    "name": "Pistolas",
+    "path": "Tintas > Pistolas para Pintura > Pistolas"
+  },
+  {
+    "slug": "pistolas-para-pintura",
+    "name": "Pistolas para pintura",
+    "path": "Tintas > Acessórios para Pintura > Pistolas para pintura"
+  },
+  {
+    "slug": "placas-acartonadas",
+    "name": "Placas Acartonadas",
+    "path": "Materiais de Construção > Construção à Seco > Placas Acartonadas"
+  },
+  {
+    "slug": "placas-de-gesso",
+    "name": "Placas de Gesso",
+    "path": "Materiais de Construção > Forros e acabamentos > Placas de Gesso"
+  },
+  {
+    "slug": "placas-de-sinalizacao",
+    "name": "Placas de sinalização",
+    "path": "Ferramentas > Sinalização > Placas de sinalização || Ferragens > Ferragem > Placas de Sinalização"
+  },
+  {
+    "slug": "placas-decorativas",
+    "name": "Placas decorativas",
+    "path": "Decoração > Decoração criativa > Placas decorativas"
+  },
+  {
+    "slug": "placas-e-suportes",
+    "name": "Placas e Suportes",
+    "path": "Elétrica > Tomadas e Interruptores > Placas e Suportes"
+  },
+  {
+    "slug": "plafons",
+    "name": "Plafons",
+    "path": "Iluminação > Luminárias > Plafons || Decoração > Luminárias > Plafons"
+  },
+  {
+    "slug": "plaina-manual",
+    "name": "Plaina manual",
+    "path": "Ferramentas > Ferramentas Manuais > Plaina manual"
+  },
+  {
+    "slug": "plainas-e-lixadeiras",
+    "name": "Plainas e Lixadeiras",
+    "path": "Ferramentas > Ferramentas Elétricas > Plainas e Lixadeiras"
+  },
+  {
+    "slug": "plug-de-tomada",
+    "name": "Plug de tomada",
+    "path": "Elétrica > Adaptadores e Plugues > Plug de tomada"
+  },
+  {
+    "slug": "plugues",
+    "name": "Plugues",
+    "path": "Elétrica > Tomadas e Interruptores > Plugues"
+  },
+  {
+    "slug": "politrizes",
+    "name": "Politrizes",
+    "path": "Ferramentas > Ferramentas Elétricas > Politrizes"
+  },
+  {
+    "slug": "porcas-e-arruelas",
+    "name": "Porcas e Arruelas",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Porcas e Arruelas || Ferragens > Pregos, parafusos e buchas > Porcas e Arruelas"
+  },
+  {
+    "slug": "porcelanatos",
+    "name": "Porcelanatos",
+    "path": "Pisos e Revestimentos > Porcelanatos"
+  },
+  {
+    "slug": "porta-alcapao-abrigo-e-portinhola",
+    "name": "Porta alçapão, abrigo e portinhola",
+    "path": "Portas e Janelas > Portas > Porta alçapão, abrigo e portinhola"
+  },
+  {
+    "slug": "porta-algodao",
+    "name": "Porta algodão",
+    "path": "Organização da Casa > Organização de banheiro > Porta algodão"
+  },
+  {
+    "slug": "porta-balcao",
+    "name": "Porta Balcão",
+    "path": "Portas e Janelas > Portas > Porta Balcão"
+  },
+  {
+    "slug": "porta-camarao",
+    "name": "Porta Camarão",
+    "path": "Portas e Janelas > Portas > Porta Camarão"
+  },
+  {
+    "slug": "porta-de-aco",
+    "name": "Porta de Aço",
+    "path": "Portas e Janelas > Portas > Porta de Aço"
+  },
+  {
+    "slug": "porta-de-aluminio",
+    "name": "Porta de Alumínio",
+    "path": "Portas e Janelas > Portas > Porta de Alumínio"
+  },
+  {
+    "slug": "porta-de-correr",
+    "name": "Porta de Correr",
+    "path": "Portas e Janelas > Portas > Porta de Correr"
+  },
+  {
+    "slug": "porta-de-madeira",
+    "name": "Porta de Madeira",
+    "path": "Portas e Janelas > Portas > Porta de Madeira"
+  },
+  {
+    "slug": "porta-escova-de-dente",
+    "name": "Porta escova de dente",
+    "path": "Organização da Casa > Organização de banheiro > Porta escova de dente"
+  },
+  {
+    "slug": "porta-escova-sanitaria",
+    "name": "Porta escova sanitária",
+    "path": "Organização da Casa > Organização de banheiro > Porta escova sanitária"
+  },
+  {
+    "slug": "porta-papel-higienico",
+    "name": "Porta papel higiênico",
+    "path": "Organização da Casa > Organização de banheiro > Porta papel higiênico"
+  },
+  {
+    "slug": "porta-pivotante",
+    "name": "Porta Pivotante",
+    "path": "Portas e Janelas > Portas > Porta Pivotante"
+  },
+  {
+    "slug": "porta-retrato",
+    "name": "Porta retrato",
+    "path": "Decoração > Decoração criativa > Porta retrato"
+  },
+  {
+    "slug": "porta-rolo",
+    "name": "Porta Rolo",
+    "path": "Organização da Casa > Organização de cozinha > Porta Rolo"
+  },
+  {
+    "slug": "porta-sabao",
+    "name": "Porta Sabão",
+    "path": "Organização da Casa > Organização de lavanderia > Porta Sabão"
+  },
+  {
+    "slug": "porta-sabonete-liquido-e-saboneteira",
+    "name": "Porta sabonete líquido e saboneteira",
+    "path": "Organização da Casa > Organização de banheiro > Porta sabonete líquido e saboneteira"
+  },
+  {
+    "slug": "porta-sanfonada",
+    "name": "Porta Sanfonada",
+    "path": "Portas e Janelas > Portas > Porta Sanfonada"
+  },
+  {
+    "slug": "porta-shampoo",
+    "name": "Porta shampoo",
+    "path": "Organização da Casa > Organização de banheiro > Porta shampoo"
+  },
+  {
+    "slug": "porta-talher",
+    "name": "Porta Talher",
+    "path": "Organização da Casa > Organização de cozinha > Porta Talher"
+  },
+  {
+    "slug": "porta-toalha",
+    "name": "Porta toalha",
+    "path": "Organização da Casa > Organização de banheiro > Porta toalha"
+  },
+  {
+    "slug": "porteiro-eletronico",
+    "name": "Porteiro eletrônico",
+    "path": "Segurança e Comunicação > Porteiro eletrônico e Video-porteiro > Porteiro eletrônico"
+  },
+  {
+    "slug": "porteiro-eletronico-e-video-porteiro",
+    "name": "Porteiro eletrônico e vídeo porteiro",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Porteiro eletrônico e vídeo porteiro"
+  },
+  {
+    "slug": "postes-e-balizadores",
+    "name": "Postes e Balizadores",
+    "path": "Área Externa > Iluminação Externa > Postes e Balizadores || Iluminação > Iluminação Externa > Postes e Balizadores"
+  },
+  {
+    "slug": "prateleira",
+    "name": "Prateleira",
+    "path": "Banheiro > Móveis para banheiro > Prateleira"
+  },
+  {
+    "slug": "prateleira-de-banheiro",
+    "name": "Prateleira de banheiro",
+    "path": "Organização da Casa > Organização de banheiro > Prateleira de banheiro"
+  },
+  {
+    "slug": "prateleiras-e-estantes",
+    "name": "Prateleiras e estantes",
+    "path": "Decoração > Gaveteiros, cadeiras e estantes > Prateleiras e estantes"
+  },
+  {
+    "slug": "pregos",
+    "name": "Pregos",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Pregos || Ferragens > Pregos, parafusos e buchas > Pregos"
+  },
+  {
+    "slug": "prendedores-e-batedores-de-porta",
+    "name": "Prendedores e Batedores de Porta",
+    "path": "Ferragens > Ferragem > Prendedores e Batedores de Porta"
+  },
+  {
+    "slug": "pressurizador",
+    "name": "Pressurizador",
+    "path": "Banheiro > Chuveiros e Duchas > Pressurizador"
+  },
+  {
+    "slug": "pressurizadores-de-agua",
+    "name": "Pressurizadores de água",
+    "path": "Hidráulica > Bombas e pressurizadores > Pressurizadores de água"
+  },
+  {
+    "slug": "primer",
+    "name": "Primer",
+    "path": "Tintas > Preparação e Tratamento > Primer"
+  },
+  {
+    "slug": "produto-de-limpeza",
+    "name": "Produto Químicos de limpeza",
+    "path": "Cozinha e Lavanderia > Organização de Lavanderia > Produto Químicos de limpeza"
+  },
+  {
+    "slug": "produtos-de-limpeza",
+    "name": "Produtos de limpeza",
+    "path": "Organização da Casa > Limpeza e manutenção > Produtos de limpeza"
+  },
+  {
+    "slug": "prolongadores",
+    "name": "Prolongadores",
+    "path": "Hidráulica > Conexões > Prolongadores"
+  },
+  {
+    "slug": "protecao-de-quinas-e-ponteiras",
+    "name": "Proteção de quinas e ponteiras",
+    "path": "Organização da Casa > Itens para proteção da casa > Proteção de quinas e ponteiras"
+  },
+  {
+    "slug": "protecao-e-cobertura",
+    "name": "Proteção e cobertura",
+    "path": "Tintas > Acessórios para Pintura > Proteção e cobertura"
+  },
+  {
+    "slug": "protetor-auricular",
+    "name": "Protetor Auricular",
+    "path": "Ferramentas > EPI > Protetor Auricular"
+  },
+  {
+    "slug": "protetores-e-aparadores-para-porta-e-janela",
+    "name": "Protetores e aparadores para porta e janela",
+    "path": "Portas e Janelas > Batentes, Guarnições e Acessórios > Protetores e aparadores para porta e janela"
+  },
+  {
+    "slug": "prumos",
+    "name": "Prumos",
+    "path": "Materiais de Construção > Ferramentas para construção > Prumos"
+  },
+  {
+    "slug": "puff",
+    "name": "Puff",
+    "path": "Decoração > Gaveteiros, cadeiras e estantes > Puff"
+  },
+  {
+    "slug": "purificadores-de-agua",
+    "name": "Purificadores de água",
+    "path": "Cozinha e Lavanderia > Filtros e Purificadores > Purificadores de água"
+  },
+  {
+    "slug": "puxador",
+    "name": "Puxador",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Puxador"
+  },
+  {
+    "slug": "puxadores",
+    "name": "Puxadores",
+    "path": "Ferragens > Ferragem > Puxadores"
+  },
+  {
+    "slug": "quadro",
+    "name": "Quadro",
+    "path": "Banheiro > Móveis para banheiro > Quadro"
+  },
+  {
+    "slug": "quadro-de-distribuicao",
+    "name": "Quadro de distribuição",
+    "path": "Elétrica > Caixas e Quadros Elétricos > Quadro de distribuição"
+  },
+  {
+    "slug": "quadros-decorativos",
+    "name": "Quadros decorativos",
+    "path": "Decoração > Decoração criativa > Quadros decorativos"
+  },
+  {
+    "slug": "ralos",
+    "name": "Ralos",
+    "path": "Hidráulica > Ralos e grelhas > Ralos"
+  },
+  {
+    "slug": "reatores",
+    "name": "Reatores",
+    "path": "Iluminação > Complementos e Acessórios > Reatores"
+  },
+  {
+    "slug": "rebites",
+    "name": "Rebites",
+    "path": "Ferramentas > Pregos, Parafusos e Buchas > Rebites || Ferragens > Pregos, parafusos e buchas > Rebites"
+  },
+  {
+    "slug": "rebolos",
+    "name": "Rebolos",
+    "path": "Ferramentas > Acessórios para Ferramentas > Rebolos"
+  },
+  {
+    "slug": "refil-para-filtros-e-purificadores",
+    "name": "Refil para filtros e purificadores",
+    "path": "Cozinha e Lavanderia > Filtros e Purificadores > Refil para filtros e purificadores"
+  },
+  {
+    "slug": "refletor-led",
+    "name": "Refletor LED",
+    "path": "Iluminação > LED > Refletor LED"
+  },
+  {
+    "slug": "refletores",
+    "name": "Refletores",
+    "path": "Área Externa > Iluminação Externa > Refletores || Iluminação > Iluminação Externa > Refletores"
+  },
+  {
+    "slug": "registro-de-gaveta",
+    "name": "Registro de gaveta",
+    "path": "Hidráulica > Registros  bases e válvulas > Registro de gaveta"
+  },
+  {
+    "slug": "registro-de-pressao",
+    "name": "Registro de pressão",
+    "path": "Hidráulica > Registros  bases e válvulas > Registro de pressão"
+  },
+  {
+    "slug": "registro-para-chuveiro",
+    "name": "Registro para chuveiro",
+    "path": "Banheiro > Chuveiros e Duchas > Registro para chuveiro"
+  },
+  {
+    "slug": "rejuntes",
+    "name": "Rejuntes",
+    "path": "Pisos e Revestimentos > Argamassas e Rejuntes > Rejuntes"
+  },
+  {
+    "slug": "relogio-de-parede",
+    "name": "Relógio de parede",
+    "path": "Organização da Casa > Organização de cozinha > Relógio de parede"
+  },
+  {
+    "slug": "removedores",
+    "name": "Removedores",
+    "path": "Organização da Casa > Limpeza e manutenção > Removedores || Tintas > Solventes e Removedores > Removedores"
+  },
+  {
+    "slug": "reparo-para-torneira-e-valvula",
+    "name": "Reparo para torneira e válvula",
+    "path": "Hidráulica > Adesivos reparos e acessórios hidráulicos > Reparo para torneira e válvula"
+  },
+  {
+    "slug": "resina-acrilica",
+    "name": "Resina acrílica",
+    "path": "Materiais de Construção > Impermeabilizantes > Resina acrílica"
+  },
+  {
+    "slug": "resistencias-e-complementos",
+    "name": "Resistências e complementos",
+    "path": "Banheiro > Chuveiros e Duchas > Resistências e complementos"
+  },
+  {
+    "slug": "revestimentos-ceramicos",
+    "name": "Revestimentos Cerâmicos",
+    "path": "Pisos e Revestimentos > Revestimentos > Revestimentos Cerâmicos"
+  },
+  {
+    "slug": "revestimentos-para-piscina",
+    "name": "Revestimentos para Piscina",
+    "path": "Pisos e Revestimentos > Revestimentos > Revestimentos para Piscina"
+  },
+  {
+    "slug": "ripa",
+    "name": "Ripa",
+    "path": "Materiais de Construção > Madeiramento > Ripa"
+  },
+  {
+    "slug": "rocadeiras",
+    "name": "Roçadeiras",
+    "path": "Área Externa > Jardim > Roçadeiras"
+  },
+  {
+    "slug": "rodapes",
+    "name": "Rodapés",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Rodapés"
+  },
+  {
+    "slug": "rodizios",
+    "name": "Rodízios",
+    "path": "Ferragens > Ferragem > Rodízios"
+  },
+  {
+    "slug": "rolo-para-pintura-e-acessorios",
+    "name": "Rolo para pintura e acessórios",
+    "path": "Tintas > Acessórios para Pintura > Rolo para pintura e acessórios"
+  },
+  {
+    "slug": "roupeiro",
+    "name": "Roupeiro",
+    "path": "Banheiro > Móveis para banheiro > Roupeiro"
+  },
+  {
+    "slug": "saco-a-vacuo",
+    "name": "Saco à vácuo",
+    "path": "Organização da Casa > Organização de Closet > Saco à vácuo"
+  },
+  {
+    "slug": "saco-de-entulho",
+    "name": "Saco de Entulho",
+    "path": "Ferramentas > Ferramentas para construção > Saco de Entulho || Materiais de Construção > Saco de Entulho"
+  },
+  {
+    "slug": "saco-de-lixo",
+    "name": "Saco de lixo",
+    "path": "Organização da Casa > Organização de lavanderia > Saco de lixo"
+  },
+  {
+    "slug": "saco-para-lavagem",
+    "name": "Saco para Lavagem",
+    "path": "Organização da Casa > Organização de lavanderia > Saco para Lavagem"
+  },
+  {
+    "slug": "sapateira",
+    "name": "Sapateira",
+    "path": "Organização da Casa > Organização de Closet > Sapateira"
+  },
+  {
+    "slug": "sarrafo",
+    "name": "Sarrafo",
+    "path": "Materiais de Construção > Madeiramento > Sarrafo"
+  },
+  {
+    "slug": "secadora-de-roupas",
+    "name": "Secadora de roupas",
+    "path": "Organização da Casa > Organização de lavanderia > Secadora de roupas"
+  },
+  {
+    "slug": "seguranca-infantil",
+    "name": "Segurança Infantil",
+    "path": "Organização da Casa > Itens para proteção da casa > Segurança Infantil"
+  },
+  {
+    "slug": "sensores-de-presenca",
+    "name": "Sensores de Presença",
+    "path": "Segurança e Comunicação > Fechaduras elétricas, campainhas e outros > Sensores de Presença"
+  },
+  {
+    "slug": "serra-copo",
+    "name": "Serra Copo",
+    "path": "Ferramentas > Acessórios para Ferramentas > Serra Copo"
+  },
+  {
+    "slug": "serras-e-serrotes",
+    "name": "Serras e Serrotes",
+    "path": "Ferramentas > Ferramentas Manuais > Serras e Serrotes"
+  },
+  {
+    "slug": "serras-eletricas",
+    "name": "Serras elétricas",
+    "path": "Ferramentas > Ferramentas Elétricas > Serras elétricas"
+  },
+  {
+    "slug": "sifoes",
+    "name": "Sifões",
+    "path": "Hidráulica > Flexíveis e Sifões > Sifões"
+  },
+  {
+    "slug": "silicones-e-selantes",
+    "name": "Silicones e selantes",
+    "path": "Banheiro > Silicones e selantes"
+  },
+  {
+    "slug": "soleira-de-porta",
+    "name": "Soleira de porta",
+    "path": "Portas e Janelas > Fechaduras e acessórios > Soleira de porta"
+  },
+  {
+    "slug": "soleiras-de-porta",
+    "name": "Soleiras de porta",
+    "path": "Pisos e Revestimentos > Acabamentos para Piso > Soleiras de porta"
+  },
+  {
+    "slug": "solventes-e-diluentes",
+    "name": "Solventes e diluentes",
+    "path": "Tintas > Solventes e Removedores > Solventes e diluentes"
+  },
+  {
+    "slug": "sopradores-termicos",
+    "name": "Sopradores Térmicos",
+    "path": "Ferramentas > Ferramentas Elétricas > Sopradores Térmicos"
+  },
+  {
+    "slug": "soquetes",
+    "name": "Soquetes",
+    "path": "Iluminação > Complementos e Acessórios > Soquetes"
+  },
+  {
+    "slug": "spots",
+    "name": "Spots",
+    "path": "Iluminação > Luminárias > Spots || Decoração > Luminárias > Spots"
+  },
+  {
+    "slug": "suporte-para-estantes-e-prateleiras",
+    "name": "Suporte para estantes e prateleiras",
+    "path": "Decoração > Gaveteiros, cadeiras e estantes > Suporte para estantes e prateleiras"
+  },
+  {
+    "slug": "suporte-para-micro-ondas",
+    "name": "Suporte para micro-ondas",
+    "path": "Organização da Casa > Organização de cozinha > Suporte para micro-ondas || Cozinha e Lavanderia > Organização de cozinha > Suporte para micro-ondas"
+  },
+  {
+    "slug": "suportes-para-tv",
+    "name": "Suportes para TV",
+    "path": "Segurança e Comunicação > TV e acessórios > Suportes para TV || Organização da Casa > Decoração > Suportes para TV"
+  },
+  {
+    "slug": "tabua-de-passar-roupa-e-acessorios",
+    "name": "Tábua de passar roupa e acessórios",
+    "path": "Organização da Casa > Organização de lavanderia > Tábua de passar roupa e acessórios || Cozinha e Lavanderia > Organização de Lavanderia > Tábua de passar roupa e acessórios"
+  },
+  {
+    "slug": "tampas",
+    "name": "Tampas",
+    "path": "Elétrica > Eletrodutos e Conduítes > Tampas || Hidráulica > Ralos e grelhas > Tampas"
+  },
+  {
+    "slug": "tampo-e-toucador",
+    "name": "Tampos",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Tampos"
+  },
+  {
+    "slug": "tanque-de-lavar-roupa",
+    "name": "Tanque de lavar roupa",
+    "path": "Cozinha e Lavanderia > Pias, Cubas e Tanques > Tanque de lavar roupa"
+  },
+  {
+    "slug": "tanques",
+    "name": "Tanques",
+    "path": "Móveis > Móveis para Lavanderia > Tanques"
+  },
+  {
+    "slug": "tapa-furo-e-cavilhas",
+    "name": "Tapa furo e Cavilhas",
+    "path": "Ferragens > Ferragem > Tapa furo e Cavilhas"
+  },
+  {
+    "slug": "tapetes-e-capachos",
+    "name": "Tapetes e Capachos",
+    "path": "Organização da Casa > Decoração > Tapetes e Capachos || Decoração > Tapetes e cortinas > Tapetes e capachos"
+  },
+  {
+    "slug": "tartarugas",
+    "name": "Tartarugas",
+    "path": "Área Externa > Iluminação Externa > Tartarugas || Iluminação > Iluminação Externa > Tartarugas"
+  },
+  {
+    "slug": "tecido-adesivo",
+    "name": "Tecido adesivo",
+    "path": "Decoração > Papel de parede e Adesivos > Tecido adesivo"
+  },
+  {
+    "slug": "tela-mosquiteiro",
+    "name": "Tela mosquiteiro",
+    "path": "Portas e Janelas > Batentes, Guarnições e Acessórios > Tela mosquiteiro"
+  },
+  {
+    "slug": "telefones",
+    "name": "Telefones",
+    "path": "Segurança e Comunicação > Telefonia > Telefones"
+  },
+  {
+    "slug": "telhas",
+    "name": "Telhas",
+    "path": "Materiais de Construção > Telhas, Calhas e Rufos > Telhas"
+  },
+  {
+    "slug": "terminais",
+    "name": "Terminais",
+    "path": "Elétrica > Acessórios Elétricos > Terminais"
+  },
+  {
+    "slug": "terminais-de-ventilacao",
+    "name": "Terminais de Ventilação",
+    "path": "Hidráulica > Conexões > Terminais de Ventilação"
+  },
+  {
+    "slug": "tes",
+    "name": "Tês",
+    "path": "Hidráulica > Conexões > Tês"
+  },
+  {
+    "slug": "texturas",
+    "name": "Texturas",
+    "path": "Tintas > Preparação e Tratamento > Texturas"
+  },
+  {
+    "slug": "tijolo-macico",
+    "name": "Tijolo Maciço",
+    "path": "Materiais de Construção > Blocos e Tijolos > Tijolo Maciço"
+  },
+  {
+    "slug": "tinta-acrilica",
+    "name": "Tinta acrílica",
+    "path": "Tintas > Tintas e Corantes > Tinta acrílica || Tintas > Tintas e Corantes > Tinta acrílica"
+  },
+  {
+    "slug": "tinta-esmalte",
+    "name": "Tinta esmalte",
+    "path": "Tintas > Pintura para madeira e metal > Tinta esmalte"
+  },
+  {
+    "slug": "tinta-latex",
+    "name": "Tinta latex",
+    "path": "Tintas > Tintas e Corantes > Tinta latex"
+  },
+  {
+    "slug": "tinta-spray",
+    "name": "Tinta spray",
+    "path": "Tintas > Tintas e Corantes > Tinta spray"
+  },
+  {
+    "slug": "tomada-para-antena-e-outros-acessorios",
+    "name": "Tomada para antena e outros acessórios",
+    "path": "Segurança e Comunicação > TV e acessórios > Tomada para antena e outros acessórios"
+  },
+  {
+    "slug": "tomadas",
+    "name": "Tomadas",
+    "path": "Elétrica > Tomadas e Interruptores > Tomadas"
+  },
+  {
+    "slug": "tomadas-e-modulos-usb",
+    "name": "Tomadas e módulos USB",
+    "path": "Elétrica > Tomadas e Interruptores > Tomadas e módulos USB"
+  },
+  {
+    "slug": "tomadas-modulos-e-cabos-para-telefone",
+    "name": "Tomadas, módulos e cabos para telefone",
+    "path": "Segurança e Comunicação > Telefonia > Tomadas, módulos e cabos para telefone"
+  },
+  {
+    "slug": "tomadas-para-telefone",
+    "name": "Tomadas para Telefone",
+    "path": "Elétrica > Tomadas e Interruptores > Tomadas para Telefone"
+  },
+  {
+    "slug": "torneira-para-jardim",
+    "name": "Torneira para jardim",
+    "path": "Área Externa > Jardim > Torneira para jardim"
+  },
+  {
+    "slug": "torneiras-eletricas",
+    "name": "Torneiras Elétricas",
+    "path": "Cozinha e Lavanderia > Torneiras e Misturadores > Torneiras Elétricas"
+  },
+  {
+    "slug": "torneiras-para-banheiro",
+    "name": "Torneiras para banheiro",
+    "path": "Banheiro > Torneiras e misturadores para banheiro > Torneiras para banheiro"
+  },
+  {
+    "slug": "torneiras-para-cozinha",
+    "name": "Torneiras para cozinha",
+    "path": "Cozinha e Lavanderia > Torneiras e Misturadores > Torneiras para cozinha"
+  },
+  {
+    "slug": "torneiras-para-tanque-e-maquina-de-lavar",
+    "name": "Torneiras para tanque e máquina de lavar",
+    "path": "Cozinha e Lavanderia > Torneiras e Misturadores > Torneiras para tanque e máquina de lavar"
+  },
+  {
+    "slug": "transformadores",
+    "name": "Transformadores",
+    "path": "Elétrica > Transformadores > Transformadores"
+  },
+  {
+    "slug": "tratamento-de-piscina",
+    "name": "Tratamento de piscina",
+    "path": "Área Externa > Praia e Piscina > Tratamento de piscina"
+  },
+  {
+    "slug": "trava-de-seguranca",
+    "name": "Trava de segurança",
+    "path": "Ferragens > Fechaduras e Travas > Trava de segurança"
+  },
+  {
+    "slug": "trincos-e-fechos",
+    "name": "Trincos e Fechos",
+    "path": "Ferragens > Ferragem > Trincos e Fechos"
+  },
+  {
+    "slug": "triturador-de-alimentos",
+    "name": "Triturador de alimentos",
+    "path": "Cozinha e Lavanderia > Pias, Cubas e Tanques > Triturador de alimentos"
+  },
+  {
+    "slug": "tubo-para-agua-fria",
+    "name": "Tubo para Água fria",
+    "path": "Hidráulica > Tubos e Conexões > Tubo para Água fria"
+  },
+  {
+    "slug": "tubo-para-agua-quente",
+    "name": "Tubo para Água quente",
+    "path": "Hidráulica > Tubos e Conexões > Tubo para Água quente"
+  },
+  {
+    "slug": "tubo-para-esgoto",
+    "name": "Tubo para Esgoto",
+    "path": "Hidráulica > Tubos e Conexões > Tubo para Esgoto"
+  },
+  {
+    "slug": "tupias",
+    "name": "Tupias",
+    "path": "Ferramentas > Ferramentas Elétricas > Tupias"
+  },
+  {
+    "slug": "umidificador-e-desumidificador-de-ar",
+    "name": "Umidificador e desumidificador de ar",
+    "path": "Climatização > Tratamento de ar > Umidificador e desumidificador de ar"
+  },
+  {
+    "slug": "utensilios-de-cozinha",
+    "name": "Utensilios de cozinha",
+    "path": "Organização da Casa > Organização de cozinha > Utensilios de cozinha || Cozinha e Lavanderia > Organização de cozinha > Utensilios de cozinha"
+  },
+  {
+    "slug": "utensilios-para-banheiro",
+    "name": "Utensílios para banheiro",
+    "path": "Organização da Casa > Organização de banheiro > Utensílios para banheiro"
+  },
+  {
+    "slug": "valvula-de-descarga",
+    "name": "Válvula de Descarga",
+    "path": "Hidráulica > Válvulas > Válvula de Descarga"
+  },
+  {
+    "slug": "valvula-de-descarga-completa",
+    "name": "Válvula de descarga completa",
+    "path": "Banheiro > Descarga > Válvula de descarga completa"
+  },
+  {
+    "slug": "valvula-de-escoamento",
+    "name": "Válvula de Escoamento",
+    "path": "Hidráulica > Válvulas > Válvula de Escoamento"
+  },
+  {
+    "slug": "valvula-de-esfera",
+    "name": "Válvula de esfera",
+    "path": "Hidráulica > Registros  bases e válvulas > Válvula de esfera"
+  },
+  {
+    "slug": "valvula-de-retencao",
+    "name": "Válvula de retenção",
+    "path": "Hidráulica > Registros  bases e válvulas > Válvula de retenção"
+  },
+  {
+    "slug": "valvula-para-cuba-e-lavatorio",
+    "name": "Valvula para cuba e lavatório",
+    "path": "Banheiro > Pia de banheiro: cubas e lavatórios > Valvula para cuba e lavatório"
+  },
+  {
+    "slug": "valvula-para-pia-de-cozinha",
+    "name": "Válvula para pia de cozinha",
+    "path": "Cozinha e Lavanderia > Pias, Cubas e Tanques > Válvula para pia de cozinha"
+  },
+  {
+    "slug": "varal-e-acessorios",
+    "name": "Varal e acessórios",
+    "path": "Organização da Casa > Organização de lavanderia > Varal e acessórios || Cozinha e Lavanderia > Organização de Lavanderia > Varal e acessórios"
+  },
+  {
+    "slug": "vassoura-rodo-e-acessorios",
+    "name": "Vassoura, rodo e acessórios",
+    "path": "Organização da Casa > Limpeza e manutenção > Vassoura, rodo e acessórios"
+  },
+  {
+    "slug": "veda-fresta",
+    "name": "Veda fresta",
+    "path": "Portas e Janelas > Batentes, Guarnições e Acessórios > Veda fresta"
+  },
+  {
+    "slug": "ventilador-de-coluna",
+    "name": "Ventilador de coluna",
+    "path": "Climatização > Ventiladores > Ventilador de coluna"
+  },
+  {
+    "slug": "ventilador-de-mesa",
+    "name": "Ventilador de mesa",
+    "path": "Climatização > Ventiladores > Ventilador de mesa"
+  },
+  {
+    "slug": "ventilador-de-parede",
+    "name": "Ventilador de parede",
+    "path": "Climatização > Ventiladores > Ventilador de parede"
+  },
+  {
+    "slug": "ventilador-de-teto",
+    "name": "Ventilador de teto",
+    "path": "Climatização > Ventiladores > Ventilador de teto || Iluminação > Ventilador de teto"
+  },
+  {
+    "slug": "vergalhao",
+    "name": "Vergalhão",
+    "path": "Materiais de Construção > Aços para construção > Vergalhão"
+  },
+  {
+    "slug": "verniz-e-stain",
+    "name": "Verniz e Stain",
+    "path": "Tintas > Preparação e Tratamento > Verniz e Stain || Tintas > Pintura para madeira e metal > Verniz e Stain"
+  },
+  {
+    "slug": "video-porteiro",
+    "name": "Vídeo porteiro",
+    "path": "Segurança e Comunicação > Porteiro eletrônico e Video-porteiro > Vídeo porteiro"
+  }
+]
