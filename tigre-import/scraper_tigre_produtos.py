@@ -45,7 +45,6 @@ USER_AGENT = (
 )
 
 BRAND_ID = "00000000-0000-0000-0000-000000000000"
-PRIMARY_CATEGORY_ID = "00000000-0000-0000-0000-000000000001"
 SUPPLIER_BRANCH_ID = "00000000-0000-0000-0000-000000000002"
 
 
@@ -449,7 +448,7 @@ def build_product_record(
         "images": images,
         "sourceUrl": scraped["_sourceUrl"],
         "brandId": BRAND_ID,
-        "primaryCategoryId": PRIMARY_CATEGORY_ID,
+        "primaryCategoryId": None,
         "status": "active",
         "attributes": scraped["_attributes"],
         "supplierProducts": [

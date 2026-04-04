@@ -1,0 +1,85 @@
+{
+  "urls_apos_limit_antes_do_skip": 3100,
+  "pulados_ja_no_arquivo": 1891,
+  "urls_processadas_nesta_execucao": 1209,
+  "sucesso_nesta_execucao": 1191,
+  "erros_nesta_execucao": 18,
+  "total_produtos_no_arquivo_final": 3082,
+  "skip_existing_ativo": true,
+  "tempo_total_segundos": 5385.362,
+  "erros_detalhe": [
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-pin-3262-00",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cabo-mad-pin-3262-00\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-pin-3262-00\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-pin-3262-12-bordo-platina",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cabo-mad-pin-3262-12-bordo-platina\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-pin-3262-12-bordo-platina\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-tri-3000-3-4-cast-export",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cabo-mad-tri-3000-3-4-cast-export\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-tri-3000-3-4-cast-export\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-tri-3025-2-1-2-dp-mad-manchada",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cabo-mad-tri-3025-2-1-2-dp-mad-manchada\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-tri-3025-2-1-2-dp-mad-manchada\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-pp-2x1mm2",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_IO_SUSPENDED at https://www.tigre.com.br/produto/cabo-pp-2x1mm2\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-pp-2x1mm2\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/caixa-de-passagem-eletrica-de-piso",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/caixa-de-passagem-eletrica-de-piso\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cantoneira-aco-carbono-l-1-2-x-1-9",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cantoneira-aco-carbono-l-1-2-x-1-9\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cantoneira-aco-carbono-l-1-2-x-1-9\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/chave-allen-l-alongada-1mm",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/chave-allen-l-alongada-1mm\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/colar-duplo-reforc-110-1-1-4-s07",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/colar-duplo-reforc-110-1-1-4-s07\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/colar-duplo-reforc-110-1-1-4-s07\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/colarinho-para-flange-ef-32",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/colarinho-para-flange-ef-32\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/colarinho-para-flange-ef-32\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/colher-p-pedreiro-2128-09-reta",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/colher-p-pedreiro-2128-09-reta\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/conexao-macho-clicpex-teste",
+      "mensagem": "TimeoutError: Locator.get_attribute: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"link[rel=\\\"canonical\\\"]\").first\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/contador-temporizador-autonics-mod-ct4s",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/contador-temporizador-autonics-mod-ct4s\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/controlador-de-temperatura-1",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/controlador-de-temperatura-1\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/corpo-ralo-com-saida-articulada",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/corpo-ralo-com-saida-articulada\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/corpo-ralo-com-saida-articulada\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cupom-promocao-bike-5x17cm",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/cupom-promocao-bike-5x17cm\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cupom-promocao-bike-5x17cm\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/curva-90-longa",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/curva-90-longa\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/curva-90-longa\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/derivacao-y-rosca-macho",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www.tigre.com.br/produto/derivacao-y-rosca-macho\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/derivacao-y-rosca-macho\", waiting until \"networkidle\"\n"
+    }
+  ],
+  "imagens_falhas": []
+}

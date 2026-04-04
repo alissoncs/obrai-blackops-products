@@ -37,7 +37,11 @@ python scraper_tigre_produtos.py --help
 | `output/aux/relatorio_<UTC>.json` | Totais, erros, tempo (novo ficheiro por execução; UTC no nome) |
 | `output/aux/images/products/<slug>/` | Imagens da galeria (com `--download-images`) |
 
-O script cria `output/` e `output/aux/` automaticamente.
+O script cria `output/` e `output/aux/` automaticamente. Para gravar o relatório num caminho fixo: `--relatorio-out caminho.json`.
+
+## Push para a API de produção (Obrai)
+
+Depois de gerar `output/tigre_products.json` (e imagens, se precisares), podes enviar tudo para a API admin em bulk. Instruções e comandos: **[PUSH_TO_PRODUCTION.md](PUSH_TO_PRODUCTION.md)** (`push_to_production.py`).
 
 ## Categorias (IA)
 
@@ -55,4 +59,4 @@ Envia também a descrição do produto (até 400 caracteres). Se não houver des
 
 Por defeito o prompt à API usa só a **lista de slugs** de categoria (menos tokens). Para enviar também o caminho completo (mais pesado): `--taxonomy-prompt full` ou `TIGRE_LLM_TAXONOMY_PROMPT=full` no `.env`.
 
-Saída principal: `output/tigre_categories.json`. Relatório e exportações (`relatorio_categorias.json`, `categories_for_llm.json`, `categorias_revisao_manual.json`) em `output/aux/`.
+Saída principal: `output/tigre_categories.json`. Em `output/aux/`: `categories_for_llm.json` (nome fixo, para reutilizar noutros passos); relatórios com timestamp no nome — `relatorio_categorias_<UTC>.json` e, se houver itens para rever, `categorias_revisao_manual_<UTC>.json` (o mesmo `<UTC>` numa mesma corrida). Sobrescreve o caminho com `--report-out` / `--review-queue-out` se precisares de um nome fixo.

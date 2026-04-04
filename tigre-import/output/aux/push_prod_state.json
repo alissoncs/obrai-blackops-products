@@ -1,0 +1,920 @@
+{
+  "95000085": {
+    "images_skipped": true,
+    "images_reason": "no_local_files",
+    "images_at": "2026-04-04T01:02:56.910171+00:00",
+    "import_ok": true,
+    "import_at": "2026-04-04T01:07:32.800450+00:00",
+    "import_action": "created",
+    "product_id": "afe28c6e-5d0a-4f24-9275-8931f6d4ef18"
+  },
+  "95000035": {
+    "images_skipped": true,
+    "images_reason": "no_local_files",
+    "images_at": "2026-04-04T01:02:56.910808+00:00",
+    "import_ok": true,
+    "import_at": "2026-04-04T01:07:32.800478+00:00",
+    "import_action": "created",
+    "product_id": "53fb647f-d716-4739-8e9d-28cd6632d526"
+  },
+  "3204880": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:08:51.040496+00:00",
+    "import_action": "created",
+    "product_id": "b5a33525-c4a4-4c7f-a92f-4539ef7214de",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:08:51.428866+00:00",
+    "images_count": 1
+  },
+  "32048854": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289138+00:00",
+    "import_action": "created",
+    "product_id": "bc013a06-7eb0-490f-8a71-925dfbf183c9",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:44.111366+00:00",
+    "images_count": 2
+  },
+  "36005521": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289170+00:00",
+    "import_action": "created",
+    "product_id": "f4a1d9ff-f003-44ae-b636-44f1dc46e54c",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:44.569973+00:00",
+    "images_count": 1
+  },
+  "20030852": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289176+00:00",
+    "import_action": "created",
+    "product_id": "8b715a36-f264-419f-8478-abeda78c7d80",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:44.928713+00:00",
+    "images_count": 1
+  },
+  "32048870": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289181+00:00",
+    "import_action": "created",
+    "product_id": "e889f61b-e7bf-4ad2-9942-b1ae04da36d0",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:45.469997+00:00",
+    "images_count": 2
+  },
+  "300000254": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289185+00:00",
+    "import_action": "created",
+    "product_id": "65f19cda-0bdb-4767-b7b4-179151458231",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:46.081224+00:00",
+    "images_count": 2
+  },
+  "A-2993-PAO-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289201+00:00",
+    "import_action": "created",
+    "product_id": "396758ff-ae47-45b5-acc5-3025bc93a494",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:46.540358+00:00",
+    "images_count": 1
+  },
+  "57808": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289206+00:00",
+    "import_action": "created",
+    "product_id": "59dff6a5-e16b-4e1b-973c-8163b61f0426",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:46.931771+00:00",
+    "images_count": 1
+  },
+  "57809": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289211+00:00",
+    "import_action": "created",
+    "product_id": "35eae1e1-e68f-471c-b08e-e43732110e11",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:47.268412+00:00",
+    "images_count": 1
+  },
+  "57782": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289215+00:00",
+    "import_action": "created",
+    "product_id": "7cf39d14-a99a-4b7f-b932-f9ce7a7a5f84",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:47.616009+00:00",
+    "images_count": 1
+  },
+  "A-2993-CI-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289218+00:00",
+    "import_action": "created",
+    "product_id": "b75c13c7-359e-4bae-ba6c-8592096c69f2",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:48.085277+00:00",
+    "images_count": 1
+  },
+  "A-2993-FIN-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289222+00:00",
+    "import_action": "created",
+    "product_id": "71ce2f39-9db7-4810-9424-e1b6c0b4978f",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:48.831600+00:00",
+    "images_count": 1
+  },
+  "57812": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289226+00:00",
+    "import_action": "created",
+    "product_id": "df54c8a6-cb7a-4578-bfed-d477debd25d4",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:49.365770+00:00",
+    "images_count": 1
+  },
+  "A-2993-LO-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289231+00:00",
+    "import_action": "created",
+    "product_id": "e13f208d-77d6-449d-b2a7-11ee92efed4e",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:50.244332+00:00",
+    "images_count": 1
+  },
+  "A-2993-DAL-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289235+00:00",
+    "import_action": "created",
+    "product_id": "1be918e6-eac5-4f5e-a692-529c20ec56e5",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:50.835810+00:00",
+    "images_count": 1
+  },
+  "A-3-A-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289238+00:00",
+    "import_action": "created",
+    "product_id": "4dfc33b3-ff82-4987-8cb8-24619ad324b7",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:51.206942+00:00",
+    "images_count": 1
+  },
+  "A-3-GIO-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289242+00:00",
+    "import_action": "created",
+    "product_id": "32ea4fee-227d-4996-ba11-998b9c57d83f",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:51.568375+00:00",
+    "images_count": 1
+  },
+  "A3-GOA-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289246+00:00",
+    "import_action": "created",
+    "product_id": "d38f8314-9dc2-4915-8401-d6026241fede",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:52.016400+00:00",
+    "images_count": 1
+  },
+  "A3-GOC-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289250+00:00",
+    "import_action": "created",
+    "product_id": "c7dd37a1-97e2-42cd-b158-975232613dd9",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:52.343517+00:00",
+    "images_count": 1
+  },
+  "A3-GOS-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289254+00:00",
+    "import_action": "created",
+    "product_id": "920d4df6-a95b-4ab2-a29a-f20aff6e0ea0",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:52.674011+00:00",
+    "images_count": 1
+  },
+  "A-1-A-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289259+00:00",
+    "import_action": "created",
+    "product_id": "2cad0c8e-fa53-4b99-bcfb-757979ed8834",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:53.023520+00:00",
+    "images_count": 1
+  },
+  "57813": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289263+00:00",
+    "import_action": "created",
+    "product_id": "46720f41-1329-43b4-8777-bd85a34c05cb",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:53.436568+00:00",
+    "images_count": 1
+  },
+  "57781": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289267+00:00",
+    "import_action": "created",
+    "product_id": "73a33c68-4770-43d1-b377-fb9a05154aeb",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:53.762364+00:00",
+    "images_count": 1
+  },
+  "A-1-AS-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289270+00:00",
+    "import_action": "created",
+    "product_id": "a33bf254-6ce3-41e9-bd4d-31bee5b83d7a",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:54.229878+00:00",
+    "images_count": 1
+  },
+  "A-1-CI-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289274+00:00",
+    "import_action": "created",
+    "product_id": "f1d34086-588c-46cb-85fe-67d51dad9011",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:54.783372+00:00",
+    "images_count": 1
+  },
+  "A-1-CHI-CR-D-AF": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289278+00:00",
+    "import_action": "created",
+    "product_id": "6c07ca49-70b0-4a9c-9441-960271d11507",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:55.231460+00:00",
+    "images_count": 1
+  },
+  "A-1-CRE-CR-D-AF": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289282+00:00",
+    "import_action": "created",
+    "product_id": "81e14d0f-648b-41c5-83d7-129dee1f8d57",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:55.777845+00:00",
+    "images_count": 1
+  },
+  "A-1-DU-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289286+00:00",
+    "import_action": "created",
+    "product_id": "c00158da-3262-4f07-92b0-747c11949ce4",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:56.244024+00:00",
+    "images_count": 1
+  },
+  "A-1-ELA-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289290+00:00",
+    "import_action": "created",
+    "product_id": "c52c90ff-44c2-4192-938b-43a58be9d3fa",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:56.644944+00:00",
+    "images_count": 1
+  },
+  "A-1-CHI-CR-E-AQ": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289293+00:00",
+    "import_action": "created",
+    "product_id": "bd27342c-4ba0-4a3c-b633-1deaf8dbf407",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:57.132709+00:00",
+    "images_count": 1
+  },
+  "A-1-EXA-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289297+00:00",
+    "import_action": "created",
+    "product_id": "b93f2874-52e9-441d-8025-b4df61ad1b52",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:57.612236+00:00",
+    "images_count": 1
+  },
+  "A-1-FOL-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289300+00:00",
+    "import_action": "created",
+    "product_id": "7b87df42-d688-43ed-9d1d-1ad65495e1e1",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:58.362909+00:00",
+    "images_count": 1
+  },
+  "A-1-GIO-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289304+00:00",
+    "import_action": "created",
+    "product_id": "b8c4b40d-0c19-445f-a15a-c83cd701a3fd",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:58.937974+00:00",
+    "images_count": 1
+  },
+  "A-1-GOA-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289307+00:00",
+    "import_action": "created",
+    "product_id": "4c7aba5f-39c6-4e96-bb78-975469e2c534",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:09:59.555748+00:00",
+    "images_count": 1
+  },
+  "A-1-GY-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289311+00:00",
+    "import_action": "created",
+    "product_id": "df5c59ce-d9a1-4325-ae27-b7ab3e2ffee5",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:00.092839+00:00",
+    "images_count": 1
+  },
+  "A-1-LO-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289314+00:00",
+    "import_action": "created",
+    "product_id": "3c15693c-8b7f-4778-8765-8a3b0aefde5d",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:00.685935+00:00",
+    "images_count": 1
+  },
+  "A-1-DS-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289318+00:00",
+    "import_action": "created",
+    "product_id": "75c40503-9c4a-417c-b6a8-5d3529a48c48",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:01.201736+00:00",
+    "images_count": 1
+  },
+  "A-1-LY-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289322+00:00",
+    "import_action": "created",
+    "product_id": "17c871be-f0d5-4ddd-9ac0-55cd8f8c258d",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:01.743710+00:00",
+    "images_count": 1
+  },
+  "A-1-MY-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289325+00:00",
+    "import_action": "created",
+    "product_id": "00887a24-3183-43ed-a864-089557745e03",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:02.228702+00:00",
+    "images_count": 1
+  },
+  "A-1-OG-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289329+00:00",
+    "import_action": "created",
+    "product_id": "955190e8-8b83-442f-bc0e-e1c1fc0f6bba",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:02.893965+00:00",
+    "images_count": 1
+  },
+  "A-1-PET-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289334+00:00",
+    "import_action": "created",
+    "product_id": "41dc157a-bd3e-4b73-ae76-74b9d3e5f8f5",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:03.360900+00:00",
+    "images_count": 1
+  },
+  "A-1-SOH-CR": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289338+00:00",
+    "import_action": "created",
+    "product_id": "82deed55-fb24-4e0b-ab46-0de73c4eaa4f",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:03.832085+00:00",
+    "images_count": 1
+  },
+  "32198872": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289341+00:00",
+    "import_action": "created",
+    "product_id": "7b758f5e-2f77-4d09-82f8-c0833f92d3f0",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:04.281283+00:00",
+    "images_count": 1
+  },
+  "32198899": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289345+00:00",
+    "import_action": "created",
+    "product_id": "6dec0f90-1312-41fa-bbcf-51c074da9806",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:04.761575+00:00",
+    "images_count": 2
+  },
+  "34462054": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289348+00:00",
+    "import_action": "created",
+    "product_id": "ee5fff1f-dcb6-451d-bca8-e1e0daf9d783",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:05.157628+00:00",
+    "images_count": 1
+  },
+  "32198929": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289352+00:00",
+    "import_action": "created",
+    "product_id": "4098d614-96cb-4c19-b446-4bc0a0c0cc0e",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:05.749680+00:00",
+    "images_count": 2
+  },
+  "28619073": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289356+00:00",
+    "import_action": "created",
+    "product_id": "44317f40-311a-4daf-ac1e-63d423cc9505",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:06.154672+00:00",
+    "images_count": 1
+  },
+  "34652686": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289360+00:00",
+    "import_action": "created",
+    "product_id": "62f0265d-a503-458c-8f1d-77ee4b030f06",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:06.678354+00:00",
+    "images_count": 1
+  },
+  "34054509": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289364+00:00",
+    "import_action": "created",
+    "product_id": "9182a612-9192-4e0c-adee-957463b8ac99",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:07.120698+00:00",
+    "images_count": 1
+  },
+  "34055769": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289367+00:00",
+    "import_action": "created",
+    "product_id": "2b44d482-e320-4ec8-b893-b622027a3e95",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:07.595841+00:00",
+    "images_count": 1
+  },
+  "28601840": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289371+00:00",
+    "import_action": "created",
+    "product_id": "8150dc34-ce2b-4b59-b72c-f70d2612136c",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:07.915380+00:00",
+    "images_count": 1
+  },
+  "37654230": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289374+00:00",
+    "import_action": "created",
+    "product_id": "d4554452-5ef1-4c7c-b2de-9a7383638885",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:08.235514+00:00",
+    "images_count": 1
+  },
+  "3761530": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289378+00:00",
+    "import_action": "created",
+    "product_id": "950123b4-1b97-47de-b289-a2fd4db95540",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:08.564331+00:00",
+    "images_count": 1
+  },
+  "37623881": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289381+00:00",
+    "import_action": "created",
+    "product_id": "d6a999cf-fa33-439b-9301-ef24e114e693",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:08.906319+00:00",
+    "images_count": 1
+  },
+  "37612197": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289385+00:00",
+    "import_action": "created",
+    "product_id": "17caa053-a519-4378-8139-e7944693d4be",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:09.243956+00:00",
+    "images_count": 1
+  },
+  "37623741": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289389+00:00",
+    "import_action": "created",
+    "product_id": "cedeb54a-f41d-4150-b48b-705185141446",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:09.576749+00:00",
+    "images_count": 1
+  },
+  "27976131": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289393+00:00",
+    "import_action": "created",
+    "product_id": "a3e0188c-bf04-47fa-908f-d52388117286",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:09.984532+00:00",
+    "images_count": 1
+  },
+  "36005262": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289396+00:00",
+    "import_action": "created",
+    "product_id": "b46a5e3d-2b1d-493e-b033-37a69fa93039",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:10.382649+00:00",
+    "images_count": 1
+  },
+  "36005270": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289400+00:00",
+    "import_action": "created",
+    "product_id": "129820c6-3911-4104-a118-9bbe39763a25",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:10.774341+00:00",
+    "images_count": 1
+  },
+  "36005297": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289404+00:00",
+    "import_action": "created",
+    "product_id": "37d11494-ccc4-472b-858c-463ceaf7d6c2",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:11.126786+00:00",
+    "images_count": 1
+  },
+  "100018855": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289408+00:00",
+    "import_action": "created",
+    "product_id": "963e273f-c36d-4f56-8d90-3c14c8fbedaa",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:11.571976+00:00",
+    "images_count": 1
+  },
+  "22895001": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289411+00:00",
+    "import_action": "created",
+    "product_id": "b31c6579-fad9-4bc1-9e6a-54b190f9fe1b",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:11.983988+00:00",
+    "images_count": 1
+  },
+  "37639982": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289415+00:00",
+    "import_action": "created",
+    "product_id": "1ae47d40-307c-4157-9a69-974132cfc172",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:12.336752+00:00",
+    "images_count": 1
+  },
+  "37612286": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289418+00:00",
+    "import_action": "created",
+    "product_id": "57fd7cde-e732-4e17-b2d7-4e6220d028df",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:12.666712+00:00",
+    "images_count": 1
+  },
+  "27976123": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289422+00:00",
+    "import_action": "created",
+    "product_id": "55373443-19be-4b87-a278-a38bce7a17db",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:13.039903+00:00",
+    "images_count": 1
+  },
+  "27976077": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289425+00:00",
+    "import_action": "created",
+    "product_id": "27658ce7-f3e8-4a0d-93f9-23889d6eba24",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:13.431583+00:00",
+    "images_count": 1
+  },
+  "37666581": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289429+00:00",
+    "import_action": "created",
+    "product_id": "d40acc61-007c-47f7-aa6c-d729a8ba1cb7",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:13.748273+00:00",
+    "images_count": 1
+  },
+  "34021961": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289432+00:00",
+    "import_action": "created",
+    "product_id": "e9c786fe-2ac1-4c50-a10c-2aa7487bd0ff",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:14.057017+00:00",
+    "images_count": 1
+  },
+  "34810044": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289436+00:00",
+    "import_action": "created",
+    "product_id": "04110bf8-1d09-4904-9f3f-6cfa40b73d46",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:14.461133+00:00",
+    "images_count": 1
+  },
+  "37666530": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289440+00:00",
+    "import_action": "created",
+    "product_id": "aeff73eb-9168-4ece-8c42-0618ed3ba172",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:14.861706+00:00",
+    "images_count": 1
+  },
+  "37667480": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289444+00:00",
+    "import_action": "created",
+    "product_id": "f8f53b7c-b5f7-464c-a979-682212602e51",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:15.254321+00:00",
+    "images_count": 1
+  },
+  "34054320": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289448+00:00",
+    "import_action": "created",
+    "product_id": "c63f4e52-73af-470b-b05d-b241bccd8aa5",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:15.706463+00:00",
+    "images_count": 1
+  },
+  "34054002": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289451+00:00",
+    "import_action": "created",
+    "product_id": "ec291ea5-3865-466a-9825-94d74ab8eda9",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:16.068411+00:00",
+    "images_count": 1
+  },
+  "27955525": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289455+00:00",
+    "import_action": "created",
+    "product_id": "272354ab-aece-4a1c-ad34-6e4b325fa32e",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:16.427468+00:00",
+    "images_count": 1
+  },
+  "34001960": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289458+00:00",
+    "import_action": "created",
+    "product_id": "42c288c4-5864-4040-9ff7-580a96c89ac6",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:16.895202+00:00",
+    "images_count": 1
+  },
+  "34810001": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289461+00:00",
+    "import_action": "created",
+    "product_id": "0e93c68d-26ce-444c-aeb2-7e5a8fefb273",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:17.389274+00:00",
+    "images_count": 1
+  },
+  "28619014": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289465+00:00",
+    "import_action": "created",
+    "product_id": "173adaff-3345-439d-bfe0-b21cc6b00569",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:17.953987+00:00",
+    "images_count": 1
+  },
+  "22890034": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289473+00:00",
+    "import_action": "created",
+    "product_id": "f23e97db-dca5-4558-9a6f-9bf0807158d1",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:18.341372+00:00",
+    "images_count": 1
+  },
+  "22855808": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289477+00:00",
+    "import_action": "created",
+    "product_id": "1bb42021-bd68-4cb6-abb7-6f9b743848a0",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:18.878360+00:00",
+    "images_count": 2
+  },
+  "27955657": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289480+00:00",
+    "import_action": "created",
+    "product_id": "5c53318f-a230-472c-b421-2487e40a3ebf",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:19.524799+00:00",
+    "images_count": 2
+  },
+  "27955509": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289485+00:00",
+    "import_action": "created",
+    "product_id": "2e879115-ca06-4114-988f-0041b4110312",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:19.891722+00:00",
+    "images_count": 1
+  },
+  "26011078": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289488+00:00",
+    "import_action": "created",
+    "product_id": "ce0ec1c0-5f9c-4e43-87e1-4f91c01b66dd",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:20.274231+00:00",
+    "images_count": 1
+  },
+  "26913519": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289492+00:00",
+    "import_action": "created",
+    "product_id": "433f4b0b-a412-44d9-89c1-42dc74d9839f",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:20.628080+00:00",
+    "images_count": 1
+  },
+  "26011000": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289497+00:00",
+    "import_action": "created",
+    "product_id": "e6339733-a2bf-4820-86e0-6a4f77cf34a4",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:20.959028+00:00",
+    "images_count": 1
+  },
+  "26913527": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289501+00:00",
+    "import_action": "created",
+    "product_id": "966e06fc-e99e-46ce-b277-5054876ba551",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:21.323315+00:00",
+    "images_count": 1
+  },
+  "26913543": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289504+00:00",
+    "import_action": "created",
+    "product_id": "4938b3ef-e000-4e02-9e15-683148cf78f6",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:21.658033+00:00",
+    "images_count": 1
+  },
+  "37639958": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289508+00:00",
+    "import_action": "created",
+    "product_id": "96a10115-84e6-4f34-8ebd-daa6e7abec2c",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:22.009758+00:00",
+    "images_count": 1
+  },
+  "26913551": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289512+00:00",
+    "import_action": "created",
+    "product_id": "253ae03f-7fa2-4dfd-9b81-a962f127d83e",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:22.356674+00:00",
+    "images_count": 1
+  },
+  "24013235": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289516+00:00",
+    "import_action": "created",
+    "product_id": "4b03a24b-ed35-4dd1-8cf9-be2f5378c6e4",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:22.834853+00:00",
+    "images_count": 1
+  },
+  "28601867": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289519+00:00",
+    "import_action": "created",
+    "product_id": "b6459498-8582-4ad8-978d-6f7b1bd22993",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:23.768081+00:00",
+    "images_count": 1
+  },
+  "28601808": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289523+00:00",
+    "import_action": "created",
+    "product_id": "6f232081-716f-4386-9b48-c825658229d3",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:24.143084+00:00",
+    "images_count": 1
+  },
+  "26012023": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289527+00:00",
+    "import_action": "created",
+    "product_id": "6b52f0cc-2495-416e-87bc-654acd352a52",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:24.496098+00:00",
+    "images_count": 1
+  },
+  "100018125": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289530+00:00",
+    "import_action": "created",
+    "product_id": "31386305-67aa-489c-8e20-bb0a17f3e086",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:24.947464+00:00",
+    "images_count": 1
+  },
+  "28602413": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289534+00:00",
+    "import_action": "created",
+    "product_id": "66075f8f-2437-4bda-bc48-a2efde939e52",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:25.340561+00:00",
+    "images_count": 1
+  },
+  "37639524": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289537+00:00",
+    "import_action": "created",
+    "product_id": "965c3525-c747-4542-b542-3202c556c7bd",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:25.666603+00:00",
+    "images_count": 1
+  },
+  "34800502": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289541+00:00",
+    "import_action": "created",
+    "product_id": "fa46bcc3-f403-4df7-8dcb-3a5789df3c3d",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:26.009281+00:00",
+    "images_count": 1
+  },
+  "34055726": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289545+00:00",
+    "import_action": "created",
+    "product_id": "98699cb8-c959-4522-9b63-2e402316e488",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:26.391805+00:00",
+    "images_count": 1
+  },
+  "23240602": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289548+00:00",
+    "import_action": "created",
+    "product_id": "607cc136-bc02-4e7b-a8ec-00718202c2fb",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:26.853107+00:00",
+    "images_count": 1
+  },
+  "23010607": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289551+00:00",
+    "import_action": "created",
+    "product_id": "74729d20-d8b5-4533-b116-0afd52816ede",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:27.174937+00:00",
+    "images_count": 1
+  },
+  "100017679": {
+    "import_ok": true,
+    "import_at": "2026-04-04T01:09:43.289555+00:00",
+    "import_action": "created",
+    "product_id": "63f8d1d0-9204-4081-9a9e-5bab46a2e0c7",
+    "images_ok": true,
+    "images_at": "2026-04-04T01:10:27.563997+00:00",
+    "images_count": 1
+  }
+}

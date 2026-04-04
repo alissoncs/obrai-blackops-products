@@ -1,0 +1,49 @@
+{
+  "urls_apos_limit_antes_do_skip": 1900,
+  "pulados_ja_no_arquivo": 1100,
+  "urls_processadas_nesta_execucao": 800,
+  "sucesso_nesta_execucao": 791,
+  "erros_nesta_execucao": 9,
+  "total_produtos_no_arquivo_final": 1891,
+  "skip_existing_ativo": true,
+  "tempo_total_segundos": 3390.907,
+  "erros_detalhe": [
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-pin-redondo-309-06-f-16",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-pin-redondo-309-06-f-16\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-pin-redondo-485-18",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-pin-redondo-485-18\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-pin-redondo-s-pta-835-20-f-26",
+      "mensagem": "Error: Page.goto: net::ERR_NETWORK_IO_SUSPENDED at https://www.tigre.com.br/produto/cabeca-pin-redondo-s-pta-835-20-f-26\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-pin-redondo-s-pta-835-20-f-26\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-trin-250-3",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-trin-250-3\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-trin-529-1",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-trin-529-1\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-trin-786-1-2",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-trin-786-1-2\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabeca-trin-dupla-sint-772-2",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabeca-trin-dupla-sint-772-2\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-pi-3260-12-verd-limao-c-vern-uv",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-pi-3260-12-verd-limao-c-vern-uv\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/cabo-mad-pin-3260-08-bordo",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/cabo-mad-pin-3260-08-bordo\", waiting until \"networkidle\"\n"
+    }
+  ],
+  "imagens_falhas": []
+}
