@@ -1,27 +1,29 @@
 #!/usr/bin/env python3
 # Instalação:
 #   python3 -m venv .venv && source .venv/bin/activate
-#   pip install playwright tqdm
+#   pip install -r requirements.txt
 #   playwright install chromium
 #
 # Uso:
-#   python scraper_tigre_produtos.py --limit 10
-#   python scraper_tigre_produtos.py --limit 10 --no-download-images   # só metadados, sem ficheiros locais
-#   python scraper_tigre_produtos.py --limit 5 -v   # logs detalhados (sitemap, cada produto, imagens)
-# Retomada: por omissão não reprocessa slugs já em output/tigre_products.json (merge incremental).
-#   python scraper_tigre_produtos.py --no-skip-existing --limit 10   # substitui o JSON inteiro
+#   python scraper_votoran_produtos.py --limit 10
+#   python scraper_votoran_produtos.py --limit 5 -v
+#   python scraper_votoran_produtos.py --no-download-images
+#   python scraper_votoran_produtos.py --skip-solutions
+# Retomada: por omissão faz merge com output/votoran_products.json (slugs já presentes são ignorados).
+#   python scraper_votoran_produtos.py --no-skip-existing --limit 20
 
 from __future__ import annotations
 
 import argparse
 import asyncio
+import html as html_lib
 import json
 import os
 import random
 import re
 import time
-from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -36,9 +38,9 @@ try:
 except ImportError:
     _HAS_FILE_LOCK = False
 
-SITEMAP_URL = "https://www.tigre.com.br/products-sitemap.xml"
+SITE_ORIGIN = "https://www.votorantimcimentos.com.br"
+SITEMAP_INDEX_URL = f"{SITE_ORIGIN}/sitemap_index.xml"
 
-# Relatórios, imagens e lock em output/aux/; só tigre_products.json na raiz de output/.
 OUTPUT_AUX_SUBDIR = "aux"
 
 USER_AGENT = (
@@ -51,7 +53,6 @@ SUPPLIER_BRANCH_ID = "00000000-0000-0000-0000-000000000002"
 
 
 def _vlog(verbose: bool, msg: str) -> None:
-    """Print only when --verbose is enabled (stderr-free for tqdm)."""
     if verbose:
         print(f"[verbose] {msg}", flush=True)
 
@@ -83,45 +84,61 @@ def _parse_sitemap_xml(xml_bytes: bytes) -> tuple[list[str], bool]:
     return [], False
 
 
-async def get_product_urls_from_sitemap(
-    context: BrowserContext, sitemap_url: str, *, verbose: bool = False
-) -> list[str]:
-    _vlog(verbose, f"GET sitemap: {sitemap_url}")
-    resp: APIResponse = await context.request.get(sitemap_url, timeout=120_000)
+async def _get_text_sitemaps_from_index(context: BrowserContext, *, verbose: bool) -> list[str]:
+    resp: APIResponse = await context.request.get(SITEMAP_INDEX_URL, timeout=120_000)
     if not resp.ok:
-        raise RuntimeError(f"Sitemap HTTP {resp.status}: {sitemap_url}")
+        raise RuntimeError(f"Sitemap index HTTP {resp.status}: {SITEMAP_INDEX_URL}")
     locs, is_index = _parse_sitemap_xml(await resp.body())
     if not is_index:
-        out = sorted(set(locs))
-        _vlog(verbose, f"Sitemap is urlset: {len(out)} unique product URL(s)")
-        return out
+        return [SITEMAP_INDEX_URL]
+    out = [u for u in locs if "page-sitemap" in u]
+    if not out:
+        out = locs
+    _vlog(verbose, f"sitemap index: {len(out)} page-related sub-sitemap(s)")
+    return out
 
-    _vlog(verbose, f"Sitemap is index: {len(locs)} sub-sitemap(s)")
+
+async def get_produtos_urls_from_wp_sitemap(context: BrowserContext, *, verbose: bool) -> list[str]:
+    """URLs em /produtos/... a partir do Yoast page-sitemap (inclui categorias; filtramos na scrape)."""
+    submaps = await _get_text_sitemaps_from_index(context, verbose=verbose)
     all_urls: list[str] = []
-    for i, sub in enumerate(locs, start=1):
-        _vlog(verbose, f"  [{i}/{len(locs)}] GET {sub}")
-        sub_resp = await context.request.get(sub, timeout=120_000)
+    for sm in submaps:
+        _vlog(verbose, f"GET sitemap: {sm}")
+        sub_resp = await context.request.get(sm, timeout=120_000)
         if not sub_resp.ok:
-            _vlog(verbose, f"  skip sub-sitemap HTTP {sub_resp.status}: {sub}")
+            _vlog(verbose, f"  skip HTTP {sub_resp.status}: {sm}")
             continue
-        sub_locs, _ = _parse_sitemap_xml(await sub_resp.body())
-        _vlog(verbose, f"  -> {len(sub_locs)} URL(s) in chunk")
-        all_urls.extend(sub_locs)
-    out = sorted(set(all_urls))
-    _vlog(verbose, f"Merged sub-sitemaps: {len(out)} unique product URL(s)")
+        locs, _ = _parse_sitemap_xml(await sub_resp.body())
+        all_urls.extend(locs)
+
+    base = urlparse(SITE_ORIGIN).netloc
+    seen: set[str] = set()
+    out: list[str] = []
+    hub_paths = {"/produtos", "/produtos/"}
+    for u in sorted(set(all_urls)):
+        p = urlparse(u)
+        if p.netloc != base:
+            continue
+        path = (p.path or "").rstrip("/") + "/"
+        if not path.startswith("/produtos/"):
+            continue
+        if path.rstrip("/") in {"/produtos"}:
+            continue
+        norm = f"{SITE_ORIGIN}{path}"
+        if norm not in seen:
+            seen.add(norm)
+            out.append(norm)
+    _vlog(verbose, f"unique /produtos/ URLs from sitemap: {len(out)}")
     return out
 
 
 def slug_from_url(url: str) -> str:
     path = urlparse(url).path.rstrip("/")
     last = path.split("/")[-1] if path else ""
-    if last.lower().endswith(".html"):
-        last = last[:-5]
-    return last.lower() or "produto"
+    return last.lower() or "item"
 
 
 def load_existing_products(products_path: Path) -> tuple[list[dict[str, Any]], set[str]]:
-    """Lê tigre_products.json e devolve (lista de produtos, slugs para skip)."""
     if not products_path.is_file():
         return [], set()
     try:
@@ -143,7 +160,6 @@ def load_existing_products(products_path: Path) -> tuple[list[dict[str, Any]], s
 
 
 def merge_products(existing: list[dict[str, Any]], new: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Mantém ordem dos existentes; acrescenta slugs novos no fim; atualiza por slug se vier de novo."""
     by_slug: dict[str, dict[str, Any]] = {}
     order: list[str] = []
     for p in existing:
@@ -175,10 +191,6 @@ def merge_and_write_products_file(
     *,
     lock_dir: Path,
 ) -> None:
-    """
-    Re-lê o arquivo no disco, faz merge com new_products e grava.
-    Com fcntl (Unix), usa lock exclusivo para reduzir corrida entre processos paralelos.
-    """
     lock_dir.mkdir(parents=True, exist_ok=True)
     lock_path = lock_dir / f"{products_path.name}.lock"
 
@@ -203,230 +215,229 @@ def merge_and_write_products_file(
 
 
 def _clean_text(s: str) -> str:
-    return re.sub(r"\s+", " ", s or "").strip()
+    t = re.sub(r"[ \t]+", " ", (s or "").replace("\r\n", "\n").replace("\r", "\n"))
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
 
 
-def _digits_ean(s: str) -> str:
-    m = re.search(r"\b(\d{8}|\d{12}|\d{13}|\d{14})\b", s)
-    return m.group(1) if m else ""
+def _infer_kind(
+    *,
+    url: str,
+    tag_line: str,
+    breadcrumb_labels: list[str],
+    intro: str,
+) -> str:
+    blob = " ".join([url, tag_line, intro, *breadcrumb_labels]).lower()
+    if "solução" in blob or "solucao" in blob or "/solucoes/" in blob:
+        return "solution"
+    return "product"
 
 
-def extract_ean(body_text: str, sku: str) -> str:
-    """Prioriza rótulos EAN/GTIN; evita confundir SKU numérico com EAN."""
-    t = body_text or ""
-    for pat in (
-        r"(?is)(EAN|GTIN)\s*[:]?\s*(\d{8}|\d{12}|\d{13}|\d{14})\b",
-        r"(?is)(c[oó]digo\s+de\s+barras)\s*[:]?\s*(\d{8}|\d{12}|\d{13}|\d{14})\b",
-    ):
-        m = re.search(pat, t)
-        if m:
-            return m.group(2)
-    cand = _digits_ean(t)
-    if not cand:
-        return ""
-    sku_d = re.sub(r"\D", "", sku or "")
-    if sku_d and cand == sku_d:
-        return ""
-    if sku and cand in re.sub(r"\W", "", sku):
-        return ""
-    return cand
-
-
-def _parse_price_brl(text: str) -> float | None:
-    m = re.search(r"R\$\s*([\d]{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2})", text)
-    if not m:
-        return None
-    raw = m.group(1).replace(".", "").replace(",", ".")
-    try:
-        return float(raw)
-    except ValueError:
-        return None
-
-
-def _nuxt_product_block(data: dict[str, Any], page_url: str) -> dict[str, Any] | None:
-    if not data:
-        return None
-    slug = slug_from_url(page_url)
-    key = f"page-product-{slug}"
-    if key in data:
-        return data[key]
-    for _k, v in data.items():
-        if str(_k).startswith("page-product-") and isinstance(v, dict) and "product" in v:
-            return v
-    return None
-
-
-def _rows_to_attributes(rows: Any) -> list[dict[str, str]]:
-    out: list[dict[str, str]] = []
-    if not isinstance(rows, list):
-        return out
-    for row in rows:
-        if isinstance(row, (list, tuple)) and len(row) >= 2:
-            ks, vs = _clean_text(str(row[0])), _clean_text(str(row[1]))
-            if ks and vs:
-                out.append({"attributeKey": ks, "value": vs})
-        elif isinstance(row, dict):
-            k = row.get("label") or row.get("name")
-            v = row.get("value")
-            if k is not None and v is not None:
-                ks, vs = _clean_text(str(k)), _clean_text(str(v))
-                if ks and vs:
-                    out.append({"attributeKey": ks, "value": vs})
-    return out
-
-
-def _specifications_to_attributes(specs: Any) -> list[dict[str, str]]:
-    out: list[dict[str, str]] = []
-    if not isinstance(specs, list):
-        return out
-    for item in specs:
-        if not isinstance(item, dict):
-            continue
-        label = item.get("label") or item.get("name") or item.get("title")
-        value = item.get("value") or item.get("text") or item.get("description")
-        if label is not None and value is not None:
-            ks, vs = _clean_text(str(label)), _clean_text(str(value))
-            if ks and vs:
-                out.append({"attributeKey": ks, "value": vs})
-    return out
-
-
-async def scrape_single_product(
+async def scrape_single_page(
     page: Page, url: str, *, verbose: bool = False
 ) -> tuple[dict[str, Any] | None, str | None]:
     try:
         _vlog(verbose, f"goto: {url}")
-        await page.goto(url, wait_until="networkidle", timeout=90_000)
-        await page.wait_for_timeout(random.randint(500, 1500))
-        await page.wait_for_timeout(5000)
+        await page.goto(url, wait_until="domcontentloaded", timeout=90_000)
+        await page.wait_for_timeout(random.randint(400, 900))
+        try:
+            await page.wait_for_selector("section.cimento", timeout=15_000)
+        except Error:
+            _vlog(verbose, "  no section.cimento — category or non-PDP, skip")
+            return None, "not_pdp"
 
         canonical = await page.locator('link[rel="canonical"]').first.get_attribute("href")
         source_url = _clean_text(canonical or page.url or url)
-        if source_url != url:
-            _vlog(verbose, f"  canonical/sourceUrl: {source_url}")
 
-        nuxt = await page.evaluate("() => window.__NUXT__ && window.__NUXT__.data")
-        block = _nuxt_product_block(nuxt or {}, url) if nuxt else None
-        _vlog(verbose, f"  __NUXT__.data: {'present' if nuxt else 'missing'}")
-        _vlog(verbose, f"  nuxt product block: {'found' if block else 'not found'}")
+        payload = await page.evaluate(
+            """() => {
+          const root = document.querySelector('section.cimento');
+          if (!root) return null;
 
-        product = (block or {}).get("product") or {}
-        pd = (block or {}).get("productDetail") or {}
-        specs = (block or {}).get("specifications")
+          const tagEl = root.querySelector('.infos .tag');
+          const tagLine = tagEl ? tagEl.innerText.trim() : '';
 
-        name = _clean_text(str(product.get("name") or pd.get("name") or ""))
+          let h1 = '';
+          const h1El = root.querySelector('.infos h1');
+          if (h1El) h1 = h1El.innerText.trim();
+
+          const introEl = root.querySelector('.infos > p');
+          const intro = introEl ? introEl.innerText.trim() : '';
+
+          const crumbs = [];
+          document.querySelectorAll('section.breadcrumbs a').forEach(a => {
+            const t = a.innerText.trim();
+            if (t) crumbs.push(t);
+          });
+
+          const imageUrls = [];
+          const addUrl = (u) => {
+            if (!u || typeof u !== 'string') return;
+            let x = u.trim();
+            if (x.startsWith('//')) x = 'https:' + x;
+            if (!x.startsWith('http')) return;
+            if (imageUrls.indexOf(x) === -1) imageUrls.push(x);
+          };
+
+          const mainEl = root.querySelector('.images .main');
+          if (mainEl) {
+            const bg = mainEl.style.backgroundImage || window.getComputedStyle(mainEl).backgroundImage || '';
+            const m = bg.match(/url\\(['"]?([^'")]+)['"]?\\)/);
+            if (m) addUrl(m[1]);
+          }
+          root.querySelectorAll('.images .grid .image[data-image]').forEach(el => {
+            addUrl(el.getAttribute('data-image'));
+          });
+          root.querySelectorAll('.slider-mobile .image[data-image]').forEach(el => {
+            addUrl(el.getAttribute('data-image'));
+          });
+
+          const descParts = [];
+          if (tagLine) descParts.push(tagLine);
+          if (intro) descParts.push(intro);
+
+          root.querySelectorAll('.tab-contents').forEach(tab => {
+            const key = tab.getAttribute('data-tab') || '';
+            const label = ({ sobre: 'Sobre', caracteristicas: 'Características',
+              downloads: 'Downloads', tabela: 'Tabela' })[key] || key;
+            let text = tab.innerText || '';
+            text = text.replace(/\\s+/g, ' ').trim();
+            const links = [];
+            tab.querySelectorAll('a[href]').forEach(a => {
+              const href = a.getAttribute('href');
+              const lt = (a.innerText || '').replace(/\\s+/g, ' ').trim();
+              if (href && lt && !href.startsWith('#')) links.push(lt + ': ' + href);
+            });
+            if (text) descParts.push('--- ' + label + ' ---\\n' + text);
+            if (links.length) descParts.push('--- ' + label + ' (links) ---\\n' + links.join('\\n'));
+          });
+
+          const attributes = [];
+          const charTab = root.querySelector('.tab-contents[data-tab="caracteristicas"]');
+          if (charTab) {
+            charTab.querySelectorAll('.feature').forEach(f => {
+              const h = f.querySelector('h4');
+              const title = h ? h.innerText.trim() : '';
+              const p = f.querySelector('p');
+              let val = p ? p.innerText.trim() : '';
+              const bar = f.querySelector('.feature-bar .bar');
+              if (bar) {
+                const w = bar.style.width || '';
+                const subs = Array.from(f.querySelectorAll('.bar-subtitles span'))
+                  .map(s => s.innerText.trim()).filter(Boolean);
+                const extra = [w ? 'indicador: ' + w : '', subs.length ? subs.join(' | ') : '']
+                  .filter(Boolean).join('; ');
+                if (extra) val = val ? val + '\\n' + extra : extra;
+              }
+              if (title && val) attributes.push({ attributeKey: title, value: val });
+              else if (title && !val) {
+                const barOnly = f.querySelector('.feature-bar');
+                if (barOnly) {
+                  const bar = f.querySelector('.feature-bar .bar');
+                  const w = bar ? (bar.style.width || '') : '';
+                  const subs = Array.from(f.querySelectorAll('.bar-subtitles span'))
+                    .map(s => s.innerText.trim()).filter(Boolean);
+                  const v = [w ? 'indicador: ' + w : '', subs.join(' | ')].filter(Boolean).join('; ');
+                  if (v) attributes.push({ attributeKey: title, value: v });
+                }
+              }
+            });
+          }
+
+          return {
+            tagLine, h1, intro, crumbs, imageUrls, descParts, attributes
+          };
+        }"""
+        )
+
+        if not payload:
+            return None, "not_pdp"
+
+        name = _clean_text(html_lib.unescape(str(payload.get("h1") or "")))
         if not name:
             try:
-                h1 = await page.locator("h1.fs-36, main h1").last.inner_text(timeout=5000)
-                name = _clean_text(h1)
+                title = await page.title()
+                name = _clean_text(html_lib.unescape(title.split("|")[0]))
             except Error:
-                name = _clean_text((await page.title()).split("|")[0])
+                name = slug_from_url(source_url)
 
-        sku = _clean_text(str(product.get("sku") or ""))
-        if not sku:
-            body_sample = await page.evaluate("() => document.body ? document.body.innerText : ''")
-            m = re.search(r"CÓDIGO\s+([A-Z0-9._\-]+)", body_sample, re.I)
-            if m:
-                sku = _clean_text(m.group(1))
-                _vlog(verbose, f"  sku from DOM regex: {sku}")
+        tag_line = _clean_text(html_lib.unescape(str(payload.get("tagLine") or "")))
+        intro = _clean_text(html_lib.unescape(str(payload.get("intro") or "")))
+        crumbs = payload.get("crumbs") or []
+        if not isinstance(crumbs, list):
+            crumbs = []
+        breadcrumb_labels = [_clean_text(html_lib.unescape(str(c))) for c in crumbs if c]
 
-        desc = _clean_text(
-            str(product.get("description") or product.get("technicalData") or product.get("informacoes_tecnicas") or "")
+        kind = _infer_kind(
+            url=source_url,
+            tag_line=tag_line,
+            breadcrumb_labels=breadcrumb_labels,
+            intro=intro,
         )
-        if not desc:
+
+        category_path = ""
+        if len(breadcrumb_labels) >= 3:
+            category_path = " > ".join(breadcrumb_labels[1:-1])
+        elif len(breadcrumb_labels) == 2:
+            category_path = breadcrumb_labels[1]
+
+        desc_raw = "\n\n".join(str(p) for p in (payload.get("descParts") or []) if p)
+        description = _clean_text(html_lib.unescape(desc_raw))
+
+        image_urls = payload.get("imageUrls") or []
+        if not isinstance(image_urls, list):
+            image_urls = []
+
+        if not image_urls:
             try:
-                desc = await page.locator(".page-product .tab-pane.active").first.inner_text(timeout=2000)
-                desc = _clean_text(desc)
+                og = await page.locator('meta[property="og:image"]').first.get_attribute("content")
+                if og and og.strip().startswith("http"):
+                    image_urls = [og.strip()]
             except Error:
                 pass
 
-        body_text = await page.evaluate("() => document.body ? document.body.innerText : ''")
-        ean = extract_ean(body_text, sku)
-        if not ean and isinstance(nuxt, dict):
-            ean = extract_ean(json.dumps(nuxt, ensure_ascii=False), sku)
-
+        attrs_raw = payload.get("attributes") or []
         attributes: list[dict[str, str]] = []
-        attributes.extend(_specifications_to_attributes(specs))
-        table = pd.get("table") or {}
-        attributes.extend(_rows_to_attributes(table.get("rows")))
-
-        dom_attrs = await page.evaluate(
-            """() => {
-          const out = [];
-          const root = document.querySelector('.technical-info-tab')
-            || document.querySelector('.page-product .technical-info-tab');
-          if (!root) return out;
-          root.querySelectorAll('table tr').forEach(tr => {
-            const cells = tr.querySelectorAll('th,td');
-            if (cells.length >= 2) {
-              const k = cells[0].innerText.trim();
-              const v = cells[1].innerText.trim();
-              if (k && v) out.push([k, v]);
-            }
-          });
-          return out;
-        }"""
-        )
-        for pair in dom_attrs or []:
-            if len(pair) >= 2:
-                ks, vs = _clean_text(str(pair[0])), _clean_text(str(pair[1]))
-                if ks and vs and not any(
-                    a["attributeKey"] == ks and a["value"] == vs for a in attributes
-                ):
-                    attributes.append({"attributeKey": ks, "value": vs})
-
-        retail = _parse_price_brl(body_text)
-
-        image_urls = await page.evaluate(
-            """() => {
-          const out = [];
-          const root = document.querySelector('.gallery-wrapper') || document.querySelector('.custom-gallery');
-          if (!root) return out;
-          root.querySelectorAll('img').forEach(img => {
-            let u = img.currentSrc || img.src || img.getAttribute('data-src');
-            if (!u || u.includes('1px.gif')) return;
-            if (u.startsWith('//')) u = 'https:' + u;
-            out.push(u);
-          });
-          return out;
-        }"""
-        )
-        seen: set[str] = set()
-        ordered: list[str] = []
-        for u in image_urls or []:
-            if u not in seen:
-                seen.add(u)
-                ordered.append(u)
-
-        pd_image = pd.get("image")
-        if isinstance(pd_image, str) and pd_image.strip().startswith("http"):
-            u = pd_image.strip()
-            if u not in seen:
-                seen.add(u)
-                ordered.insert(0, u)
-
-        if not ordered and isinstance(product.get("image"), str) and str(product["image"]).startswith("http"):
-            ordered.append(str(product["image"]).strip())
+        if isinstance(attrs_raw, list):
+            for item in attrs_raw:
+                if isinstance(item, dict):
+                    k = _clean_text(html_lib.unescape(str(item.get("attributeKey") or "")))
+                    v = _clean_text(html_lib.unescape(str(item.get("value") or "")))
+                    if k and v:
+                        attributes.append({"attributeKey": k, "value": v})
 
         slug = slug_from_url(source_url)
+        body_text = await page.evaluate("() => document.body ? document.body.innerText : ''")
+        sku = ""
+        for pat in (
+            r"(?i)\b(?:ref|referência|referencia|c[oó]digo)\s*[:]?\s*([A-Z0-9][A-Z0-9.\-]{2,40})\b",
+            r"(?i)\bSKU\s*[:]?\s*([A-Z0-9][A-Z0-9.\-]{2,40})\b",
+        ):
+            m = re.search(pat, body_text or "")
+            if m:
+                sku = _clean_text(m.group(1))
+                break
+        if not sku:
+            sku = slug
 
         _vlog(
             verbose,
-            f"  scraped: slug={slug!r} sku={sku or '(empty)'} name={name[:60]!r}{'…' if len(name) > 60 else ''} "
-            f"ean={'yes' if ean else 'no'} retail={retail!r} attrs={len(attributes)} imgs={len(ordered)}",
+            f"  scraped: slug={slug!r} kind={kind} name={name[:56]!r}{'…' if len(name) > 56 else ''} "
+            f"imgs={len(image_urls)} attrs={len(attributes)}",
         )
 
         return (
             {
                 "_slug": slug,
                 "_sourceUrl": source_url,
-                "_name": name or slug,
-                "_sku": sku or "",
-                "_ean": ean or "",
-                "_description": desc,
-                "_retail": retail,
+                "_name": name,
+                "_sku": sku,
+                "_description": description,
                 "_attributes": attributes,
-                "_image_urls": ordered,
+                "_image_urls": image_urls,
+                "_kind": kind,
+                "_categoryPath": category_path,
+                "_tagLine": tag_line,
             },
             None,
         )
@@ -459,7 +470,7 @@ async def download_product_gallery(
         filename = "main.jpg" if i == 0 else f"{i + 1:02d}.jpg"
         dest = base / filename
         ext = Path(urlparse(u).path).suffix.lower()
-        if ext in (".png", ".webp", ".jpeg", ".jpg"):
+        if ext in (".png", ".webp", ".jpeg", ".jpg", ".gif", ".svg"):
             dest = dest.with_suffix(ext)
         try:
             await download_image(context, u, dest)
@@ -477,11 +488,15 @@ def build_product_record(
     main_image: str | None,
     images: list[str] | None,
 ) -> dict[str, Any]:
-    return {
+    tags: list[str] = []
+    if scraped.get("_kind") == "solution":
+        tags.append("kind:solution")
+
+    rec: dict[str, Any] = {
         "sku": scraped["_sku"] or scraped["_slug"],
         "slug": scraped["_slug"],
         "name": scraped["_name"],
-        "ean": scraped["_ean"] or "",
+        "ean": "",
         "description": scraped["_description"] or "",
         "mainImage": main_image,
         "images": images,
@@ -493,14 +508,20 @@ def build_product_record(
         "supplierProducts": [
             {
                 "supplierBranchId": SUPPLIER_BRANCH_ID,
-                "retailPrice": scraped.get("_retail"),
+                "retailPrice": None,
                 "wholesalePrice": None,
                 "minimumWholesaleQuantity": 1,
                 "stockQuantity": 999,
                 "status": "active",
             }
         ],
+        "kind": scraped.get("_kind") or "product",
     }
+    if scraped.get("_categoryPath"):
+        rec["categoryPath"] = scraped["_categoryPath"]
+    if tags:
+        rec["tags"] = tags
+    return rec
 
 
 async def main_async(args: argparse.Namespace) -> int:
@@ -516,17 +537,19 @@ async def main_async(args: argparse.Namespace) -> int:
         report_path = aux_dir / f"relatorio_{ts}.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     images_dir = aux_dir / "images"
-    products_path = out_dir / "tigre_products.json"
+    products_path = out_dir / "votoran_products.json"
 
     _vlog(
         v,
         f"config: output_dir={out_dir} download_images={args.download_images} "
-        f"skip_existing={args.skip_existing} limit={args.limit!r}",
+        f"skip_existing={args.skip_existing} skip_solutions={args.skip_solutions} limit={args.limit!r}",
     )
     _vlog(v, f"paths: products={products_path} images={images_dir} report={report_path}")
 
     started = time.perf_counter()
     report_errors: list[dict[str, str]] = []
+    skipped_not_pdp: list[str] = []
+    skipped_solutions: list[str] = []
     image_failures: list[dict[str, Any]] = []
     products_out: list[dict[str, Any]] = []
     urls: list[str] = []
@@ -538,12 +561,10 @@ async def main_async(args: argparse.Namespace) -> int:
         existing_products, existing_slugs = load_existing_products(products_path)
         _vlog(
             v,
-            f"skip_existing: {len(existing_slugs)} slug(s) already in {products_path.name} "
-            f"({len(existing_products)} product record(s))",
+            f"skip_existing: {len(existing_slugs)} slug(s) in {products_path.name}",
         )
 
     sem = asyncio.Semaphore(3)
-    _vlog(v, "concurrency: max 3 parallel product pages (asyncio.Semaphore)")
 
     async with async_playwright() as p:
         _vlog(v, "launching chromium (headless)")
@@ -561,7 +582,7 @@ async def main_async(args: argparse.Namespace) -> int:
         )
 
         try:
-            urls = await get_product_urls_from_sitemap(context, SITEMAP_URL, verbose=v)
+            urls = await get_produtos_urls_from_wp_sitemap(context, verbose=v)
             if args.limit is not None:
                 urls = urls[: max(0, args.limit)]
                 _vlog(v, f"after --limit={args.limit}: {len(urls)} URL(s)")
@@ -570,21 +591,31 @@ async def main_async(args: argparse.Namespace) -> int:
                 before = len(urls)
                 urls = [u for u in urls if slug_from_url(u) not in existing_slugs]
                 skipped_existing = before - len(urls)
-                _vlog(v, f"after skip_existing filter: {len(urls)} to scrape, {skipped_existing} skipped")
+                _vlog(v, f"after skip_existing: {len(urls)} to scrape, {skipped_existing} skipped")
 
             async def work(
                 idx: int, u: str
-            ) -> tuple[int, dict[str, Any] | None, dict[str, str] | None, list[dict[str, Any]]]:
+            ) -> tuple[int, dict[str, Any] | None, dict[str, str] | None, list[str], list[str], list[dict[str, Any]]]:
                 async with sem:
                     _vlog(v, f"[{idx + 1}/{len(urls)}] start {u}")
-                    await asyncio.sleep(random.uniform(1.0, 3.0))
+                    await asyncio.sleep(random.uniform(0.8, 2.2))
                     page = await context.new_page()
                     img_errs: list[dict[str, Any]] = []
+                    not_pdp: list[str] = []
+                    sol_skip: list[str] = []
                     try:
-                        scraped, err = await scrape_single_product(page, u, verbose=v)
+                        scraped, err = await scrape_single_page(page, u, verbose=v)
+                        if err == "not_pdp":
+                            not_pdp.append(u)
+                            return idx, None, None, not_pdp, sol_skip, img_errs
                         if err or not scraped:
                             _vlog(v, f"[{idx + 1}/{len(urls)}] fail: {err or 'sem dados'}")
-                            return idx, None, {"url": u, "mensagem": err or "sem dados"}, []
+                            return idx, None, {"url": u, "mensagem": err or "sem dados"}, not_pdp, sol_skip, img_errs
+
+                        if args.skip_solutions and scraped.get("_kind") == "solution":
+                            sol_skip.append(u)
+                            _vlog(v, f"[{idx + 1}/{len(urls)}] skip solution: {scraped['_slug']}")
+                            return idx, None, None, not_pdp, sol_skip, img_errs
 
                         slug = scraped["_slug"]
                         main_rel: str | None = None
@@ -603,8 +634,6 @@ async def main_async(args: argparse.Namespace) -> int:
                                 main_rel = rels[0]
                                 images_rel = rels
                         else:
-                            main_rel = None
-                            images_rel = None
                             _vlog(
                                 v,
                                 f"[{idx + 1}/{len(urls)}] skip downloads "
@@ -613,15 +642,17 @@ async def main_async(args: argparse.Namespace) -> int:
                             )
 
                         rec = build_product_record(scraped, main_image=main_rel, images=images_rel)
-                        _vlog(v, f"[{idx + 1}/{len(urls)}] ok slug={slug}")
-                        return idx, rec, None, img_errs
+                        _vlog(v, f"[{idx + 1}/{len(urls)}] ok slug={slug} kind={rec.get('kind')}")
+                        return idx, rec, None, not_pdp, sol_skip, img_errs
                     finally:
                         await page.close()
 
             results = await tqdm_async.gather(
-                *[work(i, u) for i, u in enumerate(urls)], desc="Produtos"
+                *[work(i, u) for i, u in enumerate(urls)], desc="Votorantim"
             )
-            for idx, rec, err, img_e in sorted(results, key=lambda x: x[0]):
+            for idx, rec, err, np, ss, img_e in sorted(results, key=lambda x: x[0]):
+                skipped_not_pdp.extend(np)
+                skipped_solutions.extend(ss)
                 if err:
                     report_errors.append(err)
                 elif rec:
@@ -636,7 +667,8 @@ async def main_async(args: argparse.Namespace) -> int:
     elapsed = time.perf_counter() - started
     _vlog(
         v,
-        f"summary: {len(products_out)} ok, {len(report_errors)} scrape errors, "
+        f"summary: {len(products_out)} ok, {len(report_errors)} errors, "
+        f"{len(skipped_not_pdp)} not_pdp, {len(skipped_solutions)} skipped solutions, "
         f"{len(image_failures)} image errors, {elapsed:.1f}s",
     )
 
@@ -657,10 +689,15 @@ async def main_async(args: argparse.Namespace) -> int:
                 "urls_processadas_nesta_execucao": len(urls),
                 "sucesso_nesta_execucao": len(products_out),
                 "erros_nesta_execucao": len(report_errors),
+                "ignorados_nao_pdp": len(skipped_not_pdp),
+                "ignorados_solucoes": len(skipped_solutions),
                 "total_produtos_no_arquivo_final": final_count,
                 "skip_existing_ativo": args.skip_existing,
+                "skip_solutions_ativo": args.skip_solutions,
                 "tempo_total_segundos": round(elapsed, 3),
                 "erros_detalhe": report_errors,
+                "urls_nao_pdp": skipped_not_pdp,
+                "urls_solucoes_ignoradas": skipped_solutions,
                 "imagens_falhas": image_failures,
             },
             ensure_ascii=False,
@@ -675,20 +712,21 @@ async def main_async(args: argparse.Namespace) -> int:
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
-        description="Scraper de produtos tigre.com.br. Por omissão ignora slugs já presentes em tigre_products.json (modo retomada)."
+        description="Scraper de páginas /produtos/ da Votorantim Cimentos (PDP com section.cimento). "
+        "Fonte de URLs: Yoast page-sitemap. Merge incremental com votoran_products.json por omissão."
     )
-    ap.add_argument("--limit", type=int, default=None, help="Processa apenas os N primeiros URLs do sitemap")
+    ap.add_argument("--limit", type=int, default=None, help="Processa apenas os N primeiros URLs do sitemap (após ordenação)")
     ap.add_argument(
         "--download-images",
         dest="download_images",
         action="store_true",
-        help="Baixa imagens (comportamento por omissão; útil após --no-download-images)",
+        help="Baixa imagens (omissão: ligado)",
     )
     ap.add_argument(
         "--no-download-images",
         dest="download_images",
         action="store_false",
-        help="Não baixa ficheiros; não preenche mainImage/images com paths locais",
+        help="Não grava ficheiros de imagem",
     )
     ap.set_defaults(download_images=True)
     ap.add_argument(
@@ -702,19 +740,24 @@ def parse_args() -> argparse.Namespace:
         dest="skip_existing",
         action="store_false",
         default=True,
-        help="Processa todos os URLs do lote e substitui o JSON só com esta execução (sem merge)",
+        help="Substitui o JSON só com esta execução (sem merge)",
+    )
+    ap.add_argument(
+        "--skip-solutions",
+        action="store_true",
+        help="Não grava registos classificados como kind=solution",
     )
     ap.add_argument(
         "--relatorio-out",
         type=Path,
         default=None,
-        help="Relatório JSON (default: <output-dir>/aux/relatorio_<UTC>.json)",
+        help="Relatório JSON (default: output/aux/relatorio_<UTC>.json)",
     )
     ap.add_argument(
         "-v",
         "--verbose",
         action="store_true",
-        help="Logs detalhados (sitemap, cada URL, scrape, downloads, resumo)",
+        help="Logs detalhados",
     )
     return ap.parse_args()
 

@@ -1,0 +1,33 @@
+{
+  "urls_apos_limit_antes_do_skip": 47,
+  "pulados_ja_no_arquivo": 32,
+  "urls_processadas_nesta_execucao": 15,
+  "sucesso_nesta_execucao": 0,
+  "erros_nesta_execucao": 0,
+  "ignorados_nao_pdp": 15,
+  "ignorados_solucoes": 0,
+  "total_produtos_no_arquivo_final": 32,
+  "skip_existing_ativo": true,
+  "skip_solutions_ativo": false,
+  "tempo_total_segundos": 96.843,
+  "erros_detalhe": [],
+  "urls_nao_pdp": [
+    "https://www.votorantimcimentos.com.br/produtos/acabamentos/",
+    "https://www.votorantimcimentos.com.br/produtos/acabamentos/impermeabilizantes/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/areia/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/brita-2/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/po-2/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/rachao/",
+    "https://www.votorantimcimentos.com.br/produtos/argamassas/",
+    "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/",
+    "https://www.votorantimcimentos.com.br/produtos/cimentos/",
+    "https://www.votorantimcimentos.com.br/produtos/concretos/",
+    "https://www.votorantimcimentos.com.br/produtos/coprocessamento/",
+    "https://www.votorantimcimentos.com.br/produtos/insumos-agricolas/",
+    "https://www.votorantimcimentos.com.br/produtos/plastificantes-e-aditivos/",
+    "https://www.votorantimcimentos.com.br/produtos/rejuntamentos/"
+  ],
+  "urls_solucoes_ignoradas": [],
+  "imagens_falhas": []
+}

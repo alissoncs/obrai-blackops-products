@@ -1,1 +1,0 @@
-# Parsers por fornecedor

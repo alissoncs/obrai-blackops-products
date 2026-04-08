@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Push Tigre JSON products + local images to Obrai admin bulk import API.
+Push Votorantim JSON products + local images to Obrai admin bulk import API.
 See PUSH_TO_PRODUCTION.md for usage.
+
+Brand name in Obrai admin must match PRODUCTION_BRAND_NAME (edit if e.g. "Votorantim Cimentos").
 """
 
 from __future__ import annotations
@@ -31,7 +33,7 @@ load_dotenv()
 
 # --- Edit these for your production target (origin only: scheme + host, no /api path) ---
 PRODUCTION_API_BASE = "https://obrai-app1-ifnsz.ondigitalocean.app"
-PRODUCTION_BRAND_NAME = "Tigre"
+PRODUCTION_BRAND_NAME = "Votorantim"
 
 BULK_IMPORT_MAX_ITEMS = 500
 BULK_IMAGE_MAX_FILES = 20
@@ -231,13 +233,13 @@ def save_state(path: Path, state: dict[str, Any]) -> None:
 def parse_args() -> argparse.Namespace:
     here = Path(__file__).resolve().parent
     p = argparse.ArgumentParser(
-        description="Push tigre_products.json to Obrai production (bulk import + images).",
+        description="Push votoran_products.json to Obrai production (bulk import + images).",
     )
     p.add_argument(
         "--json-path",
         type=Path,
-        default=here / "output" / "tigre_products.json",
-        help="Path to tigre_products.json",
+        default=here / "output" / "votoran_products.json",
+        help="Path to votoran_products.json",
     )
     p.add_argument(
         "--images-root",
@@ -249,7 +251,7 @@ def parse_args() -> argparse.Namespace:
         "--state-path",
         type=Path,
         default=here / "output" / "aux" / "push_prod_state.json",
-        help="JSON file tracking per-SKU progress",
+        help="JSON file tracking per-SKU progress (votoran-specific; separate from tigre-import)",
     )
     p.add_argument(
         "--limit",
@@ -262,6 +264,11 @@ def parse_args() -> argparse.Namespace:
         "--only-with-images",
         action="store_true",
         help="Process only products that have mainImage or a non-empty images[] path in JSON (then apply --limit)",
+    )
+    p.add_argument(
+        "--skip-solutions",
+        action="store_true",
+        help='Exclude rows with kind=="solution" before --limit (aligns with scraper --skip-solutions)',
     )
     p.add_argument("--dry-run", action="store_true", help="No HTTP calls; no state writes")
     p.add_argument("--only-import", action="store_true", help="Skip image uploads")
@@ -307,6 +314,14 @@ def main() -> None:
         )
     else:
         candidates = all_products
+
+    if args.skip_solutions:
+        before = len(candidates)
+        candidates = [p for p in candidates if str(p.get("kind", "")).strip().lower() != "solution"]
+        dropped = before - len(candidates)
+        console.print(
+            f"[cyan]Filter[/cyan] --skip-solutions: dropped {dropped} row(s), {len(candidates)} remaining"
+        )
 
     raw_products = candidates[: args.limit]
     console.print(

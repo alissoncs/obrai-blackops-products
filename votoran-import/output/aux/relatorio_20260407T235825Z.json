@@ -1,0 +1,23 @@
+{
+  "urls_apos_limit_antes_do_skip": 8,
+  "pulados_ja_no_arquivo": 0,
+  "urls_processadas_nesta_execucao": 8,
+  "sucesso_nesta_execucao": 3,
+  "erros_nesta_execucao": 0,
+  "ignorados_nao_pdp": 5,
+  "ignorados_solucoes": 0,
+  "total_produtos_no_arquivo_final": 3,
+  "skip_existing_ativo": false,
+  "skip_solutions_ativo": false,
+  "tempo_total_segundos": 39.269,
+  "erros_detalhe": [],
+  "urls_nao_pdp": [
+    "https://www.votorantimcimentos.com.br/produtos/acabamentos/",
+    "https://www.votorantimcimentos.com.br/produtos/acabamentos/impermeabilizantes/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/areia/",
+    "https://www.votorantimcimentos.com.br/produtos/agregados/brita-2/"
+  ],
+  "urls_solucoes_ignoradas": [],
+  "imagens_falhas": []
+}

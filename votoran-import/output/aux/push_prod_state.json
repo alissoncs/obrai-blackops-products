@@ -1,0 +1,290 @@
+{
+  "cal-de-pintura": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:15:58.331235+00:00",
+    "import_action": "created",
+    "product_id": "c60a2654-83d3-4fc8-9699-1d5ab1ca6bbd",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:15:58.754759+00:00",
+    "images_count": 1
+  },
+  "impermax-1-000": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633452+00:00",
+    "import_action": "created",
+    "product_id": "be0354ac-ef80-487e-a04b-6cf5b9b3dd3f",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:03.046390+00:00",
+    "images_count": 1
+  },
+  "impermax-7-000": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633479+00:00",
+    "import_action": "created",
+    "product_id": "fa78c667-96d2-4689-a1a7-a24db06948c7",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:03.464859+00:00",
+    "images_count": 1
+  },
+  "engemassa": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633485+00:00",
+    "import_action": "created",
+    "product_id": "7f5b6ea8-9ebd-4484-a4dc-1a91ce6127bf",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:04.048790+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-i-2": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633489+00:00",
+    "import_action": "created",
+    "product_id": "9a340100-242b-4cfc-a203-3a36c6bfcbb4",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:04.657826+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-i-3": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633493+00:00",
+    "import_action": "created",
+    "product_id": "2ab8c8dc-c061-4f57-a05d-9ad6b6ac8f58",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:05.045218+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-ii-2": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633496+00:00",
+    "import_action": "created",
+    "product_id": "af878b67-ca35-4722-99e7-a7c0564507b4",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:05.417423+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-ii": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633499+00:00",
+    "import_action": "created",
+    "product_id": "1513f083-1f82-4cf0-b205-199cfa629ede",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:05.842472+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-iii-flexivel-2": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633503+00:00",
+    "import_action": "created",
+    "product_id": "14e4553a-55f8-4f1f-96c3-df644580d2a4",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:06.264387+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-iii-flexivel-3": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633506+00:00",
+    "import_action": "created",
+    "product_id": "f15b8eb6-8dd4-4cad-bc67-197fa5445ef3",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:06.694613+00:00",
+    "images_count": 1
+  },
+  "votomassa-ac-iii-flexivel": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633509+00:00",
+    "import_action": "created",
+    "product_id": "eda4cef9-e43a-4433-b4bc-3829d6325106",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:07.160319+00:00",
+    "images_count": 1
+  },
+  "votomassa-blocos-de-vidro": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633512+00:00",
+    "import_action": "created",
+    "product_id": "108980f9-e3bc-4ed9-ae11-253c315d17ab",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:07.479671+00:00",
+    "images_count": 1
+  },
+  "votomassa-cola-tudo-branca": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633516+00:00",
+    "import_action": "created",
+    "product_id": "20d0d5fb-022a-4165-b1d0-52f220539645",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:07.841385+00:00",
+    "images_count": 1
+  },
+  "votomassa-cola-tudo-cinza": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633520+00:00",
+    "import_action": "created",
+    "product_id": "423c225b-33ec-4be8-9b2f-55e63a86c7d1",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:08.270734+00:00",
+    "images_count": 1
+  },
+  "votomassa-grandes-formatos": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633523+00:00",
+    "import_action": "created",
+    "product_id": "bf4dda81-f256-4167-9ac7-649f93d316c5",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:08.680414+00:00",
+    "images_count": 1
+  },
+  "votomassa-massa-pronta": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633527+00:00",
+    "import_action": "created",
+    "product_id": "f34e4b37-b8f2-40cd-afef-ba4e7e24011f",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:09.144267+00:00",
+    "images_count": 1
+  },
+  "votomassa-pastilhas": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633530+00:00",
+    "import_action": "created",
+    "product_id": "c35e682e-d6a6-4215-90ea-236c03ceb74c",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:09.507600+00:00",
+    "images_count": 1
+  },
+  "votomassa-piso-sobre-piso-2": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633533+00:00",
+    "import_action": "created",
+    "product_id": "7fc14499-c19d-44e2-9b47-e4ed894930c7",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:09.889019+00:00",
+    "images_count": 1
+  },
+  "votomassa-piso-sobre-piso-3": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633537+00:00",
+    "import_action": "created",
+    "product_id": "708299fc-438d-4a04-9f59-89dd8c810b1a",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:10.307697+00:00",
+    "images_count": 1
+  },
+  "votomassa-porcelanato-branca": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633540+00:00",
+    "import_action": "created",
+    "product_id": "02cbebb0-bb95-41e4-a7d8-9654fb64367b",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:10.806253+00:00",
+    "images_count": 1
+  },
+  "votomassa-porcelanato-cinza": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633543+00:00",
+    "import_action": "created",
+    "product_id": "0ee6e0bb-ac99-4367-849f-2256aca39d93",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:11.437767+00:00",
+    "images_count": 1
+  },
+  "votomassa-porcelanato": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633548+00:00",
+    "import_action": "created",
+    "product_id": "144768fa-1631-4c1d-88fe-8dd313b2caf7",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:12.015894+00:00",
+    "images_count": 1
+  },
+  "obras-especiais": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633551+00:00",
+    "import_action": "created",
+    "product_id": "41ace23b-6002-4197-8bed-e4669fafe791",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:13.229480+00:00",
+    "images_count": 4
+  },
+  "obras-estruturais": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633554+00:00",
+    "import_action": "created",
+    "product_id": "d53285be-6b27-4d3e-bd0a-5924386217e5",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:14.189635+00:00",
+    "images_count": 4
+  },
+  "todas-as-obras": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633558+00:00",
+    "import_action": "created",
+    "product_id": "f603b8c3-8783-4ddc-a8f9-ba5fa55e7867",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:17.054759+00:00",
+    "images_count": 4
+  },
+  "cal-hidratada-ch-iii": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633560+00:00",
+    "import_action": "created",
+    "product_id": "814f4870-d8b9-4c24-b3f6-1e2ddaea50a3",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:17.402154+00:00",
+    "images_count": 1
+  },
+  "imperplus": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633563+00:00",
+    "import_action": "created",
+    "product_id": "3a976618-2df1-48e5-9125-c121a7b7cdfb",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:17.915142+00:00",
+    "images_count": 1
+  },
+  "liga-para-massas": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633588+00:00",
+    "import_action": "created",
+    "product_id": "13338913-a397-419c-b5b4-a8d25c37be0f",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:18.234990+00:00",
+    "images_count": 1
+  },
+  "superfix": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633592+00:00",
+    "import_action": "created",
+    "product_id": "c0d25aca-69c2-442d-8903-bcbf565a5a05",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:18.598517+00:00",
+    "images_count": 1
+  },
+  "rejunte-ceramica": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633596+00:00",
+    "import_action": "created",
+    "product_id": "ef00276e-edde-43a3-b6b4-83ecc18777a0",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:18.978936+00:00",
+    "images_count": 1
+  },
+  "rejunte-votomassa-ceramica": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633599+00:00",
+    "import_action": "created",
+    "product_id": "28cb3971-9f03-4cf0-9c89-20aa3c4c09d5",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:19.363686+00:00",
+    "images_count": 1
+  },
+  "rejunte-votomassa-porcelanato-e-ceramica": {
+    "import_ok": true,
+    "import_at": "2026-04-08T00:16:02.633602+00:00",
+    "import_action": "created",
+    "product_id": "5f54ead8-bde9-4d25-ae51-8bca853910d8",
+    "images_ok": true,
+    "images_at": "2026-04-08T00:16:19.755101+00:00",
+    "images_count": 1
+  }
+}

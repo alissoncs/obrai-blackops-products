@@ -1,0 +1,1169 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "sku": "cal-de-pintura",
+      "slug": "cal-de-pintura",
+      "name": "Cal de Pintura Itaú",
+      "ean": "",
+      "description": "A Cal de pintura Itaú é uma cal dolomítica hidratada de qualidade superior, que propicia uma pintura de intensa alvura, com alto poder de cobertura e resistência à abrasão.\n\n--- Sobre ---\nAdequada para aplicação em diversas superfícies, principalmente as mais porosas e de elevada aspereza, como: bloco de concreto, argamassa de revestimento, concreto aparente e até em concretos com superfície áspera. Dentre as vantagens da aplicação estão a facilidade de preparação e aplicação. Além disso, permite a lavagem após dez dias da aplicação da pintura. Não necessita de fixador, tem poder bactericida que previne a formação de mofo e oferece maior poder de cobertura.\n\n--- Características ---\nEmbalagem Sacos de 8kg.\n\n--- Downloads ---\nFicha técnica FISPQ\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/CAL-HIDRATADA-CHIII-ITAU-2.pdf\nFISPQ: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/rev06_FISPQ-CAL-PINTURA.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/cal-de-pintura/main.png",
+      "images": [
+        "products/cal-de-pintura/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/acabamentos/cal-de-pintura/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Sacos de 8kg."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ACABAMENTOS"
+    },
+    {
+      "sku": "impermax-1-000",
+      "slug": "impermax-1-000",
+      "name": "ImperMAX 1.000",
+      "ean": "",
+      "description": "A Votomassa ImperMAX 1.000 é uma argamassa polimérica semiflexível impermeabilizante bicomponente (sendo componente A “líquido” + componente B “pó”), composta por cimento Portland, agregados minerais com granulometria controlada e aditivos químicos, que proporcionam um revestimento com propriedades impermeabilizantes.\n\n--- Características ---\nEmbalagem Embalagem: 18 kg\n\n--- Downloads ---\nFicha técnica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FT-IMPERMAX-1000-REV.00-2-1-1.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/impermax-1-000/main.png",
+      "images": [
+        "products/impermax-1-000/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/acabamentos/impermeabilizantes/impermax-1-000/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 18 kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ACABAMENTOS > IMPERMEABILIZANTES"
+    },
+    {
+      "sku": "impermax-7-000",
+      "slug": "impermax-7-000",
+      "name": "ImperMAX 7.000",
+      "ean": "",
+      "description": "A Votomassa ImperMAX 7.000 com fibras é um revestimento impermeabilizante bicomponente (sendo componente A “líquido” + componente B “pó”), composto de cimento Portland, agregados minerais com granulometria controlada, fibras sintéticas e aditivos químicos, que proporcionam uma membrana flexível, com propriedades impermeabilizantes.\n\n--- Downloads ---\nFicha técnica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FT-IMPERMAX-7000-REV.00-2-1-1.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/impermax-7-000/main.png",
+      "images": [
+        "products/impermax-7-000/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/acabamentos/impermeabilizantes/impermax-7-000/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ACABAMENTOS > IMPERMEABILIZANTES"
+    },
+    {
+      "sku": "engemassa",
+      "slug": "engemassa",
+      "name": "Engemassa",
+      "ean": "",
+      "description": "Argamassa para Assentamento Estrutural, não Estrutural (revestimento interno, externo e vedação) e Contrapiso\n\n--- Sobre ---\nARMAZENAGEM Deve ser liberado um local para armazenamento do produto. O local deve estar nivelado e dar acesso para o caminhão betoneira chegar até as caixas, que devem estar em altura e distância adequada para descarga (consultar com o vendedor responsável). A Engemassa deve ser armazenada em caixas limpas (isentas de argamassa seca ou outros materiais, até mesmo argamassa fresca). Deve-se adicionar uma lâmina de água de aproximadamente 2cm sobre a argamassa.\n\n--- Características ---\nIndicação Excelente para aplicações* em assentamento não estrutural (revestimento de paredes internas e externas, e vedação), assentamento estrutural e contrapiso. * Checar disponibilidade das aplicações em sua região.\n\n--- Downloads ---\nFicha técnica estrutural Ficha técnica contrapiso Ficha técnica revestimento\n\n--- Downloads (links) ---\nFicha técnica estrutural: https://www.votorantimcimentos.com.br/wp-content/uploads/2022/09/ficha-tecnica-egx-engemassa-assentamento-estrutural.pdf\nFicha técnica contrapiso: https://www.votorantimcimentos.com.br/wp-content/uploads/2022/09/ficha-tecnica-egx-engemassa-contrapiso.pdf\nFicha técnica revestimento: https://www.votorantimcimentos.com.br/wp-content/uploads/2022/09/ficha-tecnica-egx-engemassa-revestimento.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/engemassa/main.jpg",
+      "images": [
+        "products/engemassa/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/engemassa/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Indicação",
+          "value": "Excelente para aplicações* em assentamento não estrutural (revestimento de paredes internas e externas, e vedação), assentamento estrutural e contrapiso.\n\n* Checar disponibilidade das aplicações em sua região."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS"
+    },
+    {
+      "sku": "votomassa-ac-i-2",
+      "slug": "votomassa-ac-i-2",
+      "name": "Votomassa AC I Cerâmica Interna",
+      "ean": "",
+      "description": "Votomassa AC I Cerâmica Interna é uma argamassa leve de excelente trabalhabilidade, formulada especialmente para aplicação de revestimentos cerâmicos em áreas internas, inclusive em áreas molhadas. Excelente para o assentamento de revestimentos cerâmicos em ambientes internos, pisos e paredes.\n\n--- Sobre ---\nDIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmicas Parede interna 90 x 90 cm Piso interno 90 x 90 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg (15 Kg em Fortaleza) Indicação Assentamento de revestimentos cerâmicos em áreas internas, pisos e paredes.\n\n--- Downloads ---\nFicha técnica FISPQ Areia calcária FISPQ Areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FT-CERAMICA-INTERNA-REV.13-05.07.pdf\nFISPQ Areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACI-FISPQ-Areia-Calcaria.pdf\nFISPQ Areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACI-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-i-2/main.jpeg",
+      "images": [
+        "products/votomassa-ac-i-2/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-i-2/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg (15 Kg em Fortaleza)"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos em áreas internas, pisos e paredes."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-i-3",
+      "slug": "votomassa-ac-i-3",
+      "name": "Votomassa AC I Cerâmica Interna",
+      "ean": "",
+      "description": "--- Características ---\nEmbalagem VOTOMASSA AC I Cerâmica Interna Votomassa ACI Cerâmica interna é uma argamassa leve de excelente trabalhabilidade, formulada especialmente para aplicação de revestimentos cerâmicos em áreas internas, inclusive em áreas molhadas. Excelente para o assentamento de revestimentos cerâmicos em ambientes internos, pisos e paredes. Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos em áreas internas, pisos e paredes.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-i-3/main.jpeg",
+      "images": [
+        "products/votomassa-ac-i-3/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-i-3/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "VOTOMASSA AC I\nCerâmica Interna\n\nVotomassa ACI Cerâmica interna é uma argamassa leve de excelente trabalhabilidade, formulada especialmente para aplicação de revestimentos cerâmicos em áreas internas, inclusive em áreas molhadas. Excelente para o assentamento de revestimentos cerâmicos em ambientes internos, pisos e paredes.\n\nEmbalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos em áreas internas, pisos e paredes."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-ii-2",
+      "slug": "votomassa-ac-ii-2",
+      "name": "Votomassa AC II Cerâmica Interna e Externa",
+      "ean": "",
+      "description": "Votomassa AC II Cerâmica Interna e Externa é uma argamassa leve de excelente flexibilidade e aderência, formulada especialmente para aplicação de revestimentos cerâmicos em áreas internas e externas, inclusive em áreas molhadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo de 10 sacos. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmicas Parede externa 30 x 30 cm Parede interna 80 x 80 cm Piso interno 80 x 80 cm Piso externo 80 x 80 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos em áreas internas e externas, pisos e paredes, bem como para piscinas residenciais não aquecidas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-ii-2/main.jpeg",
+      "images": [
+        "products/votomassa-ac-ii-2/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-ii-2/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos em áreas internas e externas, pisos e paredes, bem como para piscinas residenciais não aquecidas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-ii",
+      "slug": "votomassa-ac-ii",
+      "name": "Votomassa AC II Cerâmica Interna e Externa",
+      "ean": "",
+      "description": "Votomassa AC II Cerâmica Interna e Externa é uma argamassa leve de excelente flexibilidade e aderência, formulada especialmente para aplicação de revestimentos cerâmicos em áreas internas e externas, inclusive em áreas molhadas.\n\n--- Sobre ---\nAPLICAÇÃO Assentamento de revestimentos cerâmicos em áreas internas e externas, pisos e paredes, bem como para piscinas residenciais não aquecidas. ARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo de 10 sacos. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmicas Parede externa 30 x 30 cm Parede interna 80 x 80 cm Piso interno 100 x 100 cm Piso externo 100 x 100 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg (15 Kg em Fortaleza) Indicação Assentamento de revestimentos cerâmicos em áreas internas e externas, pisos e paredes, bem como para piscinas residenciais não aquecidas.\n\n--- Downloads ---\nFicha técnica FISPQ Areia calcária FISPQ Areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ceramica-externa.pdf\nFISPQ Areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACII-FISPQ-Areia-Calcaria.pdf\nFISPQ Areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACII-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-ii/main.jpeg",
+      "images": [
+        "products/votomassa-ac-ii/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-ii/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg (15 Kg em Fortaleza)"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos em áreas internas e externas, pisos e paredes, bem como para piscinas residenciais não aquecidas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-iii-flexivel-2",
+      "slug": "votomassa-ac-iii-flexivel-2",
+      "name": "Votomassa AC III Flexível Cinza",
+      "ean": "",
+      "description": "Votomassa AC III Flexível Cinza é uma argamassa que proporciona alta aderência e flexibilidade no assentamento de uma ampla variedade de revestimentos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmico e porcelanato Parede int/ext* 140 x 140 cm Piso int/ext 140 x 140 cm Superfície Dimensão máxima revestimento mármores e granitos Parede int/ext* 60 x 60 cm Piso int/ext 60 x 60 cm Superfície Dimensão máxima em sobreposição Parede interna* 100 x 100 cm Piso interno 100 x 100 cm Superfície Dimensão máxima revestimento cerâmico e porcelanato Fachada** 900 cm² * Limitado até 3m de altura ** Acima de 3m de altura GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Assentamento de revestimentos cerâmicos, porcelanatos, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas. Indicação Embalagem: 20 Kg\n\n--- Downloads ---\nFicha técnica FISPQ areia calcária FISPQ areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/02-06-2023-ficha-tecnica-votomassa-aciii_cinza.pdf\nFISPQ areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACIII-Cinza-FISPQ-Areia-Calcaria.pdf\nFISPQ areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACIII-Cinza-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-iii-flexivel-2/main.jpeg",
+      "images": [
+        "products/votomassa-ac-iii-flexivel-2/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-iii-flexivel-2/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Assentamento de revestimentos cerâmicos, porcelanatos, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas."
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Embalagem: 20 Kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-iii-flexivel-3",
+      "slug": "votomassa-ac-iii-flexivel-3",
+      "name": "Votomassa AC III Flexível",
+      "ean": "",
+      "description": "Votomassa AC III Flexível é uma argamassa que proporciona alta aderência e flexibilidade no assentamento de uma ampla variedade de revestimentos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmico e porcelanato Parede int/ext* 140 x 140 cm Piso int/ext 140 x 140 cm Superfície Dimensão máxima revestimento mármores e granitos Parede int/ext* 60 x 60 cm Piso int/ext 60 x 60 cm Superfície Dimensão máxima em sobreposição Parede interna* 100 x 100 cm Piso interno 100 x 100 cm Superfície Dimensão máxima revestimento cerâmico e porcelanato Fachada** 900 cm² * Limitado até 3m de altura ** Acima de 3m de altura GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos, porcelanatos, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-iii-flexivel-3/main.jpeg",
+      "images": [
+        "products/votomassa-ac-iii-flexivel-3/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-iii-flexivel-3/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos, porcelanatos, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-ac-iii-flexivel",
+      "slug": "votomassa-ac-iii-flexivel",
+      "name": "Votomassa AC III Flexível Branca",
+      "ean": "",
+      "description": "Votomassa AC III Flexível Branca é uma argamassa que proporciona alta aderência e flexibilidade no assentamento de uma ampla variedade de revestimentos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede em pilhas, com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmico e porcelanato Parede int/ext* 140 x 140 cm Piso int/ext 140 x 140 cm Superfície Dimensão máxima revestimento mármores e granitos Parede int/ext* 60 x 60 cm Piso int/ext 60 x 60 cm Superfície Dimensão máxima em sobreposição Parede interna* 100 x 100 cm Piso interno 100 x 100 cm Superfície Dimensão máxima revestimento cerâmico e porcelanato Fachada** 900 cm² * Limitado até 3m de altura ** Acima de 3m de altura GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nIndicação Assentamento de revestimentos cerâmicos, porcelanatos claros, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas.\n\n--- Downloads ---\nFicha tecnica FISPQ Areia sílica\n\n--- Downloads (links) ---\nFicha tecnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/02-06-2023-ficha-tecnica-votomassa-aciii-branca.pdf\nFISPQ Areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ACIII-Flexivel-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-ac-iii-flexivel/main.jpeg",
+      "images": [
+        "products/votomassa-ac-iii-flexivel/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-ac-iii-flexivel/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos, porcelanatos claros, pastilhas de porcelana e vidro, mármores e granitos em áreas internas e externas, pisos e paredes, piscinas (inclusas aquecidas), churrasqueiras e lareiras, fachadas e sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo em áreas internas ou externas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-blocos-de-vidro",
+      "slug": "votomassa-blocos-de-vidro",
+      "name": "VOTOMASSA BLOCOS DE VIDRO",
+      "ean": "",
+      "description": "Ideal para assentar e rejuntar simultaneamente blocos de vidro, em áreas internas, externas e fachadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento e rejuntamento de blocos de vidro, em áreas internas, externas e fachadas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-blocos-de-vidro/main.jpg",
+      "images": [
+        "products/votomassa-blocos-de-vidro/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-blocos-de-vidro/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento e rejuntamento de blocos de vidro, em áreas internas, externas e fachadas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-cola-tudo-branca",
+      "slug": "votomassa-cola-tudo-branca",
+      "name": "Votomassa Cola Tudo Branca",
+      "ean": "",
+      "description": "Votomassa Cola Tudo Branca é uma argamassa colante de alta performance com excelente adesividade, flexibilidade e tempo em aberto estendido que pode ser utilizada nos mais diversos substratos e revestimentos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão do revestimento cerâmico e porcelanato Parede int/ext > 100 x 100 cm Piso int/ext > 230 x 230 cm Superfície Dimensão ardósia e pedras naturais Parede int/ext > 60 x 60 cm Piso int/ext > 80 x 80 cm Superfície Dimensão máxima em sobreposição Parede int/ext 80 x 80 cm Piso int/ext 230 x 230 cm * Em fachada e/ou parede externa limitada em altura máxima de 3 m. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento em áreas internas e externas de revestimentos de grandes formatos e/ou baixa espessura, pedras naturais, cerâmicas, porcelanatos, piso vinílico, pastilhas de porcelana e pastilhas de vidro, em áreas internas e externas inclusive fachadas, piscinas e instalações submersas e sobreposição: revestimento cerâmico/porcelanato sobre revestimento cerâmico/porcelanato antigo. Altíssima propriedade de fixação em concreto e alvenaria, indicada para o assentamento de peças de grandes formatos em fachadas em grandes alturas. Votomassa cola tudo branca pode ser utilizada ainda como ponte de aderência (primer).\n\n--- Downloads ---\nFicha técnica FISPQ areia calcária FISPQ areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Cola-Tudo-Branca.pdf\nFISPQ areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/cola-tudo-branca-FISPQ.pdf\nFISPQ areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/cola-tudo-branca-FISPQ-areia-silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-cola-tudo-branca/main.png",
+      "images": [
+        "products/votomassa-cola-tudo-branca/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-cola-tudo-branca/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento em áreas internas e externas de revestimentos de grandes formatos e/ou baixa espessura, pedras naturais, cerâmicas, porcelanatos, piso vinílico, pastilhas de porcelana e pastilhas de vidro, em áreas internas e externas inclusive fachadas, piscinas e instalações submersas e sobreposição: revestimento cerâmico/porcelanato sobre revestimento cerâmico/porcelanato antigo. Altíssima propriedade de fixação em concreto e alvenaria, indicada para o assentamento de peças de grandes formatos em fachadas em grandes alturas. Votomassa cola tudo branca pode ser utilizada ainda como ponte de aderência (primer)."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-cola-tudo-cinza",
+      "slug": "votomassa-cola-tudo-cinza",
+      "name": "Votomassa Cola Tudo Cinza",
+      "ean": "",
+      "description": "Votomassa Cola Tudo Cinza é uma argamassa colante de alta performance com excelente adesividade, flexibilidade e tempo em aberto estendido que pode ser utilizada nos mais diversos substratos e revestimentos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão do revestimento cerâmico e porcelanato Parede int/ext > 100 x 100 cm Piso int/ext > 230 x 230 cm Superfície Dimensão ardósia e pedras naturais Parede int/ext > 60 x 60 cm Piso int/ext > 80 x 80 cm Superfície Dimensão máxima em sobreposição Parede int/ext* 80 x 80 cm Piso int/ext 230 x 230 cm * Em fachada e/ou parede externa limitada em altura máxima de 3 m. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento em áreas internas e externas de revestimentos de grandes formatos e/ou baixa espessura, pedras naturais, cerâmicas, porcelanatos, piso vinílico, pastilhas de porcelana e pastilhas de vidro, em áreas internas e externas inclusive fachadas, piscinas, instalações submersas e sobreposição: revestimento cerâmico/porcelanato sobre revestimento cerâmico/porcelanato antigo. Altíssima propriedade de fixação em concreto e alvenaria, indicada para o assentamento de peças de grandes formatos em fachadas em grandes alturas. Votomassa cola tudo branca pode ser utilizada ainda como ponte de aderência (primer).\n\n--- Downloads ---\nFicha técnica FISPQ areia calcária FISPQ areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Cola-Tudo-Cinza.pdf\nFISPQ areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/119-fispq.pdf\nFISPQ areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/cola-tudo-cinza-FISPQ-areia-silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-cola-tudo-cinza/main.png",
+      "images": [
+        "products/votomassa-cola-tudo-cinza/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-cola-tudo-cinza/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento em áreas internas e externas de revestimentos de grandes formatos e/ou baixa espessura, pedras naturais, cerâmicas, porcelanatos, piso vinílico, pastilhas de porcelana e pastilhas de vidro, em áreas internas e externas inclusive fachadas, piscinas, instalações submersas e sobreposição: revestimento cerâmico/porcelanato sobre revestimento cerâmico/porcelanato antigo. Altíssima propriedade de fixação em concreto e alvenaria, indicada para o assentamento de peças de grandes formatos em fachadas em grandes alturas. Votomassa cola tudo branca pode ser utilizada ainda como ponte de aderência (primer)."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-grandes-formatos",
+      "slug": "votomassa-grandes-formatos",
+      "name": "VOTOMASSA GRANDES FORMATOS",
+      "ean": "",
+      "description": "Votomassa grandes formatos é uma argamassa que proporciona alta aderência e flexibilidade no assentamento de uma ampla variedade de porcelanatos e pedras naturais de grandes formatos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima dos revestimentos Porcelanatos piso int/ext 180 x 180 cm Mármores e granitos Piso int/ext 180 x 180 cm Ardósia e pedras naturais Piso int/ext 60 x 60 cm Sobreposição – Porcelanatos piso int/ext 120 x 120 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Aplicação com espessura de até 18 mm sem problemas de retração ou secagem, reduzindo problemas de irregularidades do revestimento, indicado para assentamento de revestimentos cerâmicos, porcelanatos, mármores, granitos, ardósias e demais pedras naturais de grandes formatos, sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo, em pisos, áreas internas e externas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-grandes-formatos/main.jpg",
+      "images": [
+        "products/votomassa-grandes-formatos/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-grandes-formatos/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Aplicação com espessura de até 18 mm sem problemas de retração ou secagem, reduzindo problemas de irregularidades do revestimento, indicado para assentamento de revestimentos cerâmicos, porcelanatos, mármores, granitos, ardósias e demais pedras naturais de grandes formatos, sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo, em pisos, áreas internas e externas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-massa-pronta",
+      "slug": "votomassa-massa-pronta",
+      "name": "Votomassa Massa Pronta",
+      "ean": "",
+      "description": "Votomassa Massa Pronta é um revestimento de tetos e paredes de alvenaria, em áreas internas e externas, e assentamento de blocos de alvenaria de vedação.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de blocos para alvenaria de vedação e revestimento de paredes em áreas internas e externas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-massa-pronta/main.jpeg",
+      "images": [
+        "products/votomassa-massa-pronta/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-massa-pronta/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de blocos para alvenaria de vedação e revestimento de paredes em áreas internas e externas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-pastilhas",
+      "slug": "votomassa-pastilhas",
+      "name": "VOTOMASSA PASTILHAS",
+      "ean": "",
+      "description": "Votomassa pastilhas é uma argamassa que proporciona alta aderência e flexibilidade no assentamento e rejuntamento de pastilhas de porcelana e vidro.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede em altura máxima de empilhamento de 10 sacos. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento e rejuntamento simultâneo de pastilhas de porcelana e vidro em áreas internas e externas, pisos e paredes, inclusive em piscinas e fachadas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-pastilhas/main.jpg",
+      "images": [
+        "products/votomassa-pastilhas/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-pastilhas/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento e rejuntamento simultâneo de pastilhas de porcelana e vidro em áreas internas e externas, pisos e paredes, inclusive em piscinas e fachadas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-piso-sobre-piso-2",
+      "slug": "votomassa-piso-sobre-piso-2",
+      "name": "Votomassa Piso Sobre Piso e Porcelanatos",
+      "ean": "",
+      "description": "Votomassa Piso Sobre Piso e Porcelanatos é uma argamassa leve de excelente trabalhabilidade, ideal para assentamento de revestimentos cerâmicos, porcelanatos, pedras rústicas em áreas internas e externas em pisos e paredes, inclusive em áreas molhadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmicas e porcelanatos Piso/Parede interna 120 x 120 cm Parede externa* 30 x 30 cm Piso externo 90 x 90 cm Superfície Dimensão máxima para sobreposição Parede interna/externa** 80 x 80 cm Piso interno/externo** 80 x 80 cm * Limitado a 15 m de altura, considerando altura total da estrutura. ** Em fachada e/ou parede externa limitada em altura máxima de 3 m. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos, porcelanatos, pedras decorativas de cores claras (Miracena, Goiás, Mineira, São Tomé e Canjiquinha), sobreposição de revestimentos cerâmicos e porcelanatos em áreas internas e externas (inclusive áreas molhadas), bem como piscinas residenciais não aquecidas.\n\n--- Downloads ---\nFicha técnica cinza FISPQ cinza FISPQ areia calcária cinza FISPQ areia sílica cinza Ficha técnica branca FISPQ areia sílica branca\n\n--- Downloads (links) ---\nFicha técnica cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Ficha-tecnica-cinza.pdf\nFISPQ cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Fispq-cinza.pdf\nFISPQ areia calcária cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Fispq-areia-calcaria-cinza.pdf\nFISPQ areia sílica cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Fispq-areia-silica-cinza.pdf\nFicha técnica branca: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Ficha-tecnica-branca.pdf\nFISPQ areia sílica branca: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Fispq-areia-silica-branca.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-piso-sobre-piso-2/main.png",
+      "images": [
+        "products/votomassa-piso-sobre-piso-2/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-piso-sobre-piso-2/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos, porcelanatos, pedras decorativas de cores claras (Miracena, Goiás, Mineira, São Tomé e Canjiquinha), sobreposição de revestimentos cerâmicos e porcelanatos em áreas internas e externas (inclusive áreas molhadas), bem como piscinas residenciais não aquecidas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-piso-sobre-piso-3",
+      "slug": "votomassa-piso-sobre-piso-3",
+      "name": "Votomassa Piso Sobre Piso e Porcelanatos",
+      "ean": "",
+      "description": "Votomassa Piso Sobre Piso e Porcelanatos é uma argamassa leve de excelente trabalhabilidade, ideal para assentamento de revestimentos cerâmicos, porcelanatos, pedras rústicas em áreas internas e externas em pisos e paredes, inclusive em áreas molhadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento cerâmicas e porcelanatos Piso/Parede interna 120 x 120 cm Parede externa* 30 x 30 cm Piso externo 90 x 90 cm Superfície Dimensão máxima para sobreposição Parede interna/externa** 80 x 80 cm Piso interno/externo** 80 x 80 cm * Limitado a 15 m de altura, considerando altura total da estrutura. ** Em fachada e/ou parede externa limitada em altura máxima de 3 m. GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos, porcelanatos, pedras decorativas de cores claras (Miracena, Goiás, Mineira, São Tomé e Canjiquinha), sobreposição de revestimentos cerâmicos e porcelanatos em áreas internas e externas (inclusive áreas molhadas), bem como piscinas residenciais não aquecidas.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-piso-sobre-piso-3/main.jpeg",
+      "images": [
+        "products/votomassa-piso-sobre-piso-3/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-piso-sobre-piso-3/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos, porcelanatos, pedras decorativas de cores claras (Miracena, Goiás, Mineira, São Tomé e Canjiquinha), sobreposição de revestimentos cerâmicos e porcelanatos em áreas internas e externas (inclusive áreas molhadas), bem como piscinas residenciais não aquecidas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-porcelanato-branca",
+      "slug": "votomassa-porcelanato-branca",
+      "name": "Votomassa Grandes Formatos",
+      "ean": "",
+      "description": "Votomassa Grandes Formatos é uma argamassa que proporciona alta aderência e flexibilidade no assentamento de uma ampla variedade de porcelanatos e pedras naturais de grandes formatos.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede, em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima dos revestimentos Porcelanatos piso int/ext 180 x 180 cm Mármores e granitos Piso int/ext 180 x 180 cm Ardósia e pedras naturais Piso int/ext 60 x 60 cm Sobreposição – Porcelanatos piso int/ext 120 x 120 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Aplicação com espessura de até 18 mm sem problemas de retração ou secagem, reduzindo problemas de irregularidades do revestimento, indicado para assentamento de revestimentos cerâmicos, porcelanatos, mármores, granitos, ardósias e demais pedras naturais de grandes formatos, sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo, em pisos, áreas internas e externas.\n\n--- Downloads ---\nFicha técnica FISPQ areia calcária FISPQ areia sílica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Grandes-Formatos.pdf\nFISPQ areia calcária: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Grandes-Formatos-FISPQ.pdf\nFISPQ areia sílica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Grandes-Formatos-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-porcelanato-branca/main.jpeg",
+      "images": [
+        "products/votomassa-porcelanato-branca/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-porcelanato-branca/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Aplicação com espessura de até 18 mm sem problemas de retração ou secagem, reduzindo problemas de irregularidades do revestimento, indicado para assentamento de revestimentos cerâmicos, porcelanatos, mármores, granitos, ardósias e demais pedras naturais de grandes formatos, sobreposição de revestimento cerâmico e/ou porcelanato sobre revestimento cerâmico antigo, em pisos, áreas internas e externas."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-porcelanato-cinza",
+      "slug": "votomassa-porcelanato-cinza",
+      "name": "Votomassa Porcelanato Interno",
+      "ean": "",
+      "description": "Votomassa Porcelanato Interno é uma argamassa leve de excelente trabalhabilidade e aderência, formulada especialmente para aplicação de revestimentos cerâmicos e porcelanatos em áreas internas, inclusive em áreas molhadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento de porcelanato Parede interna 100 x 100 cm Piso interno 100 x 100 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos e porcelanatos em áreas internas: pisos e paredes.\n\n--- Downloads ---\nFicha técnica cinza FISPQ areia calcária cinza FISPQ branca Ficha técnica branca FISPQ areia sílica branca\n\n--- Downloads (links) ---\nFicha técnica cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/porcelanato-interno-cinza.pdf\nFISPQ areia calcária cinza: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Porcelanato-Cinza-FISPQ-Areia-Calcaria.pdf\nFISPQ branca: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Porcelanato-Branco-FISPQ-1.pdf\nFicha técnica branca: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ft-porcelanato-interno-branco18122023.pdf\nFISPQ areia sílica branca: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/Porcelanato-Branco-FISPQ-Areia-Silica.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-porcelanato-cinza/main.png",
+      "images": [
+        "products/votomassa-porcelanato-cinza/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-porcelanato-cinza/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos e porcelanatos em áreas internas: pisos e paredes."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "votomassa-porcelanato",
+      "slug": "votomassa-porcelanato",
+      "name": "Votomassa Porcelanato Interno",
+      "ean": "",
+      "description": "Votomassa Porcelanato Interno é uma argamassa leve de excelente trabalhabilidade e aderência, formulada especialmente para aplicação de revestimentos cerâmicos e porcelanatos em áreas internas, inclusive em áreas molhadas.\n\n--- Sobre ---\nARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede em pilhas com no máximo 10 sacos de altura. DIMENSÕES MÁXIMAS ATENDIDAS Superfície Dimensão máxima revestimento de porcelanato Parede interna 100 x 100 cm Piso interno 100 x 100 cm GARANTIA 10 anos de garantia, como toda a linha de colantes Votomassa.\n\n--- Características ---\nEmbalagem Embalagem: 20 Kg Indicação Assentamento de revestimentos cerâmicos e porcelanatos em áreas internas: pisos e paredes.\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/votomassa-porcelanato/main.jpeg",
+      "images": [
+        "products/votomassa-porcelanato/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/argamassas/votomassa/votomassa-porcelanato/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20 Kg"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Assentamento de revestimentos cerâmicos e porcelanatos em áreas internas: pisos e paredes."
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "ARGAMASSAS > VOTOMASSA"
+    },
+    {
+      "sku": "obras-especiais",
+      "slug": "obras-especiais",
+      "name": "Cimentos Especiais",
+      "ean": "",
+      "description": "Cimento para alta produtividade\n\nO Obras Especiais Meios agressivos, além de proporcionar uma secagem ultrarrápida e máxima resistência, é o cimento ideal para tubos de concreto, estações de tratamento de esgoto ou outras aplicações que necessitem de resistência à sulfatos. Consulte a disponibilidade na sua região.\n\n--- Sobre ---\nAPLICAÇÃO O cimento Obras Especias – Industrial, resultado de investimento constante em pesquisas, novas tecnologias e maquinários de primeira linha em todas as fábricas espalhadas por todo o Brasil. No vídeo, conheça o processo de desenvolvimento do cimento Obras Especiais e todas as suas aplicações.\n\n--- Características ---\nEmbalagem 50kg Consultar disponibilidade na região. Secagem Normal Rápida Ultra Rápida Resistencia Normal Rápida Ultra Rápida Indicação Ideal para: Blocos estruturais Pavers Artefatos de cimento Pré-moldados\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/obras-especiais/main.png",
+      "images": [
+        "products/obras-especiais/main.png",
+        "products/obras-especiais/02.png",
+        "products/obras-especiais/03.png",
+        "products/obras-especiais/04.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/cimentos/obras-especiais/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "50kg\nConsultar disponibilidade na região."
+        },
+        {
+          "attributeKey": "Secagem",
+          "value": "indicador: 100%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Resistencia",
+          "value": "indicador: 100%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Ideal para:\n\nBlocos estruturais\nPavers\nArtefatos de cimento\nPré-moldados"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "CIMENTOS"
+    },
+    {
+      "sku": "obras-estruturais",
+      "slug": "obras-estruturais",
+      "name": "Obras Estruturais",
+      "ean": "",
+      "description": "Cimento para obras de estruturas fortes\n\nCimento premium com secagem 3 vezes mais rápida e 20% mais resistência. O Cimento Obras estruturais é liberado para trânsito após 5 horas, enquanto o cimento convencional ainda deixa marca de pegada.\n\n--- Sobre ---\nAplicação Conheça o cimento Obras Estruturais, a solução certa criada pela Votorantim Cimentos para estruturas fortes, com alta resistência e secagem mais rápida. Com ele, a segurança e produtividade para pilares, fundações, vigas e lajes estão garantidas.\n\n--- Características ---\nEmbalagem 50kg *Consultar disponibilidade na região Secagem Normal Rápida Ultra Rápida Resistencia Normal Rápida Ultra Rápida Indicação Produto ideal para: Lajes Fundações Pilares Vigas\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/obras-estruturais/main.png",
+      "images": [
+        "products/obras-estruturais/main.png",
+        "products/obras-estruturais/02.png",
+        "products/obras-estruturais/03.png",
+        "products/obras-estruturais/04.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/cimentos/obras-estruturais/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "50kg\n*Consultar disponibilidade na região"
+        },
+        {
+          "attributeKey": "Secagem",
+          "value": "indicador: 90%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Resistencia",
+          "value": "indicador: 90%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Produto ideal para:\nLajes\nFundações\nPilares\nVigas"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "CIMENTOS"
+    },
+    {
+      "sku": "todas-as-obras",
+      "slug": "todas-as-obras",
+      "name": "Todas as obras",
+      "ean": "",
+      "description": "Cimento para uso geral\n\nCimento com secagem rápida e alta resistência. Muito versátil, pode ser utilizado da fundação ao acabamento na obra.\n\n--- Sobre ---\nAPLICAÇÃO O cimento Todas as Obras é resistente e versátil e foi desenvolvida pela Votorantim Cimentos para garantir a segurança em diversos tipos de obra, podendo ser utilizado para reboco, concreto convencional, contrapiso e lajes. Veja no vídeo o passo-a-passo de como fazer um reboco com qualidade.\n\n--- Características ---\nEmbalagem Embalagem: 25kg, 42,5kg e 50kg Consultar disponibilidade na região. Secagem Normal Rápida Ultra Rápida Resistencia Normal Rápida Ultra Rápida Indicação Ideal para: Reboco Concreto convencional Contrapiso Lajes\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/todas-as-obras/main.png",
+      "images": [
+        "products/todas-as-obras/main.png",
+        "products/todas-as-obras/02.png",
+        "products/todas-as-obras/03.png",
+        "products/todas-as-obras/04.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/cimentos/todas-as-obras/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 25kg, 42,5kg e 50kg\nConsultar disponibilidade na região."
+        },
+        {
+          "attributeKey": "Secagem",
+          "value": "indicador: 50%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Resistencia",
+          "value": "indicador: 50%; Normal | Rápida | Ultra Rápida"
+        },
+        {
+          "attributeKey": "Indicação",
+          "value": "Ideal para:\nReboco\nConcreto convencional\nContrapiso\nLajes"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "CIMENTOS"
+    },
+    {
+      "sku": "cal-hidratada-ch-iii",
+      "slug": "cal-hidratada-ch-iii",
+      "name": "Cal Hidratada Itaú",
+      "ean": "",
+      "description": "A Cal Hidratada Itaú é ideal para uso nas argamassas de assentamento e revestimento, oferecendo maior plasticidade à mistura, garantindo qualidade e durabilidade às construções. Também não precisa ser curtida, é fina e tem baixa densidade, o que facilita na hora da mistura e torna a argamassa aderente e com maior elasticidade, permitindo a dilatação natural da alvenaria e reduzindo a formação de fendas e rachaduras. Além disso, o produto combate a proliferação de mofo e bolor.\n\n--- Características ---\nEmbalagem Embalagem: 20kg\n\n--- Downloads ---\nFicha técnica FISPQ\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/CAL-HIDRATADA-CHIII-ITAU-2-1.pdf\nFISPQ: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/rev05_FISPQ-CAL-HIDRATADA-1.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/cal-hidratada-ch-iii/main.jpeg",
+      "images": [
+        "products/cal-hidratada-ch-iii/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/plastificantes-e-aditivos/cal-hidratada-ch-iii/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "PLASTIFICANTES E ADITIVOS"
+    },
+    {
+      "sku": "imperplus",
+      "slug": "imperplus",
+      "name": "ImperPlus",
+      "ean": "",
+      "description": "O ImperPlus é um aditivo impermeabilizante indicado para revestimentos de paredes e pisos em áreas internas ou externas, piscinas e reservatórios, baldrames, muros de arrimo, concreto impermeável e assentamento de alvenaria.\n\n--- Sobre ---\nRENDIMENTO 2 L por saco de cimento de 50 kg considerando o consumo para revestimento de paredes.\n\n--- Características ---\nEmbalagem Embalagem: 18L, 3,6L e 1L\n\n--- Downloads ---\nFicha técnica FISPQ\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FT-Votomassa-Imperplus-2.pdf\nFISPQ: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FISQP-IMPERPLUS-VOTOMASSA.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/imperplus/main.jpeg",
+      "images": [
+        "products/imperplus/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/plastificantes-e-aditivos/imperplus/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 18L, 3,6L e 1L"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "PLASTIFICANTES E ADITIVOS"
+    },
+    {
+      "sku": "liga-para-massas",
+      "slug": "liga-para-massas",
+      "name": "Liga para Massa Itaú",
+      "ean": "",
+      "description": "Liga para Massa Itaú é uma adição para ser usada na preparação de argamassas a qual proporciona maior plasticidade, melhorando a trabalhabilidade da mesma.\n\n--- Sobre ---\nIndicado para: – Argamassas de rebocos internos e externos em paredes e tetos; – Argamassas de assentamento de blocos de alvenaria (vedação).\n\n--- Características ---\nEmbalagem Embalagem: 20Kg\n\n--- Downloads ---\nFicha técnica FISPQ\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FT_LIGA-PARA-MASSA-ITAU-Atualizacao-04.08.pdf\nFISPQ: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/rev02_FISPQ-LIGA.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/liga-para-massas/main.jpeg",
+      "images": [
+        "products/liga-para-massas/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/plastificantes-e-aditivos/liga-para-massas/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 20Kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "PLASTIFICANTES E ADITIVOS"
+    },
+    {
+      "sku": "superfix",
+      "slug": "superfix",
+      "name": "Superfix",
+      "ean": "",
+      "description": "O SuperFix é um aditivo adesivo de alto desempenho que proporciona excelente aderência das argamassas e chapiscos aos mais diversos substratos. Pode ser utilizado tanto em áreas internas quanto externas.\n\n--- Sobre ---\nRENDIMENTO 1 L rende 7m² de chapisco *consultar disponibilidade em sua região\n\n--- Características ---\nEmbalagem Embalagem: 18L, 3,6L e 1L\n\n--- Downloads ---\nFicha técnica FISPQ\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/ficha-tecnica-SUPERFIX-1.pdf\nFISPQ: https://www.votorantimcimentos.com.br/wp-content/uploads/2024/01/FISQP-SUPERFIX-VOTOMASSA.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/superfix/main.jpeg",
+      "images": [
+        "products/superfix/main.jpeg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/plastificantes-e-aditivos/superfix/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 18L, 3,6L e 1L"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "PLASTIFICANTES E ADITIVOS"
+    },
+    {
+      "sku": "rejunte-ceramica",
+      "slug": "rejunte-ceramica",
+      "name": "Rejunte cerâmica",
+      "ean": "",
+      "description": "Ideal para cerâmicas em áreas internas e externas.\n\n--- Sobre ---\nAPLICAÇÃO Rejuntamento de juntas de 2 a 10 mm de espessura, em áreas internas e externas, pisos e paredes. ARMAZENAGEM Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede.\n\n--- Características ---\nEmbalagem Embalagem: 1 e 5 Kg\n\n--- Downloads ---\nFicha técnica\n\n--- Downloads (links) ---\nFicha técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2022/09/2022-08-FICHA_TECNICA_REJUNTE_CERAMICA_0808-2.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/rejunte-ceramica/main.png",
+      "images": [
+        "products/rejunte-ceramica/main.png"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/rejuntamentos/rejuntes__trashed/rejunte-ceramica/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "Embalagem: 1 e 5 Kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "REJUNTAMENTOS"
+    },
+    {
+      "sku": "rejunte-votomassa-ceramica",
+      "slug": "rejunte-votomassa-ceramica",
+      "name": "Rejunte Votomassa Cerâmica",
+      "ean": "",
+      "description": "O Rejunte Votomassa Cerâmica é uma argamassa à base de cimento indicada para juntas de 2 mm a 10 mm. Impermeabiliza e evita infiltrações, fungos e mofo, é mais macio, fácil de aplicar e limpar. Liberação do ambiente após 24h de uso.\n\n--- Sobre ---\nAplicação Cerâmicas em áreas internas e externas. Armazenagem Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede.\n\n--- Características ---\nEmbalagem 1 e 5 Kg\n\n--- Downloads ---\nFicha Técnica Ficha de Dados de Segurança\n\n--- Downloads (links) ---\nFicha Técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2026/03/19235_TAC_Atualizacao-da-Ficha-Tecnica_Rejunte_Ceramica.pdf\nFicha de Dados de Segurança: https://www.votorantimcimentos.com.br/wp-content/uploads/2026/03/rev05_FDS-REJUNTE-CERAMICA_silica_2025.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/rejunte-votomassa-ceramica/main.jpg",
+      "images": [
+        "products/rejunte-votomassa-ceramica/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/rejuntamentos/rejunte-votomassa-ceramica/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "1 e 5 Kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "REJUNTAMENTOS"
+    },
+    {
+      "sku": "rejunte-votomassa-porcelanato-e-ceramica",
+      "slug": "rejunte-votomassa-porcelanato-e-ceramica",
+      "name": "Rejunte Votomassa Porcelanato e Cerâmica",
+      "ean": "",
+      "description": "O Rejunte Porcelanato Resinado Votomassa é uma argamassa à base de cimento Portland com acabamento premium superfino indicada para juntas de 1 mm a 10 mm. Permite a liberação do ambiente após 24h de uso, é mais macio, fácil de aplicar e limpar. Com propriedades impermeabilizantes, evita infiltrações, fungos e mofo.\n\n--- Sobre ---\nAplicação Porcelanato interno e externo, cerâmica interna e externa, pastilhas de vidro, mármores, granitos, pedras decorativas. Armazenagem Os sacos devem ser armazenados sobre estrados, em local coberto, seco, arejado e distantes no mínimo 30 cm da parede.\n\n--- Características ---\nEmbalagem 1 e 5 Kg\n\n--- Downloads ---\nFicha Técnica Ficha de Dados de Segurança\n\n--- Downloads (links) ---\nFicha Técnica: https://www.votorantimcimentos.com.br/wp-content/uploads/2026/03/19234_TAC_Atualizacao-da-Ficha-Tecnica_Rejunte_Porcelanato.pdf\nFicha de Dados de Segurança: https://www.votorantimcimentos.com.br/wp-content/uploads/2026/03/rev05_FDS-REJUNTE-PORCELANATO_silica_2025.pdf\n\n--- Tabela ---\nVeja a tabela de comparação",
+      "mainImage": "products/rejunte-votomassa-porcelanato-e-ceramica/main.jpg",
+      "images": [
+        "products/rejunte-votomassa-porcelanato-e-ceramica/main.jpg"
+      ],
+      "sourceUrl": "https://www.votorantimcimentos.com.br/produtos/rejuntamentos/rejunte-votomassa-porcelanato-e-ceramica/",
+      "brandId": "00000000-0000-0000-0000-000000000000",
+      "primaryCategoryId": null,
+      "status": "active",
+      "attributes": [
+        {
+          "attributeKey": "Embalagem",
+          "value": "1 e 5 Kg"
+        }
+      ],
+      "supplierProducts": [
+        {
+          "supplierBranchId": "00000000-0000-0000-0000-000000000002",
+          "retailPrice": null,
+          "wholesalePrice": null,
+          "minimumWholesaleQuantity": 1,
+          "stockQuantity": 999,
+          "status": "active"
+        }
+      ],
+      "kind": "product",
+      "categoryPath": "REJUNTAMENTOS"
+    }
+  ]
+}

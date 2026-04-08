@@ -19,11 +19,14 @@ playwright install chromium
 Na pasta `tigre-import/`:
 
 ```bash
-# Teste rápido (10 produtos + download de imagens)
-python scraper_tigre_produtos.py --limit 10 --download-images
+# Teste rápido (10 produtos; por omissão baixa imagens para output/aux/images/...)
+python scraper_tigre_produtos.py --limit 10
 
-# Só JSON, sem baixar imagens
-python scraper_tigre_produtos.py --limit 50
+# Só JSON / metadados, sem ficheiros de imagem
+python scraper_tigre_produtos.py --limit 50 --no-download-images
+
+# Logs detalhados (sitemap, cada URL, scrape, downloads)
+python scraper_tigre_produtos.py --limit 10 -v
 
 # Ver opções
 python scraper_tigre_produtos.py --help
@@ -35,7 +38,7 @@ python scraper_tigre_produtos.py --help
 |---------|----------|
 | `output/tigre_products.json` | Produtos no formato do import |
 | `output/aux/relatorio_<UTC>.json` | Totais, erros, tempo (novo ficheiro por execução; UTC no nome) |
-| `output/aux/images/products/<slug>/` | Imagens da galeria (com `--download-images`) |
+| `output/aux/images/products/<slug>/` | Imagens da galeria (por omissão; desligar com `--no-download-images`) |
 
 O script cria `output/` e `output/aux/` automaticamente. Para gravar o relatório num caminho fixo: `--relatorio-out caminho.json`.
 
