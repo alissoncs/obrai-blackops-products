@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+output/aux/images/
+output/aux/relatorio_*.json
