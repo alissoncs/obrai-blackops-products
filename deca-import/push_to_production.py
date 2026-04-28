@@ -417,8 +417,11 @@ def main() -> None:
                         progress.update(task, advance=1)
 
         # --- Phase 2: images ---
+        # Only upload for SKUs that exist in the API: Phase 1 must have set import_ok on success.
+        # Otherwise the image endpoint returns "no product found with SKU...".
         if not args.only_import:
             image_jobs: list[tuple[dict[str, Any], str, list[Path]]] = []
+            skipped_no_import = 0
             for raw in raw_products:
                 sku = str(raw.get("sku", "")).strip()
                 if not sku:
@@ -430,8 +433,18 @@ def main() -> None:
                     and (st.get("images_ok") or st.get("images_skipped"))
                 ):
                     continue
+                if not args.dry_run:
+                    if not isinstance(st, dict) or not st.get("import_ok"):
+                        skipped_no_import += 1
+                        continue
                 paths = image_paths_for_product(raw, images_root)
                 image_jobs.append((raw, sku, paths))
+
+            if skipped_no_import:
+                console.print(
+                    f"[yellow]Skipped images for {skipped_no_import} SKU(s) "
+                    "without a successful JSON import (run import first or fix failed rows).[/yellow]"
+                )
 
             if args.dry_run:
                 with_files = sum(1 for *_, ps in image_jobs if ps)

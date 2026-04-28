@@ -84,6 +84,7 @@ python push_to_production.py --help
 
 ## Notes
 
+- **Images run only after a successful JSON import** for that SKU (`import_ok` in the state file). If the bulk import failed or skipped a row, image upload is skipped for that SKU so the API does not return “no product found with SKU…”. Use `--only-import` first, then `--only-images`, or a single run that completes import before images.
 - **State file** (default `output/aux/push_prod_state.json`) is **deca-specific**; use `--force-import` / `--force-images` to ignore it.
 - Images are resolved under `--images-root` from `mainImage` / `images[]` in JSON.
 - Bulk payload omits nested fields not supported by bulk v1 (`attributes`, `supplierProducts`, etc. are stripped in `to_bulk_row`).

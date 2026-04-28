@@ -1,0 +1,55 @@
+{
+  "urls_apos_limit_antes_do_skip": 5500,
+  "pulados_ja_no_arquivo": 3082,
+  "urls_processadas_nesta_execucao": 2418,
+  "sucesso_nesta_execucao": 2414,
+  "erros_nesta_execucao": 4,
+  "total_produtos_no_arquivo_final": 5496,
+  "skip_existing_ativo": true,
+  "tempo_total_segundos": 10547.282,
+  "erros_detalhe": [
+    {
+      "url": "https://www.tigre.com.br/produto/conexao-macho-clicpex-teste",
+      "mensagem": "TimeoutError: Locator.get_attribute: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"link[rel=\\\"canonical\\\"]\").first\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/ducha-acqua-ajet-nova-gyro",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/ducha-acqua-ajet-nova-gyro\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/eletroduto-corrugado-reforcado-tigreflex",
+      "mensagem": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.tigre.com.br/produto/eletroduto-corrugado-reforcado-tigreflex\", waiting until \"networkidle\"\n"
+    },
+    {
+      "url": "https://www.tigre.com.br/produto/luva-de-correr-irriga-lf",
+      "mensagem": "TimeoutError: Locator.get_attribute: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"link[rel=\\\"canonical\\\"]\").first\n"
+    }
+  ],
+  "imagens_falhas": [
+    {
+      "slug": "quadro-distribuicao-slim-12-disjuntores",
+      "url": "https://img.youtube.com/vi/E4uckbv2jro/maxresdefault.jpg",
+      "error": "RuntimeError: HTTP 404 ao baixar imagem"
+    },
+    {
+      "slug": "quadro-distribuicao-slim-16-disjuntores",
+      "url": "https://img.youtube.com/vi/E4uckbv2jro/maxresdefault.jpg",
+      "error": "RuntimeError: HTTP 404 ao baixar imagem"
+    },
+    {
+      "slug": "quadro-distribuicao-slim-32-disjuntores",
+      "url": "https://img.youtube.com/vi/E4uckbv2jro/maxresdefault.jpg",
+      "error": "RuntimeError: HTTP 404 ao baixar imagem"
+    },
+    {
+      "slug": "quadro-distribuicao-slim-48-disjuntores",
+      "url": "https://img.youtube.com/vi/E4uckbv2jro/maxresdefault.jpg",
+      "error": "RuntimeError: HTTP 404 ao baixar imagem"
+    },
+    {
+      "slug": "quadro-distribuicao-slim-64-disjuntores",
+      "url": "https://img.youtube.com/vi/E4uckbv2jro/maxresdefault.jpg",
+      "error": "RuntimeError: HTTP 404 ao baixar imagem"
+    }
+  ]
+}
