@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-04-28T23:35:39.157848+00:00",
+  "stage": "etapa-1",
+  "supplier": "tigre",
+  "inputPath": "/Users/alissonsilva/projects/obrai-blackops-products/tigre-import/output/tigre_products.json",
+  "outputPath": "/Users/alissonsilva/projects/obrai-blackops-products/tigre-import/output/tigre_products.json",
+  "dryRun": true,
+  "limit": 5,
+  "categoriesUrl": "https://obrai-app1-ifnsz.ondigitalocean.app/api/catalog/categories?displayMainMenu=true",
+  "taxonomySnapshotPath": "/Users/alissonsilva/projects/obrai-blackops-products/shared/categorization/storage/taxonomy_cache/categories_snapshot_20260428T233539Z.json",
+  "level3CategoriesCount": 544,
+  "counters": {
+    "loaded": 5496,
+    "queued": 5,
+    "success": 0,
+    "failed": 0
+  },
+  "errors": [],
+  "geminiModel": "gemini-2.0-flash"
+}
